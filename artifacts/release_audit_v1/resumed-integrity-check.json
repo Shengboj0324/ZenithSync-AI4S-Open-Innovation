@@ -1,0 +1,12 @@
+{
+  "checked_utc": "2026-10-07T05:25:54.225220+00:00",
+  "previous_turn_classification": "progress: attribution, rubric interpretation, PDF verification and new archive",
+  "resumed_goal_turn": 2,
+  "archive": "artifacts/checkpoints/research-checkpoint-20261007T052521896160Z.zip",
+  "files_verified": 371,
+  "sha256": "b367fe3046bbab8273aa46da93744de59bfd5cbcb3933651fee6355179feb5cf",
+  "completion_proved": false,
+  "remaining_condition": "Review not yet performed; registration/eligibility and rights unresolved; user handles publication/submission; ranking cannot be guaranteed",
+  "safe_action_assessment": "No new implementation defect identified by this integrity audit. Repeating numerical tests cannot supply the outstanding human facts or an external ranking.",
+  "status": "Goal remains active; blocked threshold not yet reached in resumed run."
+}

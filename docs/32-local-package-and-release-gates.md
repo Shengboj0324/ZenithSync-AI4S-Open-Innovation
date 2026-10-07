@@ -2,7 +2,7 @@
 
 ## Current status
 
-The bounded public-data research implementation, local demonstration, 17-page technical report, narrated review video and Kaggle Writeup candidate are prepared. The expanded confirmation workflow has passed fresh-environment reproduction. This is a local review candidate, not a completed public submission or a guarantee of placement. Team attribution and category confirmation are still pending; Tool & Platform is the current recommendation.
+The bounded public-data research implementation, local demonstration, 17-page technical report, narrated review video and Kaggle Writeup candidate are prepared. The expanded confirmation workflow has passed fresh-environment reproduction. This is a local review candidate, not a completed public submission or a guarantee of placement. Team attribution is user-confirmed: ZenithSync, with Shengbo Jiang as sole member and main contributor. Tool & Platform is confirmed. Shengbo Jiang is the designated self-reviewer; review completion is not yet recorded. The user will handle publication after local implementation.
 
 The strongest scientific result remains a frozen retrospective comparison: 32.82% lower MSE than random joint-GP purchasing, but only 0.66% lower MSE than greedy joint-GP selection. The registered well-count comparison passed at 20-25% fewer purchased wells under its isolated-context accounting. All limitations in documents 27-30 apply.
 
@@ -44,16 +44,16 @@ All source video frames were visually reviewed; the encoded demo frame was inspe
 | M6: technical contribution | Tuned development, frozen transfer comparison, greedy/simple baselines and covariance ablations | Narrow empirical contribution; major algorithmic novelty and universal superiority are not established |
 | M7: independent confirmation | Frozen distinct-study evaluation with explicit patient grouping and 100 source patient IDs | Deidentified cross-study patient non-overlap cannot be proved |
 | M8: operational reliability | Supported uncertainty diagnostics, finite feasible-set contract and registered well-count result | Retrospective isolated contexts; prospective feasibility, true costs and clinical utility not established |
-| M9: judge-facing package | Report, runnable demo, Writeup and under-limit local video prepared | Team attribution/category and public-access compliance still pending |
+| M9: judge-facing package | Report, runnable demo, Writeup and under-limit local video prepared | Team attribution/category confirmed; public-access compliance still pending |
 | M10: release readiness | Local tests, mathematical checks, provenance and clean rerun completed | External review, controlling-rule facts, eligibility and authorized release/submission remain unresolved |
 
 No equal-effort percentage or probability of winning is inferred from these stages. Successful tests do not replace external conditions.
 
 ## Manual interventions required
 
-1. **Team facts:** supply the exact team/display name and contributor roles; verify each member's eligibility and completed registration. Confirm the category declaration. These facts cannot be inferred from public pages.
-2. **Organizer clarification:** resolve the conflicting rubrics and any material bonus, registration or ownership ambiguity. The exact unsent questions are in document 09. No organizer message has been sent.
-3. **External review:** obtain a domain review of the raw-log endpoint, shared-control cost assumptions, source dose discrepancy and prospective feasibility; obtain an independent reproduction/scientific critique. The included computational audit does not substitute for a human review.
+1. **Registration and eligibility:** verify Shengbo Jiang's eligibility and completed registration. Team name, sole-member attribution and Tool & Platform category are confirmed.
+2. **Rule interpretation:** document 34 supplies the requested skeptical working answers. They permit preparation under both rubrics, but cannot establish organizer intent, registration status or ownership rights. The exact unsent questions remain in document 09.
+3. **Review:** Shengbo Jiang is the designated contributor self-reviewer; use the review checklist in document 34. This is not independent review, and no completed review is recorded. For the original independent-review milestone, obtain a domain review of the raw-log endpoint, shared-control cost assumptions, source dose discrepancy and prospective feasibility; obtain an independent reproduction/scientific critique. The included computational audit does not substitute for a human review.
 4. **Publication decision:** approve the specific repository/report/video destinations, ownership/license choices, attribution and public contents. This local archive includes diagnostic logs with local machine paths and must be reviewed before any public release. No public upload or access expansion has occurred.
 5. **Final submission:** verify current submission requirements and public accessibility, then explicitly authorize the Kaggle submission. Terms acceptance, where required, belongs to the user. No registration, terms acceptance, payment or submission was performed.
 

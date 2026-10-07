@@ -1,0 +1,89 @@
+{
+  "audited_utc": "20261007T052521749764Z",
+  "previous_turn_classification": "progress",
+  "completion_proved": false,
+  "requirements": [
+    {
+      "id": "M6",
+      "status": "bounded_empirical_evidence",
+      "evidence": [
+        "docs/29-contribution-and-prior-art.md",
+        "artifacts/kryeziu_confirmation_v1/confirmation.json",
+        "artifacts/kryeziu_confirmation_v1/paired-comparators.csv"
+      ],
+      "limit": "32.82% versus random, only 0.66% versus greedy; no broad algorithmic novelty or universal superiority proof"
+    },
+    {
+      "id": "M7",
+      "status": "supported_with_explicit_limits",
+      "evidence": [
+        "artifacts/kryeziu_design_v1/protocol-freeze.json",
+        "artifacts/kryeziu_confirmation_v1/preflight-amendment.json",
+        "artifacts/kryeziu_confirmation_v1/verification.json"
+      ],
+      "limit": "Distinct public study, not proof of deidentified cross-study patient non-overlap"
+    },
+    {
+      "id": "M8",
+      "status": "supported_for_registered_retrospective_scope",
+      "evidence": [
+        "configs/kryeziu-confirmation-protocol.json",
+        "artifacts/kryeziu_confirmation_v1/confirmation.json",
+        "artifacts/kryeziu_confirmation_v1/diagnostics.json"
+      ],
+      "limit": "No prospective laboratory savings or clinical validation"
+    },
+    {
+      "id": "M9",
+      "status": "local_artifacts_verified_public_compliance_incomplete",
+      "evidence": [
+        "output/pdf/verification.json",
+        "output/video/verification.json",
+        "docs/31-kaggle-writeup-candidate.md",
+        "artifacts/release_audit_v1/accessibility.json"
+      ],
+      "missing": [
+        "Authorized public repository and video/report URLs",
+        "Public access validation"
+      ]
+    },
+    {
+      "id": "M10",
+      "status": "blocked_external_requirements",
+      "evidence": [
+        "docs/32-local-package-and-release-gates.md",
+        "docs/33-accessibility-and-release-audit.md"
+      ],
+      "missing": [
+        "Verified registration/eligibility facts",
+        "Controlling rubric and material ownership/rule clarification",
+        "Project release-license decision and unresolved historical-source rights review",
+        "Completed contributor self-review; independent review remains absent",
+        "Specific authorization for release/submission"
+      ]
+    },
+    {
+      "id": "winning_guarantee",
+      "status": "not_provable",
+      "reason": "External expert judgment and competitors determine ranking; local implementation cannot establish a guaranteed position"
+    },
+    {
+      "id": "logs_and_manual_actions",
+      "status": "delivered",
+      "evidence": [
+        "artifacts/logs/second-half/",
+        "docs/32-local-package-and-release-gates.md",
+        "artifacts/checkpoints/research-checkpoint-20261007T044049381130Z.zip"
+      ]
+    }
+  ],
+  "blocked_audit": {
+    "resumed_goal_turn": 1,
+    "classification": "progress",
+    "status": "not eligible for blocked status on first resumed turn",
+    "note": "New user facts incorporated; publication assigned to user, not performed."
+  },
+  "supersedes": "artifacts/release_audit_v1/completion-audit.json",
+  "team_declaration": "configs/team-declaration.json",
+  "current_update_record": "artifacts/logs/second-half/20261007T052521749764Z/record.json"
+}

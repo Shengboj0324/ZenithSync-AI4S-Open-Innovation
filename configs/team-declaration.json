@@ -1,0 +1,19 @@
+{
+  "team_name": "ZenithSync",
+  "members": [
+    {
+      "name": "Shengbo Jiang",
+      "role": "Main contributor"
+    }
+  ],
+  "team_size": 1,
+  "category": "Tool & Platform",
+  "source": "User supplied in resumed goal",
+  "designated_reviewer": "Shengbo Jiang",
+  "review_type": "Contributor self-review",
+  "review_completed": false,
+  "registration_verified": false,
+  "eligibility_verified": false,
+  "publication_handled_by": "User after local implementation",
+  "publication_authorized": false
+}

@@ -1,6 +1,6 @@
 # ZenithSync: control-aware assay design
 
-Status: local submission candidate. No public links, registration or submission have been created. The participating team must complete attribution, verify category and eligibility, and authorize publication before using this text.
+Status: local submission candidate. No public links, registration or submission have been created. Team: ZenithSync. Sole member and main contributor: Shengbo Jiang. Category: Tool & Platform (user-confirmed). Registration, eligibility and public release remain to be completed or verified by the user.
 
 ## Project summary
 
@@ -30,7 +30,7 @@ Nominal 90% intervals covered 98.05% of audit responses, with mean width 1.34169
 
 The local demonstration accepts measured wells, validates a strict request and returns selected wells, predictions, model-conditional intervals and a request fingerprint. Its example uses actual public Farin measurements with an explicit missing-plate limitation. The current suite passes 127 tests with warnings treated as errors. Mathematical identities, exact enumeration, hidden-outcome isolation and HTTP validation are checked.
 
-The report and repository preserve source hashes, admission/exclusion records, protocol freezes, complete outputs and a serialization-only evaluator repair. A fresh environment and empty raw-data cache reproduced 27 admission, confirmation and demonstration artifacts byte for byte, with all 127 tests passing. Independent external review remains pending.
+The report and repository preserve source hashes, admission/exclusion records, protocol freezes, complete outputs and a serialization-only evaluator repair. A fresh environment and empty raw-data cache reproduced 27 admission, confirmation and demonstration artifacts byte for byte, with all 127 tests passing. Shengbo Jiang is the designated contributor self-reviewer; no completed review or independent external review is claimed.
 
 ## Limitations and next validation
 
@@ -42,6 +42,6 @@ This study does not demonstrate clinical benefit, perfused-chip transfer, broad 
 - Local demonstration: `scripts/serve_demo.py`; instructions in document 28.
 - Source, data provenance and reproduction records: this repository; public URL pending authorization.
 - Video: `output/video/zenithsync-review-video.mp4`, a local narrated review candidate under five minutes. Public accessibility remains pending authorization.
-- Team attribution, category declaration, registration status and contributor roles: team-supplied facts still required.
+- Team: ZenithSync; Shengbo Jiang, sole member and main contributor; category: Tool & Platform. Registration and eligibility confirmation remain pending.
 
 Source datasets: [Farin v1](https://doi.org/10.17632/fypp6xhkjy.1) and [Kryeziu v3](https://doi.org/10.17632/hr94h42xdc.3). Full references and claim boundaries are in report references and document 29.

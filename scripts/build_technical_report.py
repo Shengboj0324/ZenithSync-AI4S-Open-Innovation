@@ -78,7 +78,7 @@ def main():
             else:story.append(Paragraph(text(block.replace('\n',' ')),STYLE))
     OUT.parent.mkdir(parents=True,exist_ok=True)
     doc=SimpleDocTemplate(str(OUT),pagesize=A4,rightMargin=48,leftMargin=48,topMargin=58,bottomMargin=50,
-                         title='ZenithSync Assay Planner: control-aware finite-well design',author='Team attribution pending',
+                         title='ZenithSync Assay Planner: control-aware finite-well design',author='Shengbo Jiang | ZenithSync',
                          subject='Frozen public-cohort confirmation and bounded research workflow')
     doc.build(story,onFirstPage=furniture,onLaterPages=furniture)
     print(OUT)

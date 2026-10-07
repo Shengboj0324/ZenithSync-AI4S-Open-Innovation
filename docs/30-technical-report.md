@@ -1,7 +1,7 @@
 # ZenithSync Assay Planner
 ## Control-aware finite-well design with frozen public-cohort confirmation
 
-Technical report candidate, 6 October 2026 (Pacific). Local research artifact; not submitted or externally peer reviewed. Author/team attribution remains to be supplied by the participating team.
+Technical report candidate, 6 October 2026 (Pacific). Local research artifact; not submitted or externally peer reviewed. Team: ZenithSync. Shengbo Jiang is the sole member and main contributor. Category: Tool & Platform. Designated reviewer: Shengbo Jiang (contributor self-review; completion not yet recorded).
 
 We study a concrete assay question: after measuring a vehicle control and the two extreme drug doses, which additional wells should a researcher purchase to reconstruct a single-agent organoid response curve? The system accounts for the dependence introduced when several responses share a measured reference control. It uses a fixed Gaussian-process model and exact finite-pool variance minimization with verified symmetry reduction.
 
@@ -202,7 +202,7 @@ Not established: major new GP/design theory, superiority over every published mo
 
 The competition strategy records conflicting Kaggle and Pazhou rubrics. Kaggle's live record assigned 30/30/20/10/10 to impact, technical approach, validation, reproducibility and presentation; the organizer track record used a different five-part allocation. Both motivate evidence, but neither permits a deterministic score prediction. Only ZHOU YINGTONG was named in the checked Kaggle judge section; no biography or wider track-panel assignment was verified.
 
-Before release, the participating team must supply correct attribution and contributor roles, verify registration and eligibility, resolve material rule/ownership ambiguities, review licenses and authorize publication/submission. Domain and independent reviewers should challenge endpoint meaning, control accounting, source discrepancies and reproduction. The prepared organizer questions have not been sent.
+Team attribution and category are user-confirmed. Before release, the team must verify registration and eligibility, assess material rule/ownership ambiguities, review licenses and complete publication/submission. Domain and independent reviewers should challenge endpoint meaning, control accounting, source discrepancies and reproduction. The prepared organizer questions have not been sent.
 
 The immediate scientific next step is prospective operational validation of the same bounded claim, or a new development/confirmation cycle for a materially revised method. Additional complexity without untouched evidence would weaken rather than strengthen the argument. The current package is a reviewable research candidate. Its readiness and judging outcome must remain distinct from its successful registered experiment.
 
