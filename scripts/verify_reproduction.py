@@ -24,11 +24,25 @@ RESULTS = ["initial_benchmark/predictions.json", "initial_benchmark/macro_metric
            "nested_baselines_v1/predictions.csv",
            "generation_benchmark_v1/summary.csv", "generation_benchmark_v1/predictions.csv",
            "generation_benchmark_v1/folds.json", "generation_benchmark_v1/admission.json",
-           "workflow_v1/response.json"]
+           "workflow_v1/response.json", "linear_policy_v1/traces.jsonl",
+           "linear_policy_v1/summary.csv", "linear_policy_v1/splits.json",
+           "linear_policy_v1/full_budget_comparison.json"]
 
 
 def hashes():
     return {name: sha256((ROOT / "artifacts" / name).read_bytes()).hexdigest() for name in RESULTS}
+
+
+def archive_run(logs, record):
+    """Preserve completed/failed run evidence instead of overwriting history."""
+    destination = logs / "reproductions" / record["started_utc"].replace(":", "-")
+    destination.mkdir(parents=True, exist_ok=True)
+    for name in ["reproduction.json", "fresh-environment.txt"]:
+        content = (logs/name).read_bytes()
+        archived = destination/name
+        if archived.exists() and archived.read_bytes() != content:
+            raise RuntimeError("Refusing to overwrite archived reproduction evidence")
+        archived.write_bytes(content)
 
 
 def main():
@@ -52,7 +66,9 @@ def main():
                             [python, "-W", "error", "scripts/generation_benchmark.py"],
                             [python, "scripts/build_workflow_example.py"],
                             [python, "-W", "error", "scripts/research_workflow.py", "examples/ola_ibet_request.json",
-                             "--output", "artifacts/workflow_v1/response.json"]]
+                             "--output", "artifacts/workflow_v1/response.json"],
+                            [python, "-W", "error", "scripts/linear_policy_benchmark.py"],
+                            [python, "scripts/summarize_linear_policy.py"]]
                 for command in commands:
                     transcript.write("\nCOMMAND " + repr(command) + "\n")
                     transcript.flush()
@@ -67,6 +83,8 @@ def main():
         finally:
             record["finished_utc"] = datetime.now(timezone.utc).isoformat()
             (logs / "reproduction.json").write_text(json.dumps(record, indent=2)+"\n")
+            transcript.flush()
+            archive_run(logs, record)
     print(f"Clean environment passed; {len(RESULTS)} key result artifacts reproduced byte for byte.")
 
 

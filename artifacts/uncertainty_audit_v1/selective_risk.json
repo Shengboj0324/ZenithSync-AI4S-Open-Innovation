@@ -1,0 +1,122 @@
+[
+  {
+    "context": "FAC",
+    "abstention_cost": 0.01,
+    "observations": 28,
+    "accepted": 27,
+    "coverage_fraction": 0.9642857142857143,
+    "accepted_errors": 0,
+    "accepted_error_rate": 0.0,
+    "total_realized_loss": 0.00035714285714285714
+  },
+  {
+    "context": "FAC",
+    "abstention_cost": 0.05,
+    "observations": 28,
+    "accepted": 28,
+    "coverage_fraction": 1.0,
+    "accepted_errors": 0,
+    "accepted_error_rate": 0.0,
+    "total_realized_loss": 0.0
+  },
+  {
+    "context": "FAC",
+    "abstention_cost": 0.1,
+    "observations": 28,
+    "accepted": 28,
+    "coverage_fraction": 1.0,
+    "accepted_errors": 0,
+    "accepted_error_rate": 0.0,
+    "total_realized_loss": 0.0
+  },
+  {
+    "context": "FAC",
+    "abstention_cost": 0.2,
+    "observations": 28,
+    "accepted": 28,
+    "coverage_fraction": 1.0,
+    "accepted_errors": 0,
+    "accepted_error_rate": 0.0,
+    "total_realized_loss": 0.0
+  },
+  {
+    "context": "FAC",
+    "abstention_cost": 0.3,
+    "observations": 28,
+    "accepted": 28,
+    "coverage_fraction": 1.0,
+    "accepted_errors": 0,
+    "accepted_error_rate": 0.0,
+    "total_realized_loss": 0.0
+  },
+  {
+    "context": "FAC",
+    "abstention_cost": 0.5,
+    "observations": 28,
+    "accepted": 28,
+    "coverage_fraction": 1.0,
+    "accepted_errors": 0,
+    "accepted_error_rate": 0.0,
+    "total_realized_loss": 0.0
+  },
+  {
+    "context": "OLA-IBET",
+    "abstention_cost": 0.01,
+    "observations": 40,
+    "accepted": 11,
+    "coverage_fraction": 0.275,
+    "accepted_errors": 0,
+    "accepted_error_rate": 0.0,
+    "total_realized_loss": 0.007250000000000001
+  },
+  {
+    "context": "OLA-IBET",
+    "abstention_cost": 0.05,
+    "observations": 40,
+    "accepted": 16,
+    "coverage_fraction": 0.4,
+    "accepted_errors": 0,
+    "accepted_error_rate": 0.0,
+    "total_realized_loss": 0.030000000000000006
+  },
+  {
+    "context": "OLA-IBET",
+    "abstention_cost": 0.1,
+    "observations": 40,
+    "accepted": 20,
+    "coverage_fraction": 0.5,
+    "accepted_errors": 1,
+    "accepted_error_rate": 0.05,
+    "total_realized_loss": 0.07500000000000001
+  },
+  {
+    "context": "OLA-IBET",
+    "abstention_cost": 0.2,
+    "observations": 40,
+    "accepted": 31,
+    "coverage_fraction": 0.775,
+    "accepted_errors": 4,
+    "accepted_error_rate": 0.12903225806451613,
+    "total_realized_loss": 0.14500000000000002
+  },
+  {
+    "context": "OLA-IBET",
+    "abstention_cost": 0.3,
+    "observations": 40,
+    "accepted": 35,
+    "coverage_fraction": 0.875,
+    "accepted_errors": 4,
+    "accepted_error_rate": 0.11428571428571428,
+    "total_realized_loss": 0.1375
+  },
+  {
+    "context": "OLA-IBET",
+    "abstention_cost": 0.5,
+    "observations": 40,
+    "accepted": 40,
+    "coverage_fraction": 1.0,
+    "accepted_errors": 7,
+    "accepted_error_rate": 0.175,
+    "total_realized_loss": 0.175
+  }
+]

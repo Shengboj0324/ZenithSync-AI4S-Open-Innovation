@@ -1,0 +1,11 @@
+{
+  "evaluation": "each generation predicted from strictly earlier generations",
+  "model": "ridge penalty 0.1; fixed noise SD 0.1; no recalibration on evaluated responses",
+  "target": "new observed aggregate cv_exp response, not latent biological mean",
+  "threshold": 0.5,
+  "threshold_status": "exploratory; not independently justified",
+  "uncertainty_scope": "empirical diagnostics on adaptively collected logged records",
+  "independent_biological_coverage_claim": false,
+  "conformal_claim": false,
+  "operating_point_selected_from_test": false
+}

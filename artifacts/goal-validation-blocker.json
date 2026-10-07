@@ -1,0 +1,21 @@
+{
+  "previous_turn": "progress: packaged and verified implemented research core",
+  "repeated_unresolved_conditions": [
+    "independently validated measurement-cost/error benefit remains unproven",
+    "requested guaranteed external judging outcome cannot be established by implementation"
+  ],
+  "consecutive_prior_records": [
+    "docs/17-measurement-policy-evaluation.md",
+    "docs/18-uncertainty-and-completion-audit.md",
+    "docs/19-checkpoint-handoff.md"
+  ],
+  "completion": "not established; no numerical 50-percent claim or ranking guarantee is made",
+  "why_user_input_is_needed": "An achievable acceptance criterion must replace the guaranteed-ranking condition. The independent validation route is also unconfirmed; the earlier resource question remains pending.",
+  "available_evidence": {
+    "tests_passed": 61,
+    "fresh_environment_artifacts": 25,
+    "checkpoint_files": 165,
+    "checkpoint_sha256": "aa34d88d726e34e35da6aff0445f9c78926bfb5293a62885e544c17488f6e77e"
+  },
+  "preserved_scope": "No requested requirement has been silently removed. Existing research code, evidence, failures and limitations remain available."
+}

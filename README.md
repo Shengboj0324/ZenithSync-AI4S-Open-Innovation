@@ -48,6 +48,9 @@ The contribution must be a demonstrable improvement in learning and decisions un
 | [Nested baselines and second source](docs/14-nested-baselines-and-second-source.md) | Training-only tuning, stronger simple baselines and 144 additional source records |
 | [Generation-aware evaluation](docs/15-generation-aware-evaluation.md) | Second-assay admission, temporal isolation and matched baseline results |
 | [Research workflow](docs/16-research-workflow.md) | Run an actual-data request with predictions, abstention, acquisition and provenance |
+| [Measurement-policy evaluation](docs/17-measurement-policy-evaluation.md) | Recorded-pool budget curves, isolated audit outcomes and conditional uncertainty |
+| [Uncertainty and completion audit](docs/18-uncertainty-and-completion-audit.md) | Coverage, abstention tradeoffs and requirement-by-requirement evidence status |
+| [Checkpoint handoff](docs/19-checkpoint-handoff.md) | Review path, packaged evidence, sequential-data decision and manual dependencies |
 
 ## Evidence status
 

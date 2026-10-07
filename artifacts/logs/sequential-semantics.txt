@@ -1,0 +1,127 @@
+{
+  "revision": "e38fc0ded24abbf5bc8a87cf6d05f320ed01565c",
+  "tables": {
+    "FAC": {
+      "rows": 32,
+      "sequence_labels": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f"
+      ],
+      "sum_t0_t1_by_generation": {
+        "0": [
+          8,
+          12,
+          14,
+          16,
+          18,
+          20,
+          22
+        ],
+        "1": [
+          18,
+          20,
+          22
+        ],
+        "2": [
+          6,
+          14,
+          16,
+          18,
+          20,
+          22
+        ],
+        "3": [
+          8,
+          12,
+          14,
+          17,
+          19,
+          20,
+          23
+        ]
+      },
+      "response_range": [
+        64.7072365,
+        100.0039098
+      ]
+    },
+    "OLA-IBET": {
+      "rows": 27,
+      "sequence_labels": [
+        "a",
+        "b"
+      ],
+      "sum_t0_t1_by_generation": {
+        "0": [
+          48
+        ],
+        "1": [
+          48
+        ],
+        "2": [
+          48
+        ]
+      },
+      "response_range": [
+        88.22945742,
+        123.2981124
+      ]
+    }
+  },
+  "source_excerpts": [
+    {
+      "url": "https://raw.githubusercontent.com/yakavetsiv/ml-mf_chemo/e38fc0ded24abbf5bc8a87cf6d05f320ed01565c/OLA-IBET/sequential/GS0/run_gryffin.py",
+      "sha256": "547871985e8bd6a42494bb0d1fd89d81f06723b323d28dce3230ba2729d5f85c",
+      "lines": [
+        {
+          "line": 81,
+          "text": "{\"name\": \"t0\", \"type\": \"discrete\", \"low\": 1, \"high\": 11},"
+        },
+        {
+          "line": 153,
+          "text": "df_samples['t1'] = 12-df_samples['t0']"
+        }
+      ]
+    },
+    {
+      "url": "https://raw.githubusercontent.com/yakavetsiv/ml-mf_chemo/e38fc0ded24abbf5bc8a87cf6d05f320ed01565c/OLA-IBET/sequential/GS1-GS2/run_gryffin.py",
+      "sha256": "c521b24850e9234bf8962a5765f1bd356342790e54e1628f17541b311d3c3360",
+      "lines": [
+        {
+          "line": 134,
+          "text": "{\"name\": \"t0\", \"type\": \"discrete\", \"low\": 1, \"high\": 47},"
+        },
+        {
+          "line": 206,
+          "text": "df_samples['t1'] = 48-df_samples['t0']"
+        }
+      ]
+    },
+    {
+      "url": "https://raw.githubusercontent.com/yakavetsiv/ml-mf_chemo/e38fc0ded24abbf5bc8a87cf6d05f320ed01565c/FAC/sequential/GS0-GS1/run_gryffin.py",
+      "sha256": "4ff7d3dd1903b1ce52776067a8265430a4e14fb2cf2fd74f9b150966c14e5ad8",
+      "lines": [
+        {
+          "line": 86,
+          "text": "{\"name\": \"t0\", \"type\": \"discrete\", \"low\": 1, \"high\": 10},"
+        }
+      ]
+    },
+    {
+      "url": "https://raw.githubusercontent.com/yakavetsiv/ml-mf_chemo/e38fc0ded24abbf5bc8a87cf6d05f320ed01565c/FAC/sequential/GS2/run_gryffin.py",
+      "sha256": "a7c30bcb70a146c986a1d81c5f2f43960731b86a4caf2846899bdaab486ff5c1",
+      "lines": [
+        {
+          "line": 87,
+          "text": "{\"name\": \"t0\", \"type\": \"discrete\", \"low\": 1, \"high\": 10},"
+        }
+      ]
+    }
+  ],
+  "decision": "sequential physical-time admission remains unresolved; no model fitting",
+  "reason": "repository initial and later timing configurations differ; do not infer units or drug-order mapping"
+}

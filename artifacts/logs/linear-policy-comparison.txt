@@ -1,0 +1,52 @@
+[
+  {
+    "context": "FAC",
+    "random_mean": 0.08028514036219445,
+    "random_mean_mc_interval95": [
+      0.07784223570368551,
+      0.08272804502070338
+    ],
+    "interval_target": "Monte Carlo mean over random policy seeds conditional on this fixed dataset",
+    "not_a_biological_confidence_interval": true,
+    "random_seed_count": 50,
+    "policies": [
+      {
+        "policy": "ridge_variance",
+        "budget_average_rmse": 0.07743750787363313,
+        "difference_from_random_mean": -0.002847632488561319,
+        "fraction_random_seeds_with_lower_error": 0.3
+      },
+      {
+        "policy": "space_filling",
+        "budget_average_rmse": 0.07515308660884523,
+        "difference_from_random_mean": -0.005132053753349214,
+        "fraction_random_seeds_with_lower_error": 0.26
+      }
+    ]
+  },
+  {
+    "context": "OLA-IBET",
+    "random_mean": 0.11891456871870432,
+    "random_mean_mc_interval95": [
+      0.11619026734501633,
+      0.1216388700923923
+    ],
+    "interval_target": "Monte Carlo mean over random policy seeds conditional on this fixed dataset",
+    "not_a_biological_confidence_interval": true,
+    "random_seed_count": 50,
+    "policies": [
+      {
+        "policy": "ridge_variance",
+        "budget_average_rmse": 0.11536418224972501,
+        "difference_from_random_mean": -0.0035503864689793024,
+        "fraction_random_seeds_with_lower_error": 0.42
+      },
+      {
+        "policy": "space_filling",
+        "budget_average_rmse": 0.12213036827326557,
+        "difference_from_random_mean": 0.0032157995545612494,
+        "fraction_random_seeds_with_lower_error": 0.64
+      }
+    ]
+  }
+]

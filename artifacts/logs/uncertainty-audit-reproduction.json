@@ -1,0 +1,25 @@
+{
+  "command": [
+    ".venv/bin/python",
+    "-W",
+    "error",
+    "scripts/uncertainty_audit.py"
+  ],
+  "exit_code": 0,
+  "byte_identical": true,
+  "before": {
+    "by_generation.csv": "5d0918568e1035bcc6fdc3efd4b4b50dbeeb02a6257817b92cce321a6568b4b4",
+    "predictions.csv": "b2e17b5a2207b410efa3bd8edea4942b170179683d316bdbccdcef806a973563",
+    "protocol.json": "65e4bb2331d82e283315e8f9b0164b926deae72e050e8de4490ba25384e86eef",
+    "selective_risk.json": "bce4331f6553ab22e4f0f049b2e1cc36482c67db973885f7831873bb2988065a",
+    "summary.csv": "96017fafad9770118803d0ea03505810cfede13eab1462257ad96f937c267790"
+  },
+  "after": {
+    "by_generation.csv": "5d0918568e1035bcc6fdc3efd4b4b50dbeeb02a6257817b92cce321a6568b4b4",
+    "predictions.csv": "b2e17b5a2207b410efa3bd8edea4942b170179683d316bdbccdcef806a973563",
+    "protocol.json": "65e4bb2331d82e283315e8f9b0164b926deae72e050e8de4490ba25384e86eef",
+    "selective_risk.json": "bce4331f6553ab22e4f0f049b2e1cc36482c67db973885f7831873bb2988065a",
+    "summary.csv": "96017fafad9770118803d0ea03505810cfede13eab1462257ad96f937c267790"
+  },
+  "scope": "same-environment deterministic rerun; not an additional fresh-environment or independent biological replication"
+}
