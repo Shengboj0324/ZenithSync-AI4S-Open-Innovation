@@ -1,5 +1,7 @@
 # Local research package, validation and remaining release gates
 
+> Current status update: the user has verified registration, eligibility and licensing, and will handle publication. See [the current implementation handoff](35-implementation-completion-handoff.md). Earlier pending statements below preserve the audit history and no longer request those confirmations.
+
 ## Current status
 
 The bounded public-data research implementation, local demonstration, 17-page technical report, narrated review video and Kaggle Writeup candidate are prepared. The expanded confirmation workflow has passed fresh-environment reproduction. This is a local review candidate, not a completed public submission or a guarantee of placement. Team attribution is user-confirmed: ZenithSync, with Shengbo Jiang as sole member and main contributor. Tool & Platform is confirmed. Shengbo Jiang is the designated self-reviewer; review completion is not yet recorded. The user will handle publication after local implementation.

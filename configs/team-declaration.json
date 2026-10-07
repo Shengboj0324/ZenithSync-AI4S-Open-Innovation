@@ -12,8 +12,12 @@
   "designated_reviewer": "Shengbo Jiang",
   "review_type": "Contributor self-review",
   "review_completed": false,
-  "registration_verified": false,
-  "eligibility_verified": false,
-  "publication_handled_by": "User after local implementation",
-  "publication_authorized": false
+  "registration_verified": true,
+  "eligibility_verified": true,
+  "publication_handled_by": "User after implementation handoff",
+  "publication_authorized": false,
+  "licensing_verified": true,
+  "verification_basis": "Explicit user attestation in resumed goal; no independent account or legal verification claimed",
+  "verification_recorded_utc": "2026-10-07T06:53:55.888904+00:00",
+  "review_requirement": "User-selected contributor self-review; independent review is not claimed"
 }

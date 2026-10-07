@@ -4,6 +4,8 @@
 
 **Team:** ZenithSync; Shengbo Jiang, sole member and main contributor. Confirmed category: Tool & Platform. [Current rubric interpretation and review handoff](docs/34-team-rubric-and-review-handoff.md).
 
+**Implementation handoff:** [Completion evidence and publication checklist](docs/35-implementation-completion-handoff.md). Registration, eligibility and licensing are user-confirmed; publication remains assigned to the user.
+
 **Planning entry point:** [Research strategy and judging priorities](docs/21-strategy-refresh.md), with [additional mathematical back-checks](docs/22-design-mathematical-audit.md) and a [public-data confirmation plan](docs/23-public-confirmation-plan.md). Those strategy documents preserve their planning context; subsequent implementation and evidence are recorded below.
 
 **Current acceptance plan:** the user authorized public-data-only development and self-determined milestone criteria. See [the halfway milestone](docs/20-halfway-acceptance.md). Earlier blocked-status notes are historical; independent private data is not a prerequisite for this route.

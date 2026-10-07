@@ -1,5 +1,7 @@
 # Focused accessibility and release audit
 
+> Current status update: the user has verified registration, eligibility and licensing, and will handle publication. See [the current implementation handoff](35-implementation-completion-handoff.md). Earlier pending statements below preserve the audit history and no longer request those confirmations.
+
 This continuation completed additional local release checks. It does not change the frozen scientific method, result, or claim. The previous delivery was concrete progress; the full goal remains unproven because team facts, external review, material rule/rights decisions and authorized release remain outstanding.
 
 ## Keyboard and display repairs

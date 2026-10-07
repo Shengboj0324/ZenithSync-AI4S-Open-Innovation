@@ -1,6 +1,6 @@
 # ZenithSync: control-aware assay design
 
-Status: local submission candidate. No public links, registration or submission have been created. Team: ZenithSync. Sole member and main contributor: Shengbo Jiang. Category: Tool & Platform (user-confirmed). Registration, eligibility and public release remain to be completed or verified by the user.
+Status: local submission candidate. No public links, registration or submission have been created. Team: ZenithSync. Sole member and main contributor: Shengbo Jiang. Category: Tool & Platform (user-confirmed). Registration, eligibility and licensing have been verified by the user. Publication and submission will be handled by the user.
 
 ## Project summary
 
@@ -42,6 +42,6 @@ This study does not demonstrate clinical benefit, perfused-chip transfer, broad 
 - Local demonstration: `scripts/serve_demo.py`; instructions in document 28.
 - Source, data provenance and reproduction records: this repository; public URL pending authorization.
 - Video: `output/video/zenithsync-review-video.mp4`, a local narrated review candidate under five minutes. Public accessibility remains pending authorization.
-- Team: ZenithSync; Shengbo Jiang, sole member and main contributor; category: Tool & Platform. Registration and eligibility confirmation remain pending.
+- Team: ZenithSync; Shengbo Jiang, sole member and main contributor; category: Tool & Platform. Registration, eligibility and licensing are user-confirmed.
 
 Source datasets: [Farin v1](https://doi.org/10.17632/fypp6xhkjy.1) and [Kryeziu v3](https://doi.org/10.17632/hr94h42xdc.3). Full references and claim boundaries are in report references and document 29.
