@@ -1,0 +1,342 @@
+
+COMMAND ['/var/folders/y0/l9ns18ns5472mqrprmhhmsw00000gn/T/zenithsync-cold-start-_fqkvxgr/environment/bin/python', '-m', 'pip', 'install', '-r', 'requirements-lock.txt']
+Collecting contourpy==1.4.0 (from -r requirements-lock.txt (line 1))
+  Using cached contourpy-1.4.0-cp313-cp313-macosx_11_0_arm64.whl.metadata (3.8 kB)
+Collecting cycler==0.12.1 (from -r requirements-lock.txt (line 2))
+  Using cached cycler-0.12.1-py3-none-any.whl.metadata (3.8 kB)
+Collecting et_xmlfile==2.0.0 (from -r requirements-lock.txt (line 3))
+  Using cached et_xmlfile-2.0.0-py3-none-any.whl.metadata (2.7 kB)
+Collecting fonttools==4.66.1 (from -r requirements-lock.txt (line 4))
+  Using cached fonttools-4.66.1-cp313-cp313-macosx_10_13_universal2.whl.metadata (130 kB)
+Collecting iniconfig==2.3.1 (from -r requirements-lock.txt (line 5))
+  Using cached iniconfig-2.3.1-py3-none-any.whl.metadata (2.8 kB)
+Collecting kiwisolver==1.5.1 (from -r requirements-lock.txt (line 6))
+  Using cached kiwisolver-1.5.1-cp313-cp313-macosx_11_0_arm64.whl.metadata (5.2 kB)
+Collecting matplotlib==3.10.3 (from -r requirements-lock.txt (line 7))
+  Using cached matplotlib-3.10.3-cp313-cp313-macosx_11_0_arm64.whl.metadata (11 kB)
+Collecting numpy==2.2.6 (from -r requirements-lock.txt (line 8))
+  Using cached numpy-2.2.6-cp313-cp313-macosx_14_0_arm64.whl.metadata (62 kB)
+Collecting openpyxl==3.1.5 (from -r requirements-lock.txt (line 9))
+  Using cached openpyxl-3.1.5-py2.py3-none-any.whl.metadata (2.5 kB)
+Collecting packaging==26.3 (from -r requirements-lock.txt (line 10))
+  Using cached packaging-26.3-py3-none-any.whl.metadata (3.5 kB)
+Collecting pandas==2.2.3 (from -r requirements-lock.txt (line 11))
+  Using cached pandas-2.2.3-cp313-cp313-macosx_11_0_arm64.whl.metadata (89 kB)
+Collecting pillow==12.3.0 (from -r requirements-lock.txt (line 12))
+  Using cached pillow-12.3.0-cp313-cp313-macosx_11_0_arm64.whl.metadata (9.1 kB)
+Collecting pluggy==1.6.0 (from -r requirements-lock.txt (line 13))
+  Using cached pluggy-1.6.0-py3-none-any.whl.metadata (4.8 kB)
+Collecting pyparsing==3.3.3 (from -r requirements-lock.txt (line 14))
+  Using cached pyparsing-3.3.3-py3-none-any.whl.metadata (5.9 kB)
+Collecting pytest==8.3.5 (from -r requirements-lock.txt (line 15))
+  Using cached pytest-8.3.5-py3-none-any.whl.metadata (7.6 kB)
+Collecting python-dateutil==2.9.0.post0 (from -r requirements-lock.txt (line 16))
+  Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+Collecting pytz==2026.5 (from -r requirements-lock.txt (line 17))
+  Using cached pytz-2026.5-py2.py3-none-any.whl.metadata (22 kB)
+Collecting scipy==1.16.2 (from -r requirements-lock.txt (line 18))
+  Using cached scipy-1.16.2-cp313-cp313-macosx_14_0_arm64.whl.metadata (62 kB)
+Collecting six==1.17.0 (from -r requirements-lock.txt (line 19))
+  Using cached six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+Collecting tzdata==2026.5 (from -r requirements-lock.txt (line 20))
+  Using cached tzdata-2026.5-py2.py3-none-any.whl.metadata (1.4 kB)
+Using cached contourpy-1.4.0-cp313-cp313-macosx_11_0_arm64.whl (285 kB)
+Using cached cycler-0.12.1-py3-none-any.whl (8.3 kB)
+Using cached et_xmlfile-2.0.0-py3-none-any.whl (18 kB)
+Using cached fonttools-4.66.1-cp313-cp313-macosx_10_13_universal2.whl (3.1 MB)
+Using cached iniconfig-2.3.1-py3-none-any.whl (7.6 kB)
+Using cached kiwisolver-1.5.1-cp313-cp313-macosx_11_0_arm64.whl (64 kB)
+Using cached matplotlib-3.10.3-cp313-cp313-macosx_11_0_arm64.whl (8.1 MB)
+Using cached numpy-2.2.6-cp313-cp313-macosx_14_0_arm64.whl (5.1 MB)
+Using cached openpyxl-3.1.5-py2.py3-none-any.whl (250 kB)
+Using cached packaging-26.3-py3-none-any.whl (129 kB)
+Using cached pandas-2.2.3-cp313-cp313-macosx_11_0_arm64.whl (11.3 MB)
+Using cached pillow-12.3.0-cp313-cp313-macosx_11_0_arm64.whl (4.8 MB)
+Using cached pluggy-1.6.0-py3-none-any.whl (20 kB)
+Using cached pyparsing-3.3.3-py3-none-any.whl (126 kB)
+Using cached pytest-8.3.5-py3-none-any.whl (343 kB)
+Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Using cached pytz-2026.5-py2.py3-none-any.whl (506 kB)
+Using cached scipy-1.16.2-cp313-cp313-macosx_14_0_arm64.whl (20.9 MB)
+Using cached six-1.17.0-py2.py3-none-any.whl (11 kB)
+Using cached tzdata-2026.5-py2.py3-none-any.whl (347 kB)
+Installing collected packages: pytz, tzdata, six, pyparsing, pluggy, pillow, packaging, numpy, kiwisolver, iniconfig, fonttools, et_xmlfile, cycler, scipy, python-dateutil, pytest, openpyxl, contourpy, pandas, matplotlib
+
+Successfully installed contourpy-1.4.0 cycler-0.12.1 et_xmlfile-2.0.0 fonttools-4.66.1 iniconfig-2.3.1 kiwisolver-1.5.1 matplotlib-3.10.3 numpy-2.2.6 openpyxl-3.1.5 packaging-26.3 pandas-2.2.3 pillow-12.3.0 pluggy-1.6.0 pyparsing-3.3.3 pytest-8.3.5 python-dateutil-2.9.0.post0 pytz-2026.5 scipy-1.16.2 six-1.17.0 tzdata-2026.5
+
+[notice] A new release of pip is available: 25.2 -> 26.2.1
+[notice] To update, run: /private/var/folders/y0/l9ns18ns5472mqrprmhhmsw00000gn/T/zenithsync-cold-start-_fqkvxgr/environment/bin/python -m pip install --upgrade pip
+
+COMMAND ['/var/folders/y0/l9ns18ns5472mqrprmhhmsw00000gn/T/zenithsync-cold-start-_fqkvxgr/environment/bin/python', '-m', 'pytest', '-q', '-W', 'error']
+.............................................................            [100%]
+61 passed in 5.67s
+
+COMMAND ['/var/folders/y0/l9ns18ns5472mqrprmhhmsw00000gn/T/zenithsync-cold-start-_fqkvxgr/environment/bin/python', 'scripts/fetch_public_data.py']
+ewart_supplement_1.xlsx: 45931 bytes sha256=8a37ff64f0b2b425650d4bafc43e9e79f90f995d47b7e87e49a7416e1af9567d
+ewart_supplement_8.xlsx: 23251 bytes sha256=87cc22d0c1d4508f7e0830df348c52238bdb18d821c8d29cc0751114081509fc
+
+COMMAND ['/var/folders/y0/l9ns18ns5472mqrprmhhmsw00000gn/T/zenithsync-cold-start-_fqkvxgr/environment/bin/python', 'scripts/fetch_yakavets_repository.py']
+FAC/concurrent/data/data_FAC_con.csv: 5121 bytes, sha256=b34b355dba706fe16b8b830abbd6004587f628eda1b340d9c15448553bb27ca9
+FAC/sequential/data/data_FAC_seq.csv: 1143 bytes, sha256=8b1bd4468a8c357e0e8c0edf068023a46d306914ff65e2338414ecaae37248f2
+OLA-IBET/concurrent/data/data_OLA-IBET_con.csv: 5836 bytes, sha256=6e6c0c9d7f86cadd2b37091a13f54c2a85a49c13492efc4ec2e0f51fe5d074a6
+OLA-IBET/sequential/data/data_OLA-IBET_seq.csv: 990 bytes, sha256=3eee11810dc4e65745939034bacea27b11db2954c1adaf269b11f126701a0a4f
+README.md: 6658 bytes, sha256=e7c81d5ed203103a1b8460d7921442f18a0efe7db2c12594ca75fb57ed51ad6f
+LICENSE: 35149 bytes, sha256=3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986
+
+COMMAND ['/var/folders/y0/l9ns18ns5472mqrprmhhmsw00000gn/T/zenithsync-cold-start-_fqkvxgr/environment/bin/python', 'scripts/benchmark.py']
+              model      rmse       mae
+constant_train_mean 33.485963 27.229239
+    hill_decreasing 29.286701 22.796655
+    matern_gp_fixed 29.068727 23.601767
+Exploratory reconstruction only; no ranking or assay-savings conclusion.
+
+COMMAND ['/var/folders/y0/l9ns18ns5472mqrprmhhmsw00000gn/T/zenithsync-cold-start-_fqkvxgr/environment/bin/python', 'scripts/replay_benchmark.py']
+             policy  budget  macro_rmse  macro_threshold_error  compound_count
+       decision_voi       2   25.872585               0.138889               6
+       decision_voi       3   25.327759               0.138889               6
+       decision_voi       4   24.574788               0.138889               6
+       decision_voi       5   27.614556               0.166667               5
+integrated_variance       2   25.872585               0.138889               6
+integrated_variance       3   24.102459               0.138889               6
+integrated_variance       4   24.591617               0.138889               6
+integrated_variance       5   27.614556               0.166667               5
+             random       2   25.872585               0.138889               6
+             random       3   24.976504               0.138889               6
+             random       4   24.559993               0.138889               6
+             random       5   27.614556               0.166667               5
+      space_filling       2   25.872585               0.138889               6
+      space_filling       3   24.321663               0.138889               6
+      space_filling       4   24.395861               0.138889               6
+      space_filling       5   27.614556               0.166667               5
+Budget is a revealed dose-group mean, not a chip or validated experimental cost.
+Later budgets have fewer eligible compounds; compare policies within a budget.
+
+COMMAND ['/var/folders/y0/l9ns18ns5472mqrprmhhmsw00000gn/T/zenithsync-cold-start-_fqkvxgr/environment/bin/python', 'scripts/sensitivity_benchmark.py']
+Completed noise_sd=10, length_scale=0.75
+Completed noise_sd=10, length_scale=1.5
+Completed noise_sd=10, length_scale=3.0
+Completed noise_sd=20, length_scale=0.75
+Completed noise_sd=20, length_scale=1.5
+Completed noise_sd=20, length_scale=3.0
+Completed noise_sd=40, length_scale=0.75
+Completed noise_sd=40, length_scale=1.5
+Completed noise_sd=40, length_scale=3.0
+ noise_sd  length_scale                policy  budget  macro_rmse  threshold_error  n_compounds
+       10          0.75          decision_voi       3   27.379313         0.111111            6
+       10          0.75 decision_voi_adaptive       3   27.379313         0.111111            6
+       10          0.75   integrated_variance       3   26.404041         0.111111            6
+       10          0.75                random       3   27.636031         0.111111            6
+       10          0.75         space_filling       3   26.603955         0.111111            6
+       10          1.50          decision_voi       3   24.640758         0.138889            6
+       10          1.50 decision_voi_adaptive       3   24.540915         0.138889            6
+       10          1.50   integrated_variance       3   24.179165         0.138889            6
+       10          1.50                random       3   25.055976         0.138889            6
+       10          1.50         space_filling       3   24.262685         0.138889            6
+       10          3.00          decision_voi       3   23.271838         0.111111            6
+       10          3.00 decision_voi_adaptive       3   23.271838         0.111111            6
+       10          3.00   integrated_variance       3   23.584118         0.083333            6
+       10          3.00                random       3   24.632575         0.100000            6
+       10          3.00         space_filling       3   23.518611         0.111111            6
+       20          0.75          decision_voi       3   27.740747         0.111111            6
+       20          0.75 decision_voi_adaptive       3   27.740747         0.111111            6
+       20          0.75   integrated_variance       3   26.820034         0.111111            6
+       20          0.75                random       3   27.925218         0.111111            6
+       20          0.75         space_filling       3   27.002230         0.111111            6
+       20          1.50          decision_voi       3   25.327759         0.138889            6
+       20          1.50 decision_voi_adaptive       3   25.290831         0.138889            6
+       20          1.50   integrated_variance       3   24.102459         0.138889            6
+       20          1.50                random       3   24.976504         0.138889            6
+       20          1.50         space_filling       3   24.321663         0.138889            6
+       20          3.00          decision_voi       3   24.608864         0.138889            6
+       20          3.00 decision_voi_adaptive       3   24.608864         0.138889            6
+       20          3.00   integrated_variance       3   23.683410         0.138889            6
+       20          3.00                random       3   24.864233         0.138889            6
+       20          3.00         space_filling       3   23.853277         0.138889            6
+       40          0.75          decision_voi       3   28.936660         0.111111            6
+       40          0.75 decision_voi_adaptive       3   28.936660         0.111111            6
+       40          0.75   integrated_variance       3   28.219831         0.111111            6
+       40          0.75                random       3   29.028376         0.111111            6
+       40          0.75         space_filling       3   28.350591         0.111111            6
+       40          1.50          decision_voi       3   26.872764         0.111111            6
+       40          1.50 decision_voi_adaptive       3   26.892753         0.111111            6
+       40          1.50   integrated_variance       3   25.112203         0.111111            6
+       40          1.50                random       3   26.152901         0.111111            6
+       40          1.50         space_filling       3   25.461301         0.111111            6
+       40          3.00          decision_voi       3   27.616278         0.111111            6
+       40          3.00 decision_voi_adaptive       3   27.616278         0.111111            6
+       40          3.00   integrated_variance       3   24.880015         0.111111            6
+       40          3.00                random       3   26.149647         0.113889            6
+       40          3.00         space_filling       3   25.173348         0.111111            6
+
+COMMAND ['/var/folders/y0/l9ns18ns5472mqrprmhhmsw00000gn/T/zenithsync-cold-start-_fqkvxgr/environment/bin/python', 'scripts/mixture_benchmark.py']
+                        rmse  coverage90     width90     brier
+model                                                         
+finite_gp_mixture  28.599746    0.916667  112.288025  0.082568
+fixed_gp           29.068727    0.944444  110.962501  0.077462
+
+COMMAND ['/var/folders/y0/l9ns18ns5472mqrprmhhmsw00000gn/T/zenithsync-cold-start-_fqkvxgr/environment/bin/python', 'scripts/mixture_replay.py']
+Completed Clozapine
+Completed Levofloxacin
+Completed Olanzapine
+Completed Pioglitazone
+Completed Troglitazone
+Completed Trovafloxacin
+          policy  budget  macro_rmse  threshold_error  n_compounds
+mixture_variance       2   26.321760         0.138889            6
+mixture_variance       3   23.804950         0.138889            6
+mixture_variance       4   24.388497         0.138889            6
+mixture_variance       5   27.230967         0.166667            5
+          random       2   26.321760         0.138889            6
+          random       3   24.991297         0.138889            6
+          random       4   24.216553         0.138889            6
+          random       5   27.230967         0.166667            5
+   space_filling       2   26.321760         0.138889            6
+   space_filling       3   24.253067         0.138889            6
+   space_filling       4   24.221198         0.138889            6
+   space_filling       5   27.230967         0.166667            5
+
+COMMAND ['/var/folders/y0/l9ns18ns5472mqrprmhhmsw00000gn/T/zenithsync-cold-start-_fqkvxgr/environment/bin/python', 'scripts/nested_baselines.py']
+Completed Clozapine
+Completed Levofloxacin
+Completed Olanzapine
+Completed Pioglitazone
+Completed Troglitazone
+Completed Trovafloxacin
+                        rmse        mae
+model                                  
+linear             28.028888  22.028238
+finite_gp_mixture  28.599746  22.988284
+pchip              28.993892  22.903173
+fixed_gp           29.068727  23.601767
+hill               29.286701  22.796655
+nested_gp          32.536730  26.089648
+constant           33.485963  27.229239
+
+COMMAND ['/var/folders/y0/l9ns18ns5472mqrprmhhmsw00000gn/T/zenithsync-cold-start-_fqkvxgr/environment/bin/python', 'scripts/generation_benchmark.py']
+                            rmse       mae
+context  model                            
+FAC      gp_fixed       0.112670  0.092680
+         gp_past_tuned  0.109567  0.090247
+         nearest        0.180760  0.157351
+         ridge_fixed    0.100898  0.085195
+         train_mean     0.107969  0.090133
+OLA-IBET gp_fixed       0.117225  0.096698
+         gp_past_tuned  0.111251  0.095492
+         nearest        0.141774  0.119423
+         ridge_fixed    0.099044  0.087731
+         train_mean     0.179348  0.164991
+
+COMMAND ['/var/folders/y0/l9ns18ns5472mqrprmhhmsw00000gn/T/zenithsync-cold-start-_fqkvxgr/environment/bin/python', 'scripts/build_workflow_example.py']
+Saved 10 observed responses and 10 candidate inputs; candidate outcomes omitted.
+
+COMMAND ['/var/folders/y0/l9ns18ns5472mqrprmhhmsw00000gn/T/zenithsync-cold-start-_fqkvxgr/environment/bin/python', 'scripts/linear_policy_benchmark.py']
+ context         policy  budget  mean_rmse  mean_mae  seed_min_rmse  seed_max_rmse
+     FAC         random       0   0.079458  0.071408       0.079458       0.079458
+     FAC         random       5   0.080118  0.070735       0.059546       0.114275
+     FAC         random      10   0.079516  0.069091       0.057060       0.111144
+     FAC         random      15   0.082882  0.071042       0.065079       0.111251
+     FAC ridge_variance       0   0.079458  0.071408       0.079458       0.079458
+     FAC ridge_variance       5   0.079550  0.071520       0.079550       0.079550
+     FAC ridge_variance      10   0.070741  0.063529       0.070741       0.070741
+     FAC ridge_variance      15   0.073190  0.065925       0.073190       0.073190
+     FAC  space_filling       0   0.079458  0.071408       0.079458       0.079458
+     FAC  space_filling       5   0.070245  0.058835       0.070245       0.070245
+     FAC  space_filling      10   0.071207  0.064108       0.071207       0.071207
+     FAC  space_filling      15   0.076951  0.068784       0.076951       0.076951
+OLA-IBET         random       0   0.134829  0.125237       0.134829       0.134829
+OLA-IBET         random       5   0.120727  0.109641       0.092823       0.152148
+OLA-IBET         random      10   0.115030  0.103567       0.086767       0.143228
+OLA-IBET         random      15   0.112771  0.101134       0.092120       0.141024
+OLA-IBET ridge_variance       0   0.134829  0.125237       0.134829       0.134829
+OLA-IBET ridge_variance       5   0.112461  0.101145       0.112461       0.112461
+OLA-IBET ridge_variance      10   0.114936  0.103650       0.114936       0.114936
+OLA-IBET ridge_variance      15   0.113635  0.102293       0.113635       0.113635
+OLA-IBET  space_filling       0   0.134829  0.125237       0.134829       0.134829
+OLA-IBET  space_filling       5   0.118259  0.107683       0.118259       0.118259
+OLA-IBET  space_filling      10   0.121926  0.111340       0.121926       0.121926
+OLA-IBET  space_filling      15   0.123164  0.112727       0.123164       0.123164
+
+COMMAND ['/var/folders/y0/l9ns18ns5472mqrprmhhmsw00000gn/T/zenithsync-cold-start-_fqkvxgr/environment/bin/python', 'scripts/summarize_linear_policy.py']
+[
+  {
+    "context": "FAC",
+    "random_mean": 0.08028514036219445,
+    "random_mean_mc_interval95": [
+      0.07784223570368551,
+      0.08272804502070338
+    ],
+    "interval_target": "Monte Carlo mean over random policy seeds conditional on this fixed dataset",
+    "not_a_biological_confidence_interval": true,
+    "random_seed_count": 50,
+    "policies": [
+      {
+        "policy": "ridge_variance",
+        "budget_average_rmse": 0.07743750787363313,
+        "difference_from_random_mean": -0.002847632488561319,
+        "fraction_random_seeds_with_lower_error": 0.3
+      },
+      {
+        "policy": "space_filling",
+        "budget_average_rmse": 0.07515308660884523,
+        "difference_from_random_mean": -0.005132053753349214,
+        "fraction_random_seeds_with_lower_error": 0.26
+      }
+    ]
+  },
+  {
+    "context": "OLA-IBET",
+    "random_mean": 0.11891456871870432,
+    "random_mean_mc_interval95": [
+      0.11619026734501633,
+      0.1216388700923923
+    ],
+    "interval_target": "Monte Carlo mean over random policy seeds conditional on this fixed dataset",
+    "not_a_biological_confidence_interval": true,
+    "random_seed_count": 50,
+    "policies": [
+      {
+        "policy": "ridge_variance",
+        "budget_average_rmse": 0.11536418224972501,
+        "difference_from_random_mean": -0.0035503864689793024,
+        "fraction_random_seeds_with_lower_error": 0.42
+      },
+      {
+        "policy": "space_filling",
+        "budget_average_rmse": 0.12213036827326557,
+        "difference_from_random_mean": 0.0032157995545612494,
+        "fraction_random_seeds_with_lower_error": 0.64
+      }
+    ]
+  }
+]
+
+COMMAND ['/var/folders/y0/l9ns18ns5472mqrprmhhmsw00000gn/T/zenithsync-cold-start-_fqkvxgr/environment/bin/python', 'scripts/uncertainty_audit.py']
+          coverage90   width90     brier  prevalence_brier
+context                                                   
+FAC         0.928571  0.382345  0.000011          0.000000
+OLA-IBET    0.925000  0.351182  0.130272          0.211684
+ context  generation  n  coverage90  width90        brier  prevalence_brier  positives
+     FAC           1  7    1.000000 0.442901 3.554408e-06          0.000000          0
+     FAC           2  7    1.000000 0.400464 4.049283e-05          0.000000          0
+     FAC           3  7    0.714286 0.341465 1.206196e-07          0.000000          0
+     FAC           4  7    1.000000 0.344552 2.943417e-07          0.000000          0
+OLA-IBET           1 10    1.000000 0.383862 7.646507e-02          0.250000          3
+OLA-IBET           2 10    1.000000 0.347710 7.535213e-02          0.220000          3
+OLA-IBET           3 10    0.800000 0.339377 1.328318e-01          0.161111          2
+OLA-IBET           4 10    0.900000 0.333779 2.364398e-01          0.215625          3
+ context  abstention_cost  observations  accepted  coverage_fraction  accepted_errors  accepted_error_rate  total_realized_loss
+     FAC             0.01            28        27           0.964286                0             0.000000             0.000357
+     FAC             0.05            28        28           1.000000                0             0.000000             0.000000
+     FAC             0.10            28        28           1.000000                0             0.000000             0.000000
+     FAC             0.20            28        28           1.000000                0             0.000000             0.000000
+     FAC             0.30            28        28           1.000000                0             0.000000             0.000000
+     FAC             0.50            28        28           1.000000                0             0.000000             0.000000
+OLA-IBET             0.01            40        11           0.275000                0             0.000000             0.007250
+OLA-IBET             0.05            40        16           0.400000                0             0.000000             0.030000
+OLA-IBET             0.10            40        20           0.500000                1             0.050000             0.075000
+OLA-IBET             0.20            40        31           0.775000                4             0.129032             0.145000
+OLA-IBET             0.30            40        35           0.875000                4             0.114286             0.137500
+OLA-IBET             0.50            40        40           1.000000                7             0.175000             0.175000
+
+COMMAND ['/var/folders/y0/l9ns18ns5472mqrprmhhmsw00000gn/T/zenithsync-cold-start-_fqkvxgr/environment/bin/python', '-W', 'error', 'scripts/research_workflow.py', 'examples/ola_ibet_request.json', '--output', 'artifacts/workflow_v1/response.json']
+Saved research output for 10 candidates to artifacts/workflow_v1/response.json

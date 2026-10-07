@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "authorization": "User authorized self-determined acceptance criteria and public data only on goal resumption.",
+  "meaning_of_50_percent": "First five of ten delivery stages. This is milestone accounting, not an estimate of equal effort, code volume, scientific certainty, or winning probability.",
+  "first_half": [
+    {"id": "M1", "name": "Traceable public-data foundation", "acceptance": "Fetch admitted public sources into an empty data cache, verify pinned hashes, retain exclusions and original row identities."},
+    {"id": "M2", "name": "Tested mathematical core", "acceptance": "Scientific contract tests pass with warnings treated as errors, including analytic identities, uncertainty decomposition and hidden-outcome isolation."},
+    {"id": "M3", "name": "Reproducible comparative evaluation", "acceptance": "Recreate grouped-dose and chronological-generation evaluations, strong simple baselines, full policy curves and uncertainty diagnostics without suppressing negative results."},
+    {"id": "M4", "name": "Working research decision workflow", "acceptance": "Run an actual-data request through schema validation, prediction, explicit uncertainty, support/abstention and candidate ranking with provenance; reject malformed inputs."},
+    {"id": "M5", "name": "Independent execution environment and handoff", "acceptance": "Extract a checkpoint to a fresh directory, create a new environment, fetch raw sources without local cache, pass tests and reproduce 30 deterministic result artifacts; deliver source, logs and manual-action record."}
+  ],
+  "remaining_half": [
+    {"id": "M6", "name": "Demonstrated technical contribution", "acceptance": "A precise scientific improvement survives strong tuned comparisons and component ablations; integration alone is not novelty."},
+    {"id": "M7", "name": "Independent public-data confirmation", "acceptance": "Freeze claims and validate on suitable public cohorts not used for model or claim selection, with honest independence limits."},
+    {"id": "M8", "name": "Operational reliability evidence", "acceptance": "Justify endpoint, costs, feasible actions and scope; demonstrate supported uncertainty and a defensible measurement-efficiency result."},
+    {"id": "M9", "name": "Judge-facing presentation", "acceptance": "Prepare an evidence-backed technical report, runnable demonstration and compliant video/writeup."},
+    {"id": "M10", "name": "Release and submission readiness", "acceptance": "Resolve controlling competition rules, eligibility and redistribution rights; complete independent review and accessibility checks before an authorized submission."}
+  ],
+  "assurance_boundary": "Guarantees are limited to verified functional contracts and reproducibility in tested conditions. An external judging rank cannot be guaranteed.",
+  "current_results_are_exploratory": true,
+  "public_data_only": true
+}

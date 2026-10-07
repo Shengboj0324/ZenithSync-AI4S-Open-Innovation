@@ -1,5 +1,9 @@
 # ZenithSync — AI4S Open Innovation
 
+**Current acceptance plan:** the user authorized public-data-only development and self-determined milestone criteria. See [the halfway milestone](docs/20-halfway-acceptance.md). Earlier blocked-status notes are historical; independent private data is not a prerequisite for this route.
+
+**M1–M5 accepted:** 61 tests passed and 30 result artifacts reproduced byte for byte from an isolated checkout, fresh environment and empty raw-data cache. This is the defined 50% delivery-stage milestone. Scientific superiority and competition placement remain unproven; stages M6–M10 remain future work.
+
 Research and competition strategy with an initial executable research pipeline, updated **October 6, 2026**. Scientific superiority and competition readiness are not established. See the [implementation record](docs/12-implementation-record.md) for current evidence and remaining work.
 
 ## Run the current pipeline
@@ -51,6 +55,7 @@ The contribution must be a demonstrable improvement in learning and decisions un
 | [Measurement-policy evaluation](docs/17-measurement-policy-evaluation.md) | Recorded-pool budget curves, isolated audit outcomes and conditional uncertainty |
 | [Uncertainty and completion audit](docs/18-uncertainty-and-completion-audit.md) | Coverage, abstention tradeoffs and requirement-by-requirement evidence status |
 | [Checkpoint handoff](docs/19-checkpoint-handoff.md) | Review path, packaged evidence, sequential-data decision and manual dependencies |
+| [Halfway milestone](docs/20-halfway-acceptance.md) | Authorized acceptance criteria, cold-start evidence and the remaining five delivery stages |
 
 ## Evidence status
 

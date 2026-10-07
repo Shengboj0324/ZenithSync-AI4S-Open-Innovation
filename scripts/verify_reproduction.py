@@ -26,7 +26,10 @@ RESULTS = ["initial_benchmark/predictions.json", "initial_benchmark/macro_metric
            "generation_benchmark_v1/folds.json", "generation_benchmark_v1/admission.json",
            "workflow_v1/response.json", "linear_policy_v1/traces.jsonl",
            "linear_policy_v1/summary.csv", "linear_policy_v1/splits.json",
-           "linear_policy_v1/full_budget_comparison.json"]
+           "linear_policy_v1/full_budget_comparison.json",
+           "uncertainty_audit_v1/predictions.csv", "uncertainty_audit_v1/by_generation.csv",
+           "uncertainty_audit_v1/summary.csv", "uncertainty_audit_v1/selective_risk.json",
+           "uncertainty_audit_v1/protocol.json"]
 
 
 def hashes():
@@ -68,7 +71,8 @@ def main():
                             [python, "-W", "error", "scripts/research_workflow.py", "examples/ola_ibet_request.json",
                              "--output", "artifacts/workflow_v1/response.json"],
                             [python, "-W", "error", "scripts/linear_policy_benchmark.py"],
-                            [python, "scripts/summarize_linear_policy.py"]]
+                            [python, "scripts/summarize_linear_policy.py"],
+                            [python, "-W", "error", "scripts/uncertainty_audit.py"]]
                 for command in commands:
                     transcript.write("\nCOMMAND " + repr(command) + "\n")
                     transcript.flush()

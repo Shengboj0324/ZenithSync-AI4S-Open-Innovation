@@ -1,0 +1,183 @@
+{
+  "started_utc": "20261007T015933262806Z",
+  "archive_sha256": "d828eb52c65e78e6109d843aa98a67b887b5ca05e069ce2b1ed109a689fc9a49",
+  "commands": [
+    {
+      "argv": [
+        "-m",
+        "pip",
+        "install",
+        "-r",
+        "requirements-lock.txt"
+      ],
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "-m",
+        "pytest",
+        "-q",
+        "-W",
+        "error"
+      ],
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "scripts/fetch_public_data.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "scripts/fetch_yakavets_repository.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "scripts/benchmark.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "scripts/replay_benchmark.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "scripts/sensitivity_benchmark.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "scripts/mixture_benchmark.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "scripts/mixture_replay.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "scripts/nested_baselines.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "scripts/generation_benchmark.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "scripts/build_workflow_example.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "scripts/linear_policy_benchmark.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "scripts/summarize_linear_policy.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "scripts/uncertainty_audit.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "-W",
+        "error",
+        "scripts/research_workflow.py",
+        "examples/ola_ibet_request.json",
+        "--output",
+        "artifacts/workflow_v1/response.json"
+      ],
+      "returncode": 0
+    }
+  ],
+  "raw_cache_initially_absent": true,
+  "success": true,
+  "before": {
+    "initial_benchmark/predictions.json": "c21ba5d72e1691a48b35f56aa44db1664c2a8105b6ad09eaec2ca934a6bffff0",
+    "initial_benchmark/macro_metrics.csv": "209552944861eed153952ec4f04666b019092f69df3e5a7eeffc57b06f8541f2",
+    "initial_benchmark/data_audit.json": "4286a30408678732dbfd4ec95ae20993640d670695018993070cc151cb5f0d3c",
+    "initial_benchmark/hill_diagnostics.json": "9511f15cfa4e9bdf27251d66e98630ee259566c1c146467083a46329b62b6f64",
+    "measured_pool_replay/traces.json": "48459f4e7b434d5abe0824b154bb9f6598640204d16f0a882ecd7ecbb20f9dd4",
+    "measured_pool_replay/macro_metrics.csv": "976b0182ec3382b067972ac2d14692f0e55aae03d5c2e2d60ddcd8db47fe6b31",
+    "sensitivity_v1/summary.csv": "667113168014d38bf133e7fdc983fb4e643d178eeb7d7992b693c17a30f2c6a9",
+    "sensitivity_v1/traces.jsonl": "8a56440c425cd6f40e0ed6a4ba256b5eca57a6657af916b9c36e5807928b0796",
+    "mixture_v1/summary.csv": "00e021c4897663586452aa36f0c4b0bcef8c0802b340074051251e8a93042b0b",
+    "mixture_v1/predictions.csv": "1263d48dc321b33c35892fe9b992df501d9f61b347f0ce0558360dd7db1bc5ee",
+    "mixture_v1/folds.json": "3055bfe06fe19adf9898332d6b12179a6557a1a6afa99c5806de3985c70eddd2",
+    "mixture_replay_v1/summary.csv": "8c52ee30e581fe50dff492fa70190c699f33e9abb3d6980f0becd0ac20e49120",
+    "mixture_replay_v1/traces.jsonl": "9cb447abbb39c63a25e14f2f015c9bd479de0d085f8a9f49ecec630cbb0802a6",
+    "nested_baselines_v1/summary.csv": "a4c5974c741c020c92323540b9d4f22e3894ccd33c975844a9a33a5f38972dd9",
+    "nested_baselines_v1/selections.json": "5265b441b3c2998b4bd2e2ff16ddc85048fe039e383cf5c17ce55f3811715b50",
+    "nested_baselines_v1/predictions.csv": "d859fcbe389bf8e41fe77b685e18ded24db75665c77dab8f9b4ecc1a21fe6f88",
+    "generation_benchmark_v1/summary.csv": "615716053807bdf33dd17b25cac6ecd7f7f6740798b2cc8fe7f7bf90be3302d4",
+    "generation_benchmark_v1/predictions.csv": "385ac45b4cba7339da40ce3b9071009d68bcd17c05339377ebc05f1fa6b5ea9d",
+    "generation_benchmark_v1/folds.json": "ee4376630a3fca9e811980838e51f921ebc411059eee2b1730b8df4faf0e5186",
+    "generation_benchmark_v1/admission.json": "7c2d7dcd82c3906d5d612660d1b05e324e15240994093694dc347545a3606fcc",
+    "workflow_v1/response.json": "dfbdebd81e73fc7eba9fa92c82d24eb6cb8aad235e17514394c2f8b713f39a1b",
+    "linear_policy_v1/traces.jsonl": "70197d5c277316b719120daa82b4dd9332617b4b088a83a3ef8bf8d0d1def9a0",
+    "linear_policy_v1/summary.csv": "7210bedb3b1cd5b9709a508f772bc4f230823f9e39ba479a5ca55cf80327f8c8",
+    "linear_policy_v1/splits.json": "c9d096da7ba8b0a747cce13ad387b1dd5e999ffa43e6700693ba6fae145a04ee",
+    "linear_policy_v1/full_budget_comparison.json": "45591d019e18e803596d83750089d1404ece129df552ea86c51c2f2feb98e0d6",
+    "uncertainty_audit_v1/predictions.csv": "b2e17b5a2207b410efa3bd8edea4942b170179683d316bdbccdcef806a973563",
+    "uncertainty_audit_v1/by_generation.csv": "5d0918568e1035bcc6fdc3efd4b4b50dbeeb02a6257817b92cce321a6568b4b4",
+    "uncertainty_audit_v1/summary.csv": "96017fafad9770118803d0ea03505810cfede13eab1462257ad96f937c267790",
+    "uncertainty_audit_v1/selective_risk.json": "bce4331f6553ab22e4f0f049b2e1cc36482c67db973885f7831873bb2988065a",
+    "uncertainty_audit_v1/protocol.json": "65e4bb2331d82e283315e8f9b0164b926deae72e050e8de4490ba25384e86eef"
+  },
+  "after": {
+    "initial_benchmark/predictions.json": "c21ba5d72e1691a48b35f56aa44db1664c2a8105b6ad09eaec2ca934a6bffff0",
+    "initial_benchmark/macro_metrics.csv": "209552944861eed153952ec4f04666b019092f69df3e5a7eeffc57b06f8541f2",
+    "initial_benchmark/data_audit.json": "4286a30408678732dbfd4ec95ae20993640d670695018993070cc151cb5f0d3c",
+    "initial_benchmark/hill_diagnostics.json": "9511f15cfa4e9bdf27251d66e98630ee259566c1c146467083a46329b62b6f64",
+    "measured_pool_replay/traces.json": "48459f4e7b434d5abe0824b154bb9f6598640204d16f0a882ecd7ecbb20f9dd4",
+    "measured_pool_replay/macro_metrics.csv": "976b0182ec3382b067972ac2d14692f0e55aae03d5c2e2d60ddcd8db47fe6b31",
+    "sensitivity_v1/summary.csv": "667113168014d38bf133e7fdc983fb4e643d178eeb7d7992b693c17a30f2c6a9",
+    "sensitivity_v1/traces.jsonl": "8a56440c425cd6f40e0ed6a4ba256b5eca57a6657af916b9c36e5807928b0796",
+    "mixture_v1/summary.csv": "00e021c4897663586452aa36f0c4b0bcef8c0802b340074051251e8a93042b0b",
+    "mixture_v1/predictions.csv": "1263d48dc321b33c35892fe9b992df501d9f61b347f0ce0558360dd7db1bc5ee",
+    "mixture_v1/folds.json": "3055bfe06fe19adf9898332d6b12179a6557a1a6afa99c5806de3985c70eddd2",
+    "mixture_replay_v1/summary.csv": "8c52ee30e581fe50dff492fa70190c699f33e9abb3d6980f0becd0ac20e49120",
+    "mixture_replay_v1/traces.jsonl": "9cb447abbb39c63a25e14f2f015c9bd479de0d085f8a9f49ecec630cbb0802a6",
+    "nested_baselines_v1/summary.csv": "a4c5974c741c020c92323540b9d4f22e3894ccd33c975844a9a33a5f38972dd9",
+    "nested_baselines_v1/selections.json": "5265b441b3c2998b4bd2e2ff16ddc85048fe039e383cf5c17ce55f3811715b50",
+    "nested_baselines_v1/predictions.csv": "d859fcbe389bf8e41fe77b685e18ded24db75665c77dab8f9b4ecc1a21fe6f88",
+    "generation_benchmark_v1/summary.csv": "615716053807bdf33dd17b25cac6ecd7f7f6740798b2cc8fe7f7bf90be3302d4",
+    "generation_benchmark_v1/predictions.csv": "385ac45b4cba7339da40ce3b9071009d68bcd17c05339377ebc05f1fa6b5ea9d",
+    "generation_benchmark_v1/folds.json": "ee4376630a3fca9e811980838e51f921ebc411059eee2b1730b8df4faf0e5186",
+    "generation_benchmark_v1/admission.json": "7c2d7dcd82c3906d5d612660d1b05e324e15240994093694dc347545a3606fcc",
+    "workflow_v1/response.json": "dfbdebd81e73fc7eba9fa92c82d24eb6cb8aad235e17514394c2f8b713f39a1b",
+    "linear_policy_v1/traces.jsonl": "70197d5c277316b719120daa82b4dd9332617b4b088a83a3ef8bf8d0d1def9a0",
+    "linear_policy_v1/summary.csv": "7210bedb3b1cd5b9709a508f772bc4f230823f9e39ba479a5ca55cf80327f8c8",
+    "linear_policy_v1/splits.json": "c9d096da7ba8b0a747cce13ad387b1dd5e999ffa43e6700693ba6fae145a04ee",
+    "linear_policy_v1/full_budget_comparison.json": "45591d019e18e803596d83750089d1404ece129df552ea86c51c2f2feb98e0d6",
+    "uncertainty_audit_v1/predictions.csv": "b2e17b5a2207b410efa3bd8edea4942b170179683d316bdbccdcef806a973563",
+    "uncertainty_audit_v1/by_generation.csv": "5d0918568e1035bcc6fdc3efd4b4b50dbeeb02a6257817b92cce321a6568b4b4",
+    "uncertainty_audit_v1/summary.csv": "96017fafad9770118803d0ea03505810cfede13eab1462257ad96f937c267790",
+    "uncertainty_audit_v1/selective_risk.json": "bce4331f6553ab22e4f0f049b2e1cc36482c67db973885f7831873bb2988065a",
+    "uncertainty_audit_v1/protocol.json": "65e4bb2331d82e283315e8f9b0164b926deae72e050e8de4490ba25384e86eef"
+  },
+  "byte_identical": true,
+  "finished_utc": "2026-10-07T02:00:08.068259+00:00"
+}
