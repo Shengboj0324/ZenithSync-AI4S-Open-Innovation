@@ -1,0 +1,23 @@
+{
+  "status": "prespecified diagnostics; no model changes",
+  "primary_exact_joint_coverage90": 0.9804862832927159,
+  "primary_exact_joint_width90": 1.3416929839130185,
+  "patient_coverage_range": [
+    0.9438663486227836,
+    1.0
+  ],
+  "min_fraction_fewer_wells": 0.19999999999999996,
+  "max_fraction_fewer_wells": 0.25,
+  "limits": [
+    "patient coverages summarize correlated doses and budgets",
+    "subgroup effects are diagnostic, not independently powered tests",
+    "assay counts exclude preparation overhead and audit costs",
+    "controls are charged per isolated drug context; no plate-wide cost claim"
+  ]
+}
+ full_pool_size  reference_wells  candidate_wells  contexts  fraction_fewer_wells
+             18               14               11      3590              0.214286
+             22               17               13      2515              0.235294
+             21               16               12       231              0.250000
+             15               12                9        86              0.250000
+             19               15               12        74              0.200000

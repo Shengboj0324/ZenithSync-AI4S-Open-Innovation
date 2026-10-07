@@ -2,6 +2,8 @@
 
 Research date: **October 6, 2026**, using America/Los_Angeles for user-facing dates. Sources below are primary competition pages, dataset-provider documentation, or original research/method publications. Search-index recency and relative dates were not treated as exact event dates.
 
+Historical access notes below describe the original planning inspection. Later ingestion and reproduction status for D1 and D4 is recorded in Documents 12–20. The new documentation refresh is recorded at the end of this register; raw data for its new candidates have not been inspected.
+
 ## Access and evidence labels
 
 - **Live browser:** rendered page read in the browser, including asynchronously loaded content.
@@ -72,3 +74,22 @@ Follow-up source check: D4's rendered provider README was read directly through 
 Searches also returned similarly named unrelated AI4S events, name-only person matches, and review articles with broad claims. These were not used to establish competition identity, judge identity, or our method's performance. No source proves that the proposed project will win or is globally novel.
 
 The review covers publicly discoverable official pages, relevant host clarifications, the accessible competitor sample, and targeted data/method resources. The full judging panel, controlling rubric, complete participant field, individual eligibility, selected-data rights, and raw-data adequacy remain unresolved. These are specifically carried into the plan rather than hidden by the word “comprehensive.”
+
+## Documentation refresh: October 6, 2026
+
+K1 was reread in the rendered browser: the two-rubric discrepancy, registration form, required deliverables, category declaration and deadline remain as documented. K5 was reread: the named host/judge still has no public biography. P1 and P2 were reread through the web tool; no track-specific assignment of the general expert pool was established. No entry, form submission or organizer contact occurred.
+
+| ID | Primary source | New use / access boundary |
+|---|---|---|
+| D8 | [Farin organoid-stroma data, v1](https://data.mendeley.com/datasets/fypp6xhkjy/1), DOI 10.17632/fypp6xhkjy.1 | Provider description and CC BY 4.0 label read. Candidate development data; files, donor counts and control mappings not audited. |
+| D9 | [Metastatic colorectal cancer PDO data, v3](https://data.mendeley.com/datasets/hr94h42xdc/3), DOI 10.17632/hr94h42xdc.3 | Provider description and CC BY 4.0 label read. Candidate confirmation source; actual file completeness and biological independence not established. |
+| M9 | Krause, Singh and Guestrin, [Near-Optimal Sensor Placements in Gaussian Processes](https://www.jmlr.org/papers/v9/krause08a.html), JMLR 9:235–284 (2008) | Publisher abstract and indexed PDF passages establish mutual-information/submodularity precedent. No theorem is transferred to our different variance-reduction objective; Document 22 supplies a direct counterexample. |
+| M10 | Takeno et al., [Distributionally Robust Active Learning for Gaussian Process Regression](https://proceedings.mlr.press/v267/takeno25a.html), ICML (2025) | Publisher abstract read. Close prior art for target-distribution robustness; full-method review and reproduction pending. |
+| M11 | Tang, Sloman and Kaski, [Representative, Informative, and De-Amplifying](https://proceedings.mlr.press/v300/tang26d.html), AISTATS (2026) | Publisher abstract read. Close prior art for acquisition under model misspecification; full-method review and reproduction pending. |
+
+Documents 21–23 incorporate these sources as research directions and explicit limitations. Their availability is not evidence that a new method has been validated or that a top ranking is secured.
+
+
+## Final contribution audit additions (October 6, 2026)
+
+Document 29 records focused primary-source checks for Gorodetsky and Marzouk (2016), Wang et al. (2020), Tansey et al. (2022), Vasanthakumari et al. (2024), Takeno et al. (2025), and Tang et al. (2026). Links and access boundaries are retained there and in the technical report. The checks establish relevant precedents; they do not constitute reproduction of all cited algorithms or an exhaustive novelty search. The Wang PMC full-page fetch returned a browser challenge; its institutional repository record and indexed primary text supplied the scoped claim. No challenge was bypassed.

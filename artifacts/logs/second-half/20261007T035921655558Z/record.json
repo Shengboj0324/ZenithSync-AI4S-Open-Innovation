@@ -1,0 +1,109 @@
+{
+  "created_utc": "2026-10-07T03:59:23.258261+00:00",
+  "status": "first independent confirmation completed; full goal remains incomplete",
+  "commands": [
+    {
+      "step": "preflight",
+      "exit_code": 0,
+      "log": "01-preflight.txt",
+      "execution": "completed earlier; captured combined stdout/stderr copied verbatim"
+    },
+    {
+      "step": "unblinding",
+      "exit_code": 0,
+      "log": "02-unblinding.txt",
+      "execution": "completed earlier; captured combined stdout/stderr copied verbatim"
+    },
+    {
+      "step": "evaluation-attempt-1",
+      "exit_code": 1,
+      "log": "03-evaluation-attempt-1.txt",
+      "execution": "completed earlier; captured combined stdout/stderr copied verbatim"
+    },
+    {
+      "step": "evaluation-attempt-2",
+      "exit_code": 0,
+      "log": "04-evaluation-attempt-2.txt",
+      "execution": "completed earlier; captured combined stdout/stderr copied verbatim"
+    },
+    {
+      "step": "independent-result-audit",
+      "exit_code": 0,
+      "log": "05-independent-result-audit.txt",
+      "execution": "completed earlier; captured combined stdout/stderr copied verbatim"
+    },
+    {
+      "step": "subgroup-diagnostics",
+      "exit_code": 0,
+      "log": "06-subgroup-diagnostics.txt",
+      "execution": "completed earlier; captured combined stdout/stderr copied verbatim"
+    },
+    {
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "pytest",
+        "-q",
+        "-W",
+        "error"
+      ],
+      "exit_code": 0,
+      "log": "07.txt"
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "exit_code": 0,
+      "log": "08.txt"
+    }
+  ],
+  "sha256": {
+    "src/zenithsync/symmetric_design.py": "a5b67183720c331a4108d5d6fcaa908264ac512d84c8b62ecece619999c922cd",
+    "src/zenithsync/confirmation.py": "cdb15c04223857de67dc4bb9b9c7fa9764a90162c4fa56e94759d50271c3edf5",
+    "scripts/kryeziu_confirmation.py": "d469836b25e8962f2599f3a72494d20740f94314fb2a0dafff7ff321e20dee92",
+    "scripts/unblind_kryeziu.py": "001aacc407dc61ddb71e81ce0eb27d5fc0bb8004971cfecd62871e5e515fd1dd",
+    "scripts/audit_kryeziu_confirmation.py": "a22f38b55777fcc47f8fc1025ff4e16bbdd7cee4637585dc6bf3f619de470fc6",
+    "scripts/summarize_kryeziu_diagnostics.py": "067abce530f385a5641c350cc73a3ea5e46330cdbf50ab868cf2fe1053fa9808",
+    "tests/test_symmetric_design.py": "90dc91dff4bc9006588643eb8b09e543f3dba44f479883917d01f8ce2deceece",
+    "tests/test_confirmation.py": "20ff494a730601da1cc982d7a0e39ab1459703fcd7316a4ed57d730be332c197",
+    "tests/test_confirmation_aggregation.py": "288228ebc985a1ba9392fd0f34ee98f766189b239cf5b5e9d0e1804cd3a5f99b",
+    "docs/27-independent-confirmation-results.md": "2d38715ec3e319c9e1a2a718ebecaf0f881c08adbc071406125d57133dbe8436",
+    "README.md": "09b7e512160d353a3d61de5d24a25c9dfc716fe565844760a8c23c6f7a56a684",
+    "artifacts/kryeziu_confirmation_v1/budget-diagnostics.csv": "ed3f959e8167f3433919c0d280e21e7937895092bb6862bb9b521f9a704c2278",
+    "artifacts/kryeziu_confirmation_v1/confirmation.json": "e2f7db9220693334b62f9c13d8c83adb14034a4758317a060a49f53501ca5fc8",
+    "artifacts/kryeziu_confirmation_v1/diagnostics.json": "e1f04a2e599cdb4ca6a05b52601138e560c629920bf2b6dab3895805394afc8b",
+    "artifacts/kryeziu_confirmation_v1/drug-diagnostics.csv": "f1cb4233e89dac2d234e9ea2aa514a20cd7f25dbf4601ac855f2720ce2606817",
+    "artifacts/kryeziu_confirmation_v1/efficiency-budgets.csv": "2b19a44c4f4aac737b4df197bca108dfc842193d1b6eff324c9da5e788afea06",
+    "artifacts/kryeziu_confirmation_v1/evaluation-attempt-1.txt": "58e520c0576ecfe2d08156c8b7bf75576f4adc451724c06e38c8fac860c42d31",
+    "artifacts/kryeziu_confirmation_v1/evaluation-started.json": "75f493c605c97ea9fdb080c12e1b0ebc8347815e7515cd6faa3c16f6a576e18b",
+    "artifacts/kryeziu_confirmation_v1/exclusions.json": "eec7ec89621c574bb50d9ce2a06a497c4f66a0159bac9818c300dfb946e82c37",
+    "artifacts/kryeziu_confirmation_v1/implementation-v1/kryeziu_confirmation.py": "9fbef87d8724312f562ddd4b6f307dae2fbaf281c283d2e2be3a52a698cf34e9",
+    "artifacts/kryeziu_confirmation_v1/library_id-diagnostics.csv": "3ffe14afad1d0eaf52e75191f39325755997d9e5de72e71481e6dcb08fec0a85",
+    "artifacts/kryeziu_confirmation_v1/overall-diagnostics.csv": "573169399813d1958d4e17b3d4f41f36fce727f27204636c6b78e2b05b4a860f",
+    "artifacts/kryeziu_confirmation_v1/paired-comparators.csv": "3a801b0a43acaf893fd06c93b666134c21ba6c0c8a810ba9b6cc6d1a840d9882",
+    "artifacts/kryeziu_confirmation_v1/patient-diagnostics.csv": "feefb9f18579e523f850f64bf83352e552e0572aaccfe2119e336f1860ebbacc",
+    "artifacts/kryeziu_confirmation_v1/patient-results.csv": "95cfc59387443e3ef59080f4ddfb04bbc7d8d54af8738a2fd315691ac940c579",
+    "artifacts/kryeziu_confirmation_v1/preflight-amendment.json": "8d2c668cf98d546ca78095b394cde7dfe64215aea800530a90708b0bb1e780d7",
+    "artifacts/kryeziu_confirmation_v1/preflight-v1.json": "d3f3ba50656217124de04ffeadfa29eba7ff880bb59c0629015771f082269799",
+    "artifacts/kryeziu_confirmation_v1/preflight.json": "3f99f895db25ca581feafa05b61d98046be4a1927476a252d25fb487d939efbd",
+    "artifacts/kryeziu_confirmation_v1/results.csv.gz": "0627f40009c8e22ce323737cc2c57774f2f071dcd0c461ed79cfb73afd7184ce",
+    "artifacts/kryeziu_confirmation_v1/signals-manifest.json": "e041564d79f9a70dcd4a5c0b2e3428d8d5d27be7ceda172de9666a8d5ea367e8",
+    "artifacts/kryeziu_confirmation_v1/unblinding-started.json": "d2d6d866844072e4373926e689ba7edabfad281b6a587343aff289a9a84da613",
+    "artifacts/kryeziu_confirmation_v1/verification.json": "69950d49d5123156d1d629dbebc83ba4b832d78656e2165ad246b51ecbaef567"
+  },
+  "technical_amendment": "Manifest tuple/list serialization repaired before any response evaluation. Original code, failed attempt, original preflight and unchanged-design proof retained.",
+  "manual_intervention_required": false,
+  "primary_result": "Registered primary and retrospective efficiency tests passed; strongest greedy comparison shows only 0.66 percent primary MSE difference.",
+  "remaining": [
+    "final novelty/prior-art assessment",
+    "operational scope review",
+    "runnable integrated demonstration",
+    "technical report and compliant video/writeup",
+    "expanded cold-start reproduction",
+    "independent review and eligibility/release checks"
+  ],
+  "publication_or_submission_performed": false
+}

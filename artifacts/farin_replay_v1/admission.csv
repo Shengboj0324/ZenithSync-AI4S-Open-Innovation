@@ -1,0 +1,281 @@
+curve_id,admitted,reason
+O01:Coculture:F01:5-FU,False,"author exclusion, ambiguity or nonpositive measurement"
+O01:Coculture:F01:Gef,True,
+O01:Coculture:F01:Oxa,True,
+O01:Coculture:F01:SN-38,False,"author exclusion, ambiguity or nonpositive measurement"
+O01:Monoculture::5-FU,True,
+O01:Monoculture::Gef,False,"author exclusion, ambiguity or nonpositive measurement"
+O01:Monoculture::Oxa,True,
+O01:Monoculture::SN-38,False,"author exclusion, ambiguity or nonpositive measurement"
+O02:Coculture:F20:5-FU,False,"author exclusion, ambiguity or nonpositive measurement"
+O02:Coculture:F20:Gef,False,"author exclusion, ambiguity or nonpositive measurement"
+O02:Coculture:F20:Oxa,False,"author exclusion, ambiguity or nonpositive measurement"
+O02:Coculture:F20:SN-38,False,"author exclusion, ambiguity or nonpositive measurement"
+O02:Monoculture::5-FU,True,
+O02:Monoculture::Gef,False,"author exclusion, ambiguity or nonpositive measurement"
+O02:Monoculture::Oxa,False,"author exclusion, ambiguity or nonpositive measurement"
+O02:Monoculture::SN-38,False,"author exclusion, ambiguity or nonpositive measurement"
+O03:Coculture:F20:5-FU,True,
+O03:Coculture:F20:Gef,True,
+O03:Coculture:F20:Oxa,True,
+O03:Coculture:F20:SN-38,True,
+O03:Monoculture::5-FU,False,"author exclusion, ambiguity or nonpositive measurement"
+O03:Monoculture::Gef,False,"author exclusion, ambiguity or nonpositive measurement"
+O03:Monoculture::Oxa,True,
+O03:Monoculture::SN-38,False,"author exclusion, ambiguity or nonpositive measurement"
+O04:Coculture:F04N:5-FU,True,
+O04:Coculture:F04N:Gef,False,"author exclusion, ambiguity or nonpositive measurement"
+O04:Coculture:F04N:Oxa,True,
+O04:Coculture:F04N:SN-38,False,"author exclusion, ambiguity or nonpositive measurement"
+O04:Monoculture::5-FU,False,"author exclusion, ambiguity or nonpositive measurement"
+O04:Monoculture::Gef,True,
+O04:Monoculture::Oxa,True,
+O04:Monoculture::SN-38,False,"author exclusion, ambiguity or nonpositive measurement"
+O05:Coculture:F05:5-FU,False,"author exclusion, ambiguity or nonpositive measurement"
+O05:Coculture:F05:Gef,False,"author exclusion, ambiguity or nonpositive measurement"
+O05:Coculture:F05:Oxa,False,"author exclusion, ambiguity or nonpositive measurement"
+O05:Coculture:F05:SN-38,False,"author exclusion, ambiguity or nonpositive measurement"
+O05:Monoculture::5-FU,False,"author exclusion, ambiguity or nonpositive measurement"
+O05:Monoculture::Gef,False,"author exclusion, ambiguity or nonpositive measurement"
+O05:Monoculture::Oxa,True,
+O05:Monoculture::SN-38,False,"author exclusion, ambiguity or nonpositive measurement"
+O06:Coculture:F06:5-FU,False,"author exclusion, ambiguity or nonpositive measurement"
+O06:Coculture:F06:Gef,False,"author exclusion, ambiguity or nonpositive measurement"
+O06:Coculture:F06:Oxa,True,
+O06:Coculture:F06:SN-38,True,
+O06:Coculture:F11:5-FU,True,
+O06:Coculture:F11:Gef,False,"author exclusion, ambiguity or nonpositive measurement"
+O06:Coculture:F11:Oxa,True,
+O06:Coculture:F11:SN-38,False,"author exclusion, ambiguity or nonpositive measurement"
+O06:Coculture:F14:5-FU,False,"author exclusion, ambiguity or nonpositive measurement"
+O06:Coculture:F14:Gef,True,
+O06:Coculture:F14:Oxa,False,"author exclusion, ambiguity or nonpositive measurement"
+O06:Coculture:F14:SN-38,False,"author exclusion, ambiguity or nonpositive measurement"
+O06:Coculture:F17:5-FU,False,"author exclusion, ambiguity or nonpositive measurement"
+O06:Coculture:F17:Gef,True,
+O06:Coculture:F17:Oxa,True,
+O06:Coculture:F17:SN-38,True,
+O06:Monoculture::5-FU,True,
+O06:Monoculture::Gef,False,"author exclusion, ambiguity or nonpositive measurement"
+O06:Monoculture::Oxa,True,
+O06:Monoculture::SN-38,False,"author exclusion, ambiguity or nonpositive measurement"
+O07:Coculture:F07:5-FU,True,
+O07:Coculture:F07:Gef,False,"author exclusion, ambiguity or nonpositive measurement"
+O07:Coculture:F07:Oxa,True,
+O07:Coculture:F07:SN-38,True,
+O07:Monoculture::5-FU,True,
+O07:Monoculture::Gef,True,
+O07:Monoculture::Oxa,True,
+O07:Monoculture::SN-38,True,
+O09:Coculture:F17:5-FU,True,
+O09:Coculture:F17:Gef,False,"author exclusion, ambiguity or nonpositive measurement"
+O09:Coculture:F17:Oxa,False,"author exclusion, ambiguity or nonpositive measurement"
+O09:Coculture:F17:SN-38,False,"author exclusion, ambiguity or nonpositive measurement"
+O09:Monoculture::5-FU,False,"author exclusion, ambiguity or nonpositive measurement"
+O09:Monoculture::Gef,False,"author exclusion, ambiguity or nonpositive measurement"
+O09:Monoculture::Oxa,False,"author exclusion, ambiguity or nonpositive measurement"
+O09:Monoculture::SN-38,False,"author exclusion, ambiguity or nonpositive measurement"
+O10:Coculture:F11:5-FU,True,
+O10:Coculture:F11:Gef,True,
+O10:Coculture:F11:Oxa,True,
+O10:Coculture:F11:SN-38,True,
+O10:Monoculture::5-FU,False,"author exclusion, ambiguity or nonpositive measurement"
+O10:Monoculture::Gef,False,"author exclusion, ambiguity or nonpositive measurement"
+O10:Monoculture::Oxa,False,"author exclusion, ambiguity or nonpositive measurement"
+O10:Monoculture::SN-38,False,"author exclusion, ambiguity or nonpositive measurement"
+O11:Coculture:F06:5-FU,True,
+O11:Coculture:F06:Gef,True,
+O11:Coculture:F06:Oxa,True,
+O11:Coculture:F06:SN-38,True,
+O11:Coculture:F11:5-FU,True,
+O11:Coculture:F11:Gef,True,
+O11:Coculture:F11:Oxa,True,
+O11:Coculture:F11:SN-38,True,
+O11:Coculture:F14:5-FU,True,
+O11:Coculture:F14:Gef,True,
+O11:Coculture:F14:Oxa,True,
+O11:Coculture:F14:SN-38,True,
+O11:Coculture:F17:5-FU,True,
+O11:Coculture:F17:Gef,True,
+O11:Coculture:F17:Oxa,True,
+O11:Coculture:F17:SN-38,True,
+O11:Monoculture::5-FU,True,
+O11:Monoculture::Gef,True,
+O11:Monoculture::Oxa,True,
+O11:Monoculture::SN-38,True,
+O12:Coculture:F11:5-FU,False,"author exclusion, ambiguity or nonpositive measurement"
+O12:Coculture:F11:Gef,True,
+O12:Coculture:F11:Oxa,False,"author exclusion, ambiguity or nonpositive measurement"
+O12:Coculture:F11:SN-38,False,"author exclusion, ambiguity or nonpositive measurement"
+O12:Monoculture::5-FU,True,
+O12:Monoculture::Gef,True,
+O12:Monoculture::Oxa,False,"author exclusion, ambiguity or nonpositive measurement"
+O12:Monoculture::SN-38,True,
+O13:Coculture:F13:5-FU,True,
+O13:Coculture:F13:Gef,False,"author exclusion, ambiguity or nonpositive measurement"
+O13:Coculture:F13:Oxa,True,
+O13:Coculture:F13:SN-38,True,
+O13:Monoculture::5-FU,False,"author exclusion, ambiguity or nonpositive measurement"
+O13:Monoculture::Gef,True,
+O13:Monoculture::Oxa,False,"author exclusion, ambiguity or nonpositive measurement"
+O13:Monoculture::SN-38,False,"author exclusion, ambiguity or nonpositive measurement"
+O14:Coculture:F06:5-FU,False,"author exclusion, ambiguity or nonpositive measurement"
+O14:Coculture:F06:Gef,True,
+O14:Coculture:F06:Oxa,True,
+O14:Coculture:F06:SN-38,True,
+O14:Coculture:F11:5-FU,True,
+O14:Coculture:F11:Gef,False,"author exclusion, ambiguity or nonpositive measurement"
+O14:Coculture:F11:Oxa,True,
+O14:Coculture:F11:SN-38,True,
+O14:Coculture:F14:5-FU,False,"author exclusion, ambiguity or nonpositive measurement"
+O14:Coculture:F14:Gef,True,
+O14:Coculture:F14:Oxa,False,"author exclusion, ambiguity or nonpositive measurement"
+O14:Coculture:F14:SN-38,False,"author exclusion, ambiguity or nonpositive measurement"
+O14:Coculture:F17:5-FU,False,"author exclusion, ambiguity or nonpositive measurement"
+O14:Coculture:F17:Gef,False,"author exclusion, ambiguity or nonpositive measurement"
+O14:Coculture:F17:Oxa,True,
+O14:Coculture:F17:SN-38,False,"author exclusion, ambiguity or nonpositive measurement"
+O14:Monoculture::5-FU,True,
+O14:Monoculture::Gef,False,"author exclusion, ambiguity or nonpositive measurement"
+O14:Monoculture::Oxa,True,
+O14:Monoculture::SN-38,False,"author exclusion, ambiguity or nonpositive measurement"
+O15:Coculture:F15:5-FU,True,
+O15:Coculture:F15:Gef,True,
+O15:Coculture:F15:Oxa,False,"author exclusion, ambiguity or nonpositive measurement"
+O15:Coculture:F15:SN-38,True,
+O15:Monoculture::5-FU,True,
+O15:Monoculture::Gef,True,
+O15:Monoculture::Oxa,True,
+O15:Monoculture::SN-38,True,
+O16:Coculture:F17:5-FU,True,
+O16:Coculture:F17:Gef,True,
+O16:Coculture:F17:Oxa,True,
+O16:Coculture:F17:SN-38,True,
+O16:Monoculture::5-FU,True,
+O16:Monoculture::Gef,True,
+O16:Monoculture::Oxa,True,
+O16:Monoculture::SN-38,False,"author exclusion, ambiguity or nonpositive measurement"
+O17:Coculture:F06:5-FU,True,
+O17:Coculture:F06:Gef,False,"author exclusion, ambiguity or nonpositive measurement"
+O17:Coculture:F06:Oxa,True,
+O17:Coculture:F06:SN-38,False,"author exclusion, ambiguity or nonpositive measurement"
+O17:Coculture:F11:5-FU,True,
+O17:Coculture:F11:Gef,False,"author exclusion, ambiguity or nonpositive measurement"
+O17:Coculture:F11:Oxa,True,
+O17:Coculture:F11:SN-38,False,"author exclusion, ambiguity or nonpositive measurement"
+O17:Coculture:F14:5-FU,False,"author exclusion, ambiguity or nonpositive measurement"
+O17:Coculture:F14:Gef,False,"author exclusion, ambiguity or nonpositive measurement"
+O17:Coculture:F14:Oxa,False,"author exclusion, ambiguity or nonpositive measurement"
+O17:Coculture:F14:SN-38,False,"author exclusion, ambiguity or nonpositive measurement"
+O17:Coculture:F17:5-FU,False,"author exclusion, ambiguity or nonpositive measurement"
+O17:Coculture:F17:Gef,False,"author exclusion, ambiguity or nonpositive measurement"
+O17:Coculture:F17:Oxa,False,"author exclusion, ambiguity or nonpositive measurement"
+O17:Coculture:F17:SN-38,False,"author exclusion, ambiguity or nonpositive measurement"
+O17:Monoculture::5-FU,True,
+O17:Monoculture::Gef,False,"author exclusion, ambiguity or nonpositive measurement"
+O17:Monoculture::Oxa,False,"author exclusion, ambiguity or nonpositive measurement"
+O17:Monoculture::SN-38,False,"author exclusion, ambiguity or nonpositive measurement"
+O18:Coculture:F20:5-FU,False,"author exclusion, ambiguity or nonpositive measurement"
+O18:Coculture:F20:Gef,False,"author exclusion, ambiguity or nonpositive measurement"
+O18:Coculture:F20:Oxa,True,
+O18:Coculture:F20:SN-38,False,"author exclusion, ambiguity or nonpositive measurement"
+O18:Monoculture::5-FU,True,
+O18:Monoculture::Gef,False,"author exclusion, ambiguity or nonpositive measurement"
+O18:Monoculture::Oxa,False,"author exclusion, ambiguity or nonpositive measurement"
+O18:Monoculture::SN-38,False,"author exclusion, ambiguity or nonpositive measurement"
+O19:Coculture:F19:5-FU,False,"author exclusion, ambiguity or nonpositive measurement"
+O19:Coculture:F19:Gef,False,"author exclusion, ambiguity or nonpositive measurement"
+O19:Coculture:F19:Oxa,False,"author exclusion, ambiguity or nonpositive measurement"
+O19:Coculture:F19:SN-38,True,
+O19:Monoculture::5-FU,True,
+O19:Monoculture::Gef,False,"author exclusion, ambiguity or nonpositive measurement"
+O19:Monoculture::Oxa,True,
+O19:Monoculture::SN-38,False,"author exclusion, ambiguity or nonpositive measurement"
+O20:Coculture:F20:5-FU,True,
+O20:Coculture:F20:Gef,False,"author exclusion, ambiguity or nonpositive measurement"
+O20:Coculture:F20:Oxa,False,"author exclusion, ambiguity or nonpositive measurement"
+O20:Coculture:F20:SN-38,False,"author exclusion, ambiguity or nonpositive measurement"
+O20:Monoculture::5-FU,False,"requires one control and seven doses with labels 1, 2, 3"
+O20:Monoculture::Gef,False,"author exclusion, ambiguity or nonpositive measurement"
+O20:Monoculture::Oxa,False,"author exclusion, ambiguity or nonpositive measurement"
+O20:Monoculture::SN-38,False,"author exclusion, ambiguity or nonpositive measurement"
+O21:Coculture:F14:5-FU,True,
+O21:Coculture:F14:Gef,False,"author exclusion, ambiguity or nonpositive measurement"
+O21:Coculture:F14:Oxa,True,
+O21:Coculture:F14:SN-38,True,
+O21:Monoculture::5-FU,True,
+O21:Monoculture::Gef,True,
+O21:Monoculture::Oxa,True,
+O21:Monoculture::SN-38,False,"author exclusion, ambiguity or nonpositive measurement"
+O22:Coculture:F22:5-FU,False,"author exclusion, ambiguity or nonpositive measurement"
+O22:Coculture:F22:Gef,False,"author exclusion, ambiguity or nonpositive measurement"
+O22:Coculture:F22:Oxa,False,"author exclusion, ambiguity or nonpositive measurement"
+O22:Coculture:F22:SN-38,False,"author exclusion, ambiguity or nonpositive measurement"
+O22:Monoculture::5-FU,True,
+O22:Monoculture::Gef,True,
+O22:Monoculture::Oxa,False,"author exclusion, ambiguity or nonpositive measurement"
+O22:Monoculture::SN-38,False,"author exclusion, ambiguity or nonpositive measurement"
+O23:Coculture:F14:5-FU,True,
+O23:Coculture:F14:Gef,False,"author exclusion, ambiguity or nonpositive measurement"
+O23:Coculture:F14:Oxa,True,
+O23:Coculture:F14:SN-38,False,"author exclusion, ambiguity or nonpositive measurement"
+O23:Monoculture::5-FU,False,"author exclusion, ambiguity or nonpositive measurement"
+O23:Monoculture::Gef,True,
+O23:Monoculture::Oxa,False,"author exclusion, ambiguity or nonpositive measurement"
+O23:Monoculture::SN-38,False,"author exclusion, ambiguity or nonpositive measurement"
+O24:Coculture:F20:5-FU,True,
+O24:Coculture:F20:Gef,False,"author exclusion, ambiguity or nonpositive measurement"
+O24:Coculture:F20:Oxa,True,
+O24:Coculture:F20:SN-38,True,
+O24:Monoculture::5-FU,False,"author exclusion, ambiguity or nonpositive measurement"
+O24:Monoculture::Gef,True,
+O24:Monoculture::Oxa,True,
+O24:Monoculture::SN-38,False,"author exclusion, ambiguity or nonpositive measurement"
+O25:Coculture:F25:5-FU,False,"requires one control and seven doses with labels 1, 2, 3"
+O25:Coculture:F25:Gef,False,"author exclusion, ambiguity or nonpositive measurement"
+O25:Coculture:F25:Oxa,True,
+O25:Coculture:F25:SN-38,False,"author exclusion, ambiguity or nonpositive measurement"
+O25:Monoculture::5-FU,False,"author exclusion, ambiguity or nonpositive measurement"
+O25:Monoculture::Gef,True,
+O25:Monoculture::Oxa,True,
+O25:Monoculture::SN-38,False,"author exclusion, ambiguity or nonpositive measurement"
+O26:Coculture:F26:5-FU,True,
+O26:Coculture:F26:Gef,False,"author exclusion, ambiguity or nonpositive measurement"
+O26:Coculture:F26:Oxa,True,
+O26:Coculture:F26:SN-38,True,
+O26:Monoculture::5-FU,False,"author exclusion, ambiguity or nonpositive measurement"
+O26:Monoculture::Gef,False,"author exclusion, ambiguity or nonpositive measurement"
+O26:Monoculture::Oxa,True,
+O26:Monoculture::SN-38,False,"author exclusion, ambiguity or nonpositive measurement"
+O27:Coculture:F27:5-FU,False,"author exclusion, ambiguity or nonpositive measurement"
+O27:Coculture:F27:Gef,False,"author exclusion, ambiguity or nonpositive measurement"
+O27:Coculture:F27:Oxa,False,"author exclusion, ambiguity or nonpositive measurement"
+O27:Coculture:F27:SN-38,True,
+O27:Monoculture::5-FU,False,"author exclusion, ambiguity or nonpositive measurement"
+O27:Monoculture::Gef,False,"author exclusion, ambiguity or nonpositive measurement"
+O27:Monoculture::Oxa,True,
+O27:Monoculture::SN-38,True,
+O28:Coculture:F28:5-FU,False,"requires one control and seven doses with labels 1, 2, 3"
+O28:Coculture:F28:Gef,False,"author exclusion, ambiguity or nonpositive measurement"
+O28:Coculture:F28:Oxa,True,
+O28:Coculture:F28:SN-38,False,"author exclusion, ambiguity or nonpositive measurement"
+O28:Monoculture::5-FU,False,"author exclusion, ambiguity or nonpositive measurement"
+O28:Monoculture::Gef,False,"author exclusion, ambiguity or nonpositive measurement"
+O28:Monoculture::Oxa,True,
+O28:Monoculture::SN-38,False,"author exclusion, ambiguity or nonpositive measurement"
+O29:Coculture:F14:5-FU,True,
+O29:Coculture:F14:Gef,True,
+O29:Coculture:F14:Oxa,True,
+O29:Coculture:F14:SN-38,True,
+O29:Monoculture::5-FU,True,
+O29:Monoculture::Gef,True,
+O29:Monoculture::Oxa,True,
+O29:Monoculture::SN-38,True,
+O30:Coculture:F30:5-FU,False,"requires one control and seven doses with labels 1, 2, 3"
+O30:Coculture:F30:Gef,False,"requires one control and seven doses with labels 1, 2, 3"
+O30:Coculture:F30:Oxa,False,"requires one control and seven doses with labels 1, 2, 3"
+O30:Coculture:F30:SN-38,False,"requires one control and seven doses with labels 1, 2, 3"
+O30:Monoculture::5-FU,False,"requires one control and seven doses with labels 1, 2, 3"
+O30:Monoculture::Gef,False,"requires one control and seven doses with labels 1, 2, 3"
+O30:Monoculture::Oxa,False,"author exclusion, ambiguity or nonpositive measurement"
+O30:Monoculture::SN-38,False,"requires one control and seven doses with labels 1, 2, 3"

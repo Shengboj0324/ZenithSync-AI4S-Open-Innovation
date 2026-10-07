@@ -1,0 +1,27 @@
+{
+  "created_utc": "20261007T044049324277Z",
+  "previous_goal_turn": "progress",
+  "scope": "Local accessibility repairs and release inventory",
+  "browser_checks": "artifacts/release_audit_v1/accessibility.json",
+  "javascript_syntax": "passed",
+  "git_diff_check": "passed",
+  "markdown_local_links": "passed",
+  "scientific_reproduction_artifacts_unchanged": 27,
+  "scientific_frozen_hashes": "all match",
+  "dependency_packages_verified": 20,
+  "goal_complete": false,
+  "goal_blocked_status_set": false,
+  "remaining_external_requirements": "Team facts/category, external scientific review, material organizer/rights decisions and authorized public release/submission",
+  "sha256": {
+    "demo/index.html": "55bd45f124f7092253f0f41d6e28927550978ab195d00bdfaf90f5cd0d38f7c3",
+    "demo/styles.css": "8fb814c6017ed4ad742afdf39a288afd90f52f8eb71ff70bf40713c003b51145",
+    "demo/app.js": "ff3356e883e2edb776a4b277b5e019498e4e13abdbc8b7728718d6c37e9b2cb5",
+    "scripts/inventory_dependencies.py": "c39ce21144b048e9751f18a1e74e98f630d8838433b7a0355f76be5506cbf73c",
+    "docs/33-accessibility-and-release-audit.md": "e5d6f3440eb2fbbb29df21449ed01e80acf35205f0d762ee9ee0f57e282fd8ec",
+    "docs/32-local-package-and-release-gates.md": "61614c6ed13d4c31ddb5e47f83198e68205843787b21f69b750377b666dc1feb",
+    "README.md": "483afd76c5c7f7bc3b54ca095366e135b333af84751ed2b263508c662ca6d862",
+    "artifacts/release_audit_v1/dependency-inventory.json": "a16672393b1183165b77d61e34903268bd14adaf2305c2f4c47379f2a2da52d7",
+    "artifacts/release_audit_v1/accessibility.json": "a4dccdea8a1a61e4cff9aebcd1b56421cf670fb355b2ba0fd014c62886da6028"
+  },
+  "test_scope": "Focused actual-browser keyboard, error and 64-well boundary checks; no redundant rerun of unchanged numerical pipeline."
+}

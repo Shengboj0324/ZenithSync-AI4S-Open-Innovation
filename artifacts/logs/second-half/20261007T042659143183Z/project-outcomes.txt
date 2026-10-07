@@ -1,0 +1,8 @@
+{
+  "unblinding_started_utc": "2026-10-07T04:27:51.587784+00:00",
+  "preflight_sha256": "3f99f895db25ca581feafa05b61d98046be4a1927476a252d25fb487d939efbd",
+  "source_sha256": "3847aa93b2a84c7d5d0b04c26494f39f35963fc41e96eae97d8a180fbc33d81c",
+  "sha256": "88390dc4bff17b27e7f5e5eece2b3ca228aa131232b42a7ea6e5d58ddd5d22ec",
+  "rows": 191030,
+  "status": "outcomes projected for first frozen-protocol evaluation; no tuning authorized"
+}

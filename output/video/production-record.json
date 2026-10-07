@@ -1,0 +1,189 @@
+{
+  "voice": "macOS Samantha, synthetic",
+  "requested_rate": 160,
+  "scenes": [
+    {
+      "scene": 1,
+      "duration": 25.443311,
+      "narration": "ZenithSync asks a concrete research question. After measuring a vehicle control and the lowest and highest drug doses, which additional wells should an assay researcher purchase? Our tool chooses from an existing single-agent organoid design. It counts both treatment and control wells, reports uncertainty, and has been evaluated against a separate technical plate. This is a local research candidate, not a clinical system."
+    },
+    {
+      "scene": 2,
+      "duration": 25.08576,
+      "narration": "A measured control is not a perfect denominator. Subtracting the same control log signal from several treatment log signals creates correlated errors. Our Gaussian process retains that dependence. This explains why another control can be informative even though it has no drug effect. The mathematics is established; we claim an audited application and empirical evidence, not a newly invented Gaussian process."
+    },
+    {
+      "scene": 3,
+      "duration": 31.1961,
+      "narration": "For a requested budget, exact selection minimizes average latent response variance across the designed doses. Verified symmetries among equivalent controls reduce enumeration without dropping subset classes. Across the confirmation geometries, thirteen thousand four hundred eight representatives cover more than two million subsets. Exactness is limited to this fixed Gaussian, equal-cost problem. The selected batch depends on geometry, not response values, and is not an adaptive stopping rule."
+    },
+    {
+      "scene": 4,
+      "duration": 30.345397,
+      "narration": "We selected parameters on the public Farin study, where comparative results were inconclusive. We preserved that negative evidence. Before evaluating outcomes from the distinct Kryeziu study, we froze the model, admission rules, comparison and patient-level analysis. The final confirmation contains six thousand four hundred ninety-six contexts from one hundred forty-eight samples and one hundred source patient identifiers. Deidentified data cannot prove patient non-overlap between the studies."
+    },
+    {
+      "scene": 5,
+      "duration": 28.211293,
+      "narration": "Exact selection reduced mean squared log-response error by thirty-two point eight two percent compared with random selection under the same Gaussian process. The patient-bootstrap interval was thirty-one point three four to thirty-four point two one percent. But the stronger greedy variance-reduction baseline nearly matched exact selection. The incremental reduction was only zero point six six percent. The large random-policy gain must not be presented as a gain over the strongest method."
+    },
+    {
+      "scene": 6,
+      "duration": 29.703492,
+      "narration": "A separate prespecified comparison used twenty to twenty-five percent fewer purchased wells than its random reference. The aggregate error ratio was zero point eight nine two, and its upper confidence bound stayed below the registered noninferiority limit. This passed the retrospective well-count test. Controls were charged separately for each drug context. Instrument overhead, audit measurements and historical training costs were not counted as saved. Prospective laboratory savings remain untested."
+    },
+    {
+      "scene": 7,
+      "duration": 28.102313,
+      "narration": "This is the actual local demonstration output, shown as a captured screen. The public Farin example reveals three initial measurements. At an additional budget of three, it selects a control and treatment wells at zero point one and one point one micromolar. The example source lacks a verified plate identifier, so this is explicitly a within-curve demonstration. The interface returns current predictions and expected variance, not invented future measurements."
+    },
+    {
+      "scene": 8,
+      "duration": 29.870703,
+      "narration": "Nominal ninety percent intervals covered ninety-eight point zero five percent of audit responses. They were conservative, not exactly calibrated or distribution-free. Three of fifty-six drug point estimates were slightly unfavorable, and the source dose-count discrepancy remains documented. Results describe raw log-signal contrasts, not clinical drug efficacy. Transfer to perfused or neural chips, response-adaptive stopping, and prospective assay savings all require new evidence."
+    },
+    {
+      "scene": 9,
+      "duration": 32.495464999999996,
+      "narration": "The repository contains source hashes, the frozen protocol, exclusions, complete results, and the original evaluator failure with its serialization-only repair. A fresh environment downloaded the pinned public sources into an empty raw-data cache, passed all one hundred twenty-seven tests, and reproduced twenty-seven confirmation and demonstration artifacts byte for byte. The local tool and technical report are ready for review. External scientific review remains pending. This evidence cannot guarantee a competition rank."
+    }
+  ],
+  "ffprobe": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "High",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "width": 1920,
+        "height": 1080,
+        "coded_width": 1920,
+        "coded_height": 1080,
+        "closed_captions": 0,
+        "film_grain": 0,
+        "has_b_frames": 2,
+        "pix_fmt": "yuv420p",
+        "level": 40,
+        "chroma_location": "left",
+        "field_order": "progressive",
+        "refs": 1,
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "id": "0x1",
+        "r_frame_rate": "25/1",
+        "avg_frame_rate": "13024/521",
+        "time_base": "1/12800",
+        "start_pts": 269,
+        "start_time": "0.021016",
+        "duration_ts": 3334400,
+        "duration": "260.500000",
+        "bit_rate": "96061",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "6512",
+        "extradata_size": 45,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler",
+          "vendor_id": "[0][0][0][0]",
+          "encoder": "Lavc61.19.101 libx264"
+        }
+      },
+      {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_long_name": "AAC (Advanced Audio Coding)",
+        "profile": "LC",
+        "codec_type": "audio",
+        "codec_tag_string": "mp4a",
+        "codec_tag": "0x6134706d",
+        "sample_fmt": "fltp",
+        "sample_rate": "48000",
+        "channels": 2,
+        "channel_layout": "stereo",
+        "bits_per_sample": 0,
+        "initial_padding": 0,
+        "id": "0x2",
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/48000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 12505744,
+        "duration": "260.536333",
+        "bit_rate": "124032",
+        "nb_frames": "12223",
+        "extradata_size": 5,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "SoundHandler",
+          "vendor_id": "[0][0][0][0]"
+        }
+      }
+    ],
+    "format": {
+      "filename": "/Users/jiangshengbo/Desktop/ZenithSync-AI4S-Open-Innovation/output/video/zenithsync-review-video.mp4",
+      "nb_streams": 2,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "format_long_name": "QuickTime / MOV",
+      "start_time": "0.000000",
+      "duration": "260.536333",
+      "size": "7367609",
+      "bit_rate": "226228",
+      "probe_score": 100,
+      "tags": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2avc1mp41",
+        "encoder": "Lavf61.7.100"
+      }
+    }
+  },
+  "status": "local review candidate; public access and team attribution pending"
+}

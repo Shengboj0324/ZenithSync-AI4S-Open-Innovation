@@ -1,0 +1,9 @@
+{
+  "status": "development fixed-budget design; no sequential stopping claim",
+  "unique_design_enumerations": 6,
+  "subsets_per_design": 8192,
+  "tuning_sha256": "71c6849a7b7bf75dcd3d93d120e9da4b6c76a260042fe96e38dcdad3f2e015a9",
+  "selection_uses_outcomes": false,
+  "tuning_uses_other_ID_pool_outcomes": true,
+  "assurance": "Optimal posterior variance among the supplied remaining thirteen wells at each exact count, conditional on a fixed Gaussian model; not optimal biological error."
+}

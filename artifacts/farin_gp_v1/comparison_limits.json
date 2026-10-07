@@ -1,0 +1,8 @@
+{
+  "status": "Exploratory development comparisons after method development; not confirmation.",
+  "endpoint": "Mean MSE over all fourteen budgets, with equal ID weight.",
+  "bootstrap": "10000 paired ID resamples, seed 1729; patient independence unverified.",
+  "coverage_claim": "Marginal empirical coverage only; no simultaneous or distribution-free guarantee.",
+  "novelty": "Pinned GP, Gaussian covariance modeling and exhaustive design are established mathematical tools.",
+  "assay_savings_established": false
+}

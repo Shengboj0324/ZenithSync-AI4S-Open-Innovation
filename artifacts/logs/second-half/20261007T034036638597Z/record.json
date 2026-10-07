@@ -1,0 +1,80 @@
+{
+  "created_utc": "2026-10-07T03:40:38.035825+00:00",
+  "status": "blinded cohort admission and protocol freeze; no response evaluation",
+  "commands": [
+    {
+      "command": [
+        "/Users/jiangshengbo/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "scripts/inspect_kryeziu_design.py"
+      ],
+      "exit_code": 0,
+      "log": "01.txt",
+      "execution": "earlier completed acquisition/admission; captured stdout/stderr copied verbatim"
+    },
+    {
+      "command": [
+        "/Users/jiangshengbo/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "scripts/inspect_kryeziu_patient_map.py"
+      ],
+      "exit_code": 0,
+      "log": "02.txt",
+      "execution": "earlier completed acquisition/admission; captured stdout/stderr copied verbatim"
+    },
+    {
+      "command": [
+        "/Users/jiangshengbo/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "scripts/audit_kryeziu_design.py"
+      ],
+      "exit_code": 0,
+      "log": "03.txt",
+      "execution": "earlier completed acquisition/admission; captured stdout/stderr copied verbatim"
+    },
+    {
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "pytest",
+        "-q",
+        "-W",
+        "error"
+      ],
+      "exit_code": 0,
+      "log": "04.txt"
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "exit_code": 0,
+      "log": "05.txt"
+    }
+  ],
+  "sha256": {
+    "scripts/inspect_kryeziu_design.py": "27b24cf81e415b11c860e4dab2ba0d77750f63eca247d4ad7450ef3986573463",
+    "scripts/inspect_kryeziu_patient_map.py": "37730a9b4198605dafb187c34458729bd9c62510d0023fabfef50b90eca53423",
+    "scripts/audit_kryeziu_design.py": "046797566b3b191b7e117ee622fd5753c55920910f9c9bcb3b3f2dd97c18e2bc",
+    "src/zenithsync/kryeziu_design.py": "f5424e3b0d645aed0811ef11ac39a07e9e2e2bb048dc71ccb78d5d428d443b48",
+    "tests/test_kryeziu_design.py": "205b87d0c6ef5d8152fac9e5caf8593186cc163f5e37e01b3073f3b1462f7072",
+    "configs/kryeziu-confirmation-protocol.json": "88afbc9e73339ad0608216cc871812b8572b8ee214037a2b2396513a466c7b9b",
+    "docs/26-independent-cohort-admission.md": "64143e9976d1d2c3120ac7435219a615f01037fcc322fccc7c71317073fa8e22",
+    "README.md": "623892469aa91389c7e8b2af316ab6acfeebe0580180ff8b29601b22b7f42a2c",
+    "artifacts/kryeziu_design_v1/admission.csv": "fd316f912733ad179eaff0c51f9c347ab99fbcc278fd5e65581017802c1cf281",
+    "artifacts/kryeziu_design_v1/design-1.csv": "45d3e9303e6f4ce5d6338daecf477c26c0768ba2ff2153d38e4c637d21173321",
+    "artifacts/kryeziu_design_v1/extraction.json": "2dff0c8dc964aac714c7f1bc34817b8a15b6a78ac8d49bf6878333c0a6d8f35b",
+    "artifacts/kryeziu_design_v1/paired_source_rows.json": "5b2ce48fc285fb7b7471d3c7f9751a76d258836fb7ddb3217356ec2b9c88529c",
+    "artifacts/kryeziu_design_v1/patient-admission.csv": "5d8d0473a83f6f16cfed5c44fb4700c4ef2f74839f79be7ebd01f47cb02f65d7",
+    "artifacts/kryeziu_design_v1/patient-map.csv": "88a1a7109ccc794da863d6af439ac77dc11116c262b7a6e24cc9a631cb5a109b",
+    "artifacts/kryeziu_design_v1/patient-map.json": "1ffa0ef10c85a5cbe0b52cb01f5ec0c2a16122d70846628f175646a7f76943ad",
+    "artifacts/kryeziu_design_v1/protocol-freeze.json": "44fb12ba45cc391baf25ed442562a3e4222c801e442f94f41f2407d62185489d",
+    "artifacts/kryeziu_design_v1/quality.json": "534117b7f7dfad3a93e379348712dc382a80eceee35658191025a6434335a204"
+  },
+  "frozen_hashes_verified": true,
+  "manual_intervention_required": false,
+  "diagnostic_events": [
+    "Initial exploratory CSV read gave mixed-type warning; all admission reads now explicitly use string columns.",
+    "Unfiltered S1 many-to-one join failed due to PDO/tumor sample identities; corrected by restricting to the source PDO sample type."
+  ],
+  "remaining": "Implement and test scalable exact-design confirmation runner before outcome unblinding; M6-M10 incomplete."
+}

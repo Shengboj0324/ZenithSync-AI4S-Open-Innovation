@@ -1,0 +1,35 @@
+Tuning complete: audit outcomes unused; held-out IDs excluded.
+       policy           method  budget      mse  coverage90  interval_width90     crps     rmse
+          ivr diagonal_matched       3 0.528649    0.893738          2.177287 0.381793 0.727082
+          ivr diagonal_matched       8 0.360079    0.890373          1.621958 0.306228 0.600066
+          ivr diagonal_matched      16 0.311473    0.876944          1.535826 0.290857 0.558098
+          ivr   diagonal_tuned       3 0.528649    0.893738          2.177287 0.381793 0.727082
+          ivr   diagonal_tuned       8 0.360079    0.890373          1.621958 0.306228 0.600066
+          ivr   diagonal_tuned      16 0.311473    0.876944          1.535826 0.290857 0.558098
+          ivr            joint       3 0.499433    0.904604          2.204618 0.370700 0.706706
+          ivr            joint       8 0.327765    0.899666          1.658234 0.288860 0.572508
+          ivr            joint      16 0.277738    0.906529          1.590312 0.270468 0.527008
+          ivr           linear       3 0.554463         NaN               NaN      NaN 0.744623
+          ivr           linear       8 0.354049         NaN               NaN      NaN 0.595020
+          ivr           linear      16 0.289553         NaN               NaN      NaN 0.538101
+          ivr            pchip       3 0.788330         NaN               NaN      NaN 0.887880
+          ivr            pchip       8 0.356144         NaN               NaN      NaN 0.596778
+          ivr            pchip      16 0.289553         NaN               NaN      NaN 0.538101
+       random diagonal_matched       3 0.528649    0.893738          2.177287 0.381793 0.727082
+       random diagonal_matched       8 0.351295    0.888167          1.656527 0.305911 0.592702
+       random diagonal_matched      16 0.311473    0.876944          1.535826 0.290857 0.558098
+       random   diagonal_tuned       3 0.528649    0.893738          2.177287 0.381793 0.727082
+       random   diagonal_tuned       8 0.351295    0.888167          1.656527 0.305911 0.592702
+       random   diagonal_tuned      16 0.311473    0.876944          1.535826 0.290857 0.558098
+       random            joint       3 0.499433    0.904604          2.204618 0.370700 0.706706
+       random            joint       8 0.325119    0.907578          1.703327 0.290439 0.570192
+       random            joint      16 0.277738    0.906529          1.590312 0.270468 0.527008
+space_filling diagonal_matched       3 0.528649    0.893738          2.177287 0.381793 0.727082
+space_filling diagonal_matched       8 0.360963    0.880685          1.623843 0.307088 0.600802
+space_filling diagonal_matched      16 0.311473    0.876944          1.535826 0.290857 0.558098
+space_filling   diagonal_tuned       3 0.528649    0.893738          2.177287 0.381793 0.727082
+space_filling   diagonal_tuned       8 0.360963    0.880685          1.623843 0.307088 0.600802
+space_filling   diagonal_tuned      16 0.311473    0.876944          1.535826 0.290857 0.558098
+space_filling            joint       3 0.499433    0.904604          2.204618 0.370700 0.706706
+space_filling            joint       8 0.344339    0.910077          1.713532 0.297145 0.586804
+space_filling            joint      16 0.277738    0.906529          1.590312 0.270468 0.527008

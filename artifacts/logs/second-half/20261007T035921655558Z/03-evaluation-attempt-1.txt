@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/Users/jiangshengbo/Desktop/ZenithSync-AI4S-Open-Innovation/scripts/kryeziu_confirmation.py", line 226, in <module>
+    main()
+    ~~~~^^
+  File "/Users/jiangshengbo/Desktop/ZenithSync-AI4S-Open-Innovation/scripts/kryeziu_confirmation.py", line 215, in main
+    evaluate(protocol, groups, cache, manifest)
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jiangshengbo/Desktop/ZenithSync-AI4S-Open-Innovation/scripts/kryeziu_confirmation.py", line 92, in evaluate
+    raise ValueError('Preflight code or designs changed; repeat blinded validation before unblinding')
+ValueError: Preflight code or designs changed; repeat blinded validation before unblinding

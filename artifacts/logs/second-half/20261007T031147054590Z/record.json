@@ -1,0 +1,75 @@
+{
+  "commands": [
+    {
+      "command": [
+        ".venv/bin/python",
+        "scripts/fetch_farin.py"
+      ],
+      "exit_code": 0,
+      "log": "01.txt"
+    },
+    {
+      "command": [
+        ".venv/bin/python",
+        "-W",
+        "error",
+        "scripts/audit_farin.py"
+      ],
+      "exit_code": 0,
+      "log": "02.txt"
+    },
+    {
+      "command": [
+        ".venv/bin/python",
+        "-W",
+        "error",
+        "scripts/joint_design_audit.py"
+      ],
+      "exit_code": 0,
+      "log": "03.txt"
+    },
+    {
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "pytest",
+        "-q",
+        "-W",
+        "error"
+      ],
+      "exit_code": 0,
+      "log": "04.txt"
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "exit_code": 0,
+      "log": "05.txt"
+    }
+  ],
+  "completion": "partial; M6-M10 not accepted",
+  "created_at": "2026-10-07T03:11:48.813939+00:00",
+  "manual_intervention_this_run": false,
+  "sha256": {
+    "artifacts/farin_v1/quality.json": "c9b9d7e01f690c2a87ea1f7f8022d6d0fc3f1b9c19ac4d65ba485b07d9e9ea6f",
+    "artifacts/farin_v1/source_rows.csv": "ceba71ca556b9e242e43ee86390028e34340ee6a28962e3e63cd516d93fb9e25",
+    "artifacts/joint_design_v1/analytic_ablation.csv": "7aa4610b1abf478897a5bf3919ba8a2dc69563417d4c9c4ce0a21bb0541a25f2",
+    "artifacts/joint_design_v1/record.json": "8dc87e8f60d3e734721e9a4c8a6c5169734b0b51b57bd41045d1c2a927809c18",
+    "data/farin_manifest.json": "28e0eaf3aad79b7b4f586559cb39e35fbd7df5d82a194a9c7d6bb8770244fa2d",
+    "scripts/audit_farin.py": "18f2c81eda4c5f4db1b7b363c197e3647b2d6bfdb8ee13bb87c645080e3d533e",
+    "scripts/fetch_farin.py": "5d141f8f8bf45afe4d9fb7618ed1034880bb5aaf04309b6f496731f2cf5212ae",
+    "scripts/joint_design_audit.py": "debc7764e933edd0687e38d35a8b479a8f0d3b2f4b81ae28375aedec7022e966",
+    "src/zenithsync/farin.py": "5ef61b5789d687d8b6274d62c80f8d010a98691799744ec47ff652071d1737b5",
+    "src/zenithsync/joint_design.py": "4a69ea84307838ac7b959d0821bb467786d23a64526ff2dcf683ca8d7276091b",
+    "tests/test_farin.py": "10a1d760158487d0f5af71a59162482a19f9a02c24a9ee60354deaedd159e383",
+    "tests/test_joint_design.py": "6a3e5e31fe55e1253ad352904ce2faca8204fa9697fc3de25b35542048bcbed2"
+  },
+  "source_access": [
+    "Python default user agent: HTTP 403",
+    "Browser download: timeout; file preview readable",
+    "Standard Mozilla/5.0 user agent: download successful; provider SHA256 verified"
+  ]
+}

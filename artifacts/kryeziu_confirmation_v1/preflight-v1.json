@@ -1,0 +1,324 @@
+{
+  "protocol_freeze_sha256": "44fb12ba45cc391baf25ed442562a3e4222c801e442f94f41f2407d62185489d",
+  "code_sha256": {
+    "src/zenithsync/confirmation.py": "cdb15c04223857de67dc4bb9b9c7fa9764a90162c4fa56e94759d50271c3edf5",
+    "src/zenithsync/symmetric_design.py": "a5b67183720c331a4108d5d6fcaa908264ac512d84c8b62ecece619999c922cd",
+    "src/zenithsync/joint_design.py": "5523ea1680256f29c57f01554ce07a849ecb4203a8c191c51990c50f87b8c5a7",
+    "scripts/kryeziu_confirmation.py": "9fbef87d8724312f562ddd4b6f307dae2fbaf281c283d2e2be3a52a698cf34e9",
+    "scripts/unblind_kryeziu.py": "001aacc407dc61ddb71e81ce0eb27d5fc0bb8004971cfecd62871e5e515fd1dd"
+  },
+  "context_orientations": 13048,
+  "designs": [
+    {
+      "design_id": "9cfa1ea5d963b24b",
+      "targets": [
+        0.06723718326925907,
+        0.2326024377497855,
+        0.3331062052733694,
+        0.44767938571126764,
+        0.5536053951756696,
+        0.6701682186515271,
+        0.7766720073680623,
+        1.0
+      ],
+      "pool_controls": 10,
+      "contexts": 16,
+      "plans": 1328,
+      "plan_sha256": "54beef338f89ef19aa72443fe4184da0bd79d61c65de2e4202d18c3cd90c73fc",
+      "enumeration": [
+        {
+          "mode": "joint",
+          "representatives_evaluated": 640,
+          "subsets_represented": 32768
+        },
+        {
+          "mode": "diagonal",
+          "representatives_evaluated": 640,
+          "subsets_represented": 32768
+        }
+      ]
+    },
+    {
+      "design_id": "9ff9251b3b78b44f",
+      "targets": [
+        0.07525668186780549,
+        0.15051336373561097,
+        0.2603453447672145,
+        0.3728363756414408,
+        0.5010749033660212,
+        0.6196348966344083,
+        0.7501003756656573,
+        0.8693070609466095,
+        1.0
+      ],
+      "pool_controls": 13,
+      "contexts": 5030,
+      "plans": 1660,
+      "plan_sha256": "5dcc24cec1fe664aa8e281a0c18ecb6932ea3ea0923e2c2fe707d83f7afb1e0d",
+      "enumeration": [
+        {
+          "mode": "joint",
+          "representatives_evaluated": 1664,
+          "subsets_represented": 524288
+        },
+        {
+          "mode": "diagonal",
+          "representatives_evaluated": 1664,
+          "subsets_represented": 524288
+        }
+      ]
+    },
+    {
+      "design_id": "0327c1c634f44c39",
+      "targets": [
+        0.07525668186780549,
+        0.15051336373561097,
+        0.5010749033660212,
+        0.6196348966344083,
+        1.0
+      ],
+      "pool_controls": 13,
+      "contexts": 308,
+      "plans": 1328,
+      "plan_sha256": "d9b18491a7ebd1f70c75296a61f9e61cbc7d87e3ee04ffab2e28e12927be0e21",
+      "enumeration": [
+        {
+          "mode": "joint",
+          "representatives_evaluated": 104,
+          "subsets_represented": 32768
+        },
+        {
+          "mode": "diagonal",
+          "representatives_evaluated": 104,
+          "subsets_represented": 32768
+        }
+      ]
+    },
+    {
+      "design_id": "63c2aa7b273d415b",
+      "targets": [
+        0.07559168086087806,
+        0.1565042093317344,
+        0.25746468746720486,
+        0.38131423040703427,
+        0.49889850527622004,
+        0.6294088005011538,
+        0.7489920528338085,
+        0.8802127356832543,
+        1.0
+      ],
+      "pool_controls": 10,
+      "contexts": 148,
+      "plans": 1411,
+      "plan_sha256": "3009b6c3bea53dcff1b64008e93ca0b3ebb5370b3f17345907d8276e85d8d2f1",
+      "enumeration": [
+        {
+          "mode": "joint",
+          "representatives_evaluated": 1280,
+          "subsets_represented": 65536
+        },
+        {
+          "mode": "diagonal",
+          "representatives_evaluated": 1280,
+          "subsets_represented": 65536
+        }
+      ]
+    },
+    {
+      "design_id": "7a1a9b6c3dca375e",
+      "targets": [
+        0.08129637015105629,
+        0.19804601536198388,
+        0.4621578107131208,
+        0.7301483441882103,
+        1.0
+      ],
+      "pool_controls": 10,
+      "contexts": 6,
+      "plans": 1079,
+      "plan_sha256": "a0bd750809a675dcccfda74eaed9d908ac5490fee4500a7b02fac30ef8b5b660",
+      "enumeration": [
+        {
+          "mode": "joint",
+          "representatives_evaluated": 80,
+          "subsets_represented": 4096
+        },
+        {
+          "mode": "diagonal",
+          "representatives_evaluated": 80,
+          "subsets_represented": 4096
+        }
+      ]
+    },
+    {
+      "design_id": "68c8de153f862858",
+      "targets": [
+        0.08129637015105629,
+        0.21014806828522722,
+        0.4621578107131208,
+        0.7301483441882103,
+        1.0
+      ],
+      "pool_controls": 10,
+      "contexts": 174,
+      "plans": 1079,
+      "plan_sha256": "6d2b0e5d3431a71ceb0907abcd8def7eb64f585eb806d5160c53cffaf7b81ba2",
+      "enumeration": [
+        {
+          "mode": "joint",
+          "representatives_evaluated": 80,
+          "subsets_represented": 4096
+        },
+        {
+          "mode": "diagonal",
+          "representatives_evaluated": 80,
+          "subsets_represented": 4096
+        }
+      ]
+    },
+    {
+      "design_id": "145aa652a7d6fb67",
+      "targets": [
+        0.0854468423045227,
+        0.18076084819569174,
+        0.29559750798098083,
+        0.43591031525762974,
+        0.5689231465968548,
+        0.7164840249368292,
+        0.8516680103522568,
+        1.0
+      ],
+      "pool_controls": 10,
+      "contexts": 5718,
+      "plans": 1328,
+      "plan_sha256": "fd05fd288ea2527919fcc325d3e58805d2ad9a2c9869fb8af33ccd2f93059e6e",
+      "enumeration": [
+        {
+          "mode": "joint",
+          "representatives_evaluated": 640,
+          "subsets_represented": 32768
+        },
+        {
+          "mode": "diagonal",
+          "representatives_evaluated": 640,
+          "subsets_represented": 32768
+        }
+      ]
+    },
+    {
+      "design_id": "401e070e3be3ab04",
+      "targets": [
+        0.08587887654477182,
+        0.17780270948959848,
+        0.29709210089203264,
+        0.4332068998195576,
+        0.5717997219362235,
+        0.715064409983324,
+        0.8559741933763841,
+        1.0
+      ],
+      "pool_controls": 10,
+      "contexts": 164,
+      "plans": 1328,
+      "plan_sha256": "f93cdda9589fce0c461e80acefb5e1b1eabb45cf0f21560c413923030adab729",
+      "enumeration": [
+        {
+          "mode": "joint",
+          "representatives_evaluated": 640,
+          "subsets_represented": 32768
+        },
+        {
+          "mode": "diagonal",
+          "representatives_evaluated": 640,
+          "subsets_represented": 32768
+        }
+      ]
+    },
+    {
+      "design_id": "aff275fb4f01740c",
+      "targets": [
+        0.08657088530473532,
+        0.17314177060947064,
+        0.2994860578766243,
+        0.42888916056364507,
+        0.5764072626079774,
+        0.712791744679576,
+        0.8628716012600368,
+        1.0
+      ],
+      "pool_controls": 10,
+      "contexts": 868,
+      "plans": 1328,
+      "plan_sha256": "62be2fbde907e1627d926155c7992a9f037fff8c95ed474c9b22777a8c7488ec",
+      "enumeration": [
+        {
+          "mode": "joint",
+          "representatives_evaluated": 640,
+          "subsets_represented": 32768
+        },
+        {
+          "mode": "diagonal",
+          "representatives_evaluated": 640,
+          "subsets_represented": 32768
+        }
+      ]
+    },
+    {
+      "design_id": "45f6e01d3f9a8858",
+      "targets": [
+        0.08657088530473532,
+        0.17314177060947064,
+        0.2994860578766243,
+        0.42888916056364507,
+        0.5764072626079774,
+        0.712791744679576,
+        0.8628716012600368,
+        1.0
+      ],
+      "pool_controls": 13,
+      "contexts": 462,
+      "plans": 1577,
+      "plan_sha256": "fd159276e4a7931bde6e3db30f5d64452ddf13dd0de8537aa9bc18d86e5222db",
+      "enumeration": [
+        {
+          "mode": "joint",
+          "representatives_evaluated": 832,
+          "subsets_represented": 262144
+        },
+        {
+          "mode": "diagonal",
+          "representatives_evaluated": 832,
+          "subsets_represented": 262144
+        }
+      ]
+    },
+    {
+      "design_id": "d8823a32321f999f",
+      "targets": [
+        0.12145326590959868,
+        0.24290653181919736,
+        0.42015926827442907,
+        0.6017033218537698,
+        1.0
+      ],
+      "pool_controls": 13,
+      "contexts": 154,
+      "plans": 1328,
+      "plan_sha256": "bac72c57bdb8200cf80432ef6010b20a3b3258cd8666f59a086243621be73d05",
+      "enumeration": [
+        {
+          "mode": "joint",
+          "representatives_evaluated": 104,
+          "subsets_represented": 32768
+        },
+        {
+          "mode": "diagonal",
+          "representatives_evaluated": 104,
+          "subsets_represented": 32768
+        }
+      ]
+    }
+  ],
+  "pool_order": "controls by source row, then treatment doses ascending",
+  "status": "outcome-free preflight complete"
+}

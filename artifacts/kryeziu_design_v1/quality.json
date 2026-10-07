@@ -1,0 +1,61 @@
+{
+  "status": "outcome-blinded design admission; no confirmation result",
+  "source_rows": 191030,
+  "samples": 211,
+  "runs": 239,
+  "compound_types": {
+    "single": 157810,
+    "combo": 24414,
+    "control_negative": 5474,
+    "control_positive": 3332
+  },
+  "single_agent_contexts": 9720,
+  "admitted_contexts": 9231,
+  "admitted_samples": 209,
+  "admitted_runs": 237,
+  "admitted_drugs": 56,
+  "paired_dose_counts": {
+    "8": 4773,
+    "9": 3984,
+    "5": 474
+  },
+  "rejection_reasons": {
+    "plate dose supports differ": 246,
+    "fewer than four paired drug doses": 119,
+    "missing paired plate": 84,
+    "non-nM or unknown concentration unit": 40
+  },
+  "control_annotation_counts": [
+    {
+      "concentration": "0",
+      "concentration_unit": "",
+      "rows": 2200
+    },
+    {
+      "concentration": "0",
+      "concentration_unit": "NA",
+      "rows": 20
+    },
+    {
+      "concentration": "0.1",
+      "concentration_unit": "percent",
+      "rows": 3194
+    },
+    {
+      "concentration": "NA",
+      "concentration_unit": "",
+      "rows": 60
+    }
+  ],
+  "patient_mapped_contexts": 6524,
+  "patient_mapped_samples": 148,
+  "source_patient_ids": 100,
+  "unmapped_samples": 61,
+  "patient_mapping_verified": "PDO subset linked to explicit Data S1 patient field",
+  "outcomes_exposed_or_analyzed": false,
+  "proposed_orientation": "p1 pool and p2 audit; orientation sensitivity to be prespecified",
+  "remaining_admission": [
+    "nonpositive or invalid outcomes after protocol freeze",
+    "background normalization endpoint and control cost assumptions"
+  ]
+}

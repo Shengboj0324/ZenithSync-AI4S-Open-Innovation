@@ -15,11 +15,11 @@ ROOT = Path(__file__).resolve().parents[1]
 
 def main():
     paths = [ROOT/name for name in ["README.md", "pyproject.toml", "requirements-lock.txt", ".gitignore"]]
-    for folder in ["src", "scripts", "tests", "configs", "docs", "examples"]:
+    for folder in ["src", "scripts", "tests", "configs", "docs", "examples", "demo", "output"]:
         paths.extend(p for p in (ROOT/folder).rglob("*") if p.is_file() and "__pycache__" not in p.parts)
     paths.extend((ROOT/"data").glob("*.json"))
     paths.extend(p for p in (ROOT/"artifacts").rglob("*") if p.is_file() and
-                 "checkpoints" not in p.parts and p.suffix in {".json", ".jsonl", ".csv", ".txt"})
+                 "checkpoints" not in p.parts and p.suffix in {".json", ".jsonl", ".csv", ".txt", ".gz", ".py", ".jpg", ".png"})
     paths = sorted(set(paths))
     signatures = {p: (p.stat().st_size, p.stat().st_mtime_ns) for p in paths}
     head = subprocess.check_output(["git", "rev-parse", "HEAD"], cwd=ROOT, text=True).strip()

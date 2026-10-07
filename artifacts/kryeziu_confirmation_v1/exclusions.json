@@ -1,0 +1,698 @@
+[
+  {
+    "context": "Pt103_t2|KK283|lib2|Cetuximab",
+    "patient": "Pt103",
+    "orientation": "p1_to_p2",
+    "invalid_source_rows": [
+      137314,
+      137754
+    ],
+    "reasons": {
+      "137314": "missing_or_nonfinite",
+      "137754": "missing_or_nonfinite"
+    }
+  },
+  {
+    "context": "Pt103_t2|KK283|lib2|Cetuximab",
+    "patient": "Pt103",
+    "orientation": "p2_to_p1",
+    "invalid_source_rows": [
+      137314,
+      137754
+    ],
+    "reasons": {
+      "137314": "missing_or_nonfinite",
+      "137754": "missing_or_nonfinite"
+    }
+  },
+  {
+    "context": "Pt106_t1|KK284|lib2|Cetuximab",
+    "patient": "Pt106",
+    "orientation": "p1_to_p2",
+    "invalid_source_rows": [
+      143030,
+      143031,
+      143032,
+      143033,
+      143034,
+      143910,
+      143911,
+      143912,
+      143913,
+      143914
+    ],
+    "reasons": {
+      "143030": "missing_or_nonfinite",
+      "143031": "missing_or_nonfinite",
+      "143032": "missing_or_nonfinite",
+      "143033": "missing_or_nonfinite",
+      "143034": "missing_or_nonfinite",
+      "143910": "missing_or_nonfinite",
+      "143911": "missing_or_nonfinite",
+      "143912": "missing_or_nonfinite",
+      "143913": "missing_or_nonfinite",
+      "143914": "missing_or_nonfinite"
+    }
+  },
+  {
+    "context": "Pt106_t1|KK284|lib2|Cetuximab",
+    "patient": "Pt106",
+    "orientation": "p2_to_p1",
+    "invalid_source_rows": [
+      143030,
+      143031,
+      143032,
+      143033,
+      143034,
+      143910,
+      143911,
+      143912,
+      143913,
+      143914
+    ],
+    "reasons": {
+      "143030": "missing_or_nonfinite",
+      "143031": "missing_or_nonfinite",
+      "143032": "missing_or_nonfinite",
+      "143033": "missing_or_nonfinite",
+      "143034": "missing_or_nonfinite",
+      "143910": "missing_or_nonfinite",
+      "143911": "missing_or_nonfinite",
+      "143912": "missing_or_nonfinite",
+      "143913": "missing_or_nonfinite",
+      "143914": "missing_or_nonfinite"
+    }
+  },
+  {
+    "context": "Pt122_t1|KK336|lib2|Cetuximab",
+    "patient": "Pt122",
+    "orientation": "p1_to_p2",
+    "invalid_source_rows": [
+      164150,
+      164151,
+      164152,
+      164153,
+      164154,
+      164590,
+      164591,
+      164592,
+      164593,
+      164594
+    ],
+    "reasons": {
+      "164150": "missing_or_nonfinite",
+      "164151": "missing_or_nonfinite",
+      "164152": "missing_or_nonfinite",
+      "164153": "missing_or_nonfinite",
+      "164154": "missing_or_nonfinite",
+      "164590": "missing_or_nonfinite",
+      "164591": "missing_or_nonfinite",
+      "164592": "missing_or_nonfinite",
+      "164593": "missing_or_nonfinite",
+      "164594": "missing_or_nonfinite"
+    }
+  },
+  {
+    "context": "Pt122_t1|KK336|lib2|Cetuximab",
+    "patient": "Pt122",
+    "orientation": "p2_to_p1",
+    "invalid_source_rows": [
+      164150,
+      164151,
+      164152,
+      164153,
+      164154,
+      164590,
+      164591,
+      164592,
+      164593,
+      164594
+    ],
+    "reasons": {
+      "164150": "missing_or_nonfinite",
+      "164151": "missing_or_nonfinite",
+      "164152": "missing_or_nonfinite",
+      "164153": "missing_or_nonfinite",
+      "164154": "missing_or_nonfinite",
+      "164590": "missing_or_nonfinite",
+      "164591": "missing_or_nonfinite",
+      "164592": "missing_or_nonfinite",
+      "164593": "missing_or_nonfinite",
+      "164594": "missing_or_nonfinite"
+    }
+  },
+  {
+    "context": "Pt134_t2|KK335|lib2|Cetuximab",
+    "patient": "Pt134",
+    "orientation": "p1_to_p2",
+    "invalid_source_rows": [
+      176914,
+      177354
+    ],
+    "reasons": {
+      "176914": "missing_or_nonfinite",
+      "177354": "missing_or_nonfinite"
+    }
+  },
+  {
+    "context": "Pt134_t2|KK335|lib2|Cetuximab",
+    "patient": "Pt134",
+    "orientation": "p2_to_p1",
+    "invalid_source_rows": [
+      176914,
+      177354
+    ],
+    "reasons": {
+      "176914": "missing_or_nonfinite",
+      "177354": "missing_or_nonfinite"
+    }
+  },
+  {
+    "context": "Pt109_t1|KK302|lib2|5-FU",
+    "patient": "Pt109",
+    "orientation": "p1_to_p2",
+    "invalid_source_rows": [
+      145373
+    ],
+    "reasons": {
+      "145373": "missing_or_nonfinite"
+    }
+  },
+  {
+    "context": "Pt109_t1|KK302|lib2|5-FU",
+    "patient": "Pt109",
+    "orientation": "p2_to_p1",
+    "invalid_source_rows": [
+      145373
+    ],
+    "reasons": {
+      "145373": "missing_or_nonfinite"
+    }
+  },
+  {
+    "context": "Pt109_t1|KK302|lib2|Carfilzomib",
+    "patient": "Pt109",
+    "orientation": "p1_to_p2",
+    "invalid_source_rows": [
+      145314
+    ],
+    "reasons": {
+      "145314": "missing_or_nonfinite"
+    }
+  },
+  {
+    "context": "Pt109_t1|KK302|lib2|Carfilzomib",
+    "patient": "Pt109",
+    "orientation": "p2_to_p1",
+    "invalid_source_rows": [
+      145314
+    ],
+    "reasons": {
+      "145314": "missing_or_nonfinite"
+    }
+  },
+  {
+    "context": "Pt109_t1|KK302|lib2|Encorafenib",
+    "patient": "Pt109",
+    "orientation": "p1_to_p2",
+    "invalid_source_rows": [
+      145698
+    ],
+    "reasons": {
+      "145698": "missing_or_nonfinite"
+    }
+  },
+  {
+    "context": "Pt109_t1|KK302|lib2|Encorafenib",
+    "patient": "Pt109",
+    "orientation": "p2_to_p1",
+    "invalid_source_rows": [
+      145698
+    ],
+    "reasons": {
+      "145698": "missing_or_nonfinite"
+    }
+  },
+  {
+    "context": "Pt109_t1|KK302|lib2|Idelalisib",
+    "patient": "Pt109",
+    "orientation": "p1_to_p2",
+    "invalid_source_rows": [
+      145347
+    ],
+    "reasons": {
+      "145347": "missing_or_nonfinite"
+    }
+  },
+  {
+    "context": "Pt109_t1|KK302|lib2|Idelalisib",
+    "patient": "Pt109",
+    "orientation": "p2_to_p1",
+    "invalid_source_rows": [
+      145347
+    ],
+    "reasons": {
+      "145347": "missing_or_nonfinite"
+    }
+  },
+  {
+    "context": "Pt109_t1|KK302|lib2|Larotrectinib",
+    "patient": "Pt109",
+    "orientation": "p1_to_p2",
+    "invalid_source_rows": [
+      145297
+    ],
+    "reasons": {
+      "145297": "missing_or_nonfinite"
+    }
+  },
+  {
+    "context": "Pt109_t1|KK302|lib2|Larotrectinib",
+    "patient": "Pt109",
+    "orientation": "p2_to_p1",
+    "invalid_source_rows": [
+      145297
+    ],
+    "reasons": {
+      "145297": "missing_or_nonfinite"
+    }
+  },
+  {
+    "context": "Pt109_t1|KK302|lib2|Palbociclib",
+    "patient": "Pt109",
+    "orientation": "p1_to_p2",
+    "invalid_source_rows": [
+      145364
+    ],
+    "reasons": {
+      "145364": "missing_or_nonfinite"
+    }
+  },
+  {
+    "context": "Pt109_t1|KK302|lib2|Palbociclib",
+    "patient": "Pt109",
+    "orientation": "p2_to_p1",
+    "invalid_source_rows": [
+      145364
+    ],
+    "reasons": {
+      "145364": "missing_or_nonfinite"
+    }
+  },
+  {
+    "context": "Pt109_t1|KK302|lib2|Regorafenib",
+    "patient": "Pt109",
+    "orientation": "p1_to_p2",
+    "invalid_source_rows": [
+      145527
+    ],
+    "reasons": {
+      "145527": "missing_or_nonfinite"
+    }
+  },
+  {
+    "context": "Pt109_t1|KK302|lib2|Regorafenib",
+    "patient": "Pt109",
+    "orientation": "p2_to_p1",
+    "invalid_source_rows": [
+      145527
+    ],
+    "reasons": {
+      "145527": "missing_or_nonfinite"
+    }
+  },
+  {
+    "context": "Pt109_t1|KK302|lib2|Savolitinib",
+    "patient": "Pt109",
+    "orientation": "p1_to_p2",
+    "invalid_source_rows": [
+      145298
+    ],
+    "reasons": {
+      "145298": "missing_or_nonfinite"
+    }
+  },
+  {
+    "context": "Pt109_t1|KK302|lib2|Savolitinib",
+    "patient": "Pt109",
+    "orientation": "p2_to_p1",
+    "invalid_source_rows": [
+      145298
+    ],
+    "reasons": {
+      "145298": "missing_or_nonfinite"
+    }
+  },
+  {
+    "context": "Pt109_t1|KK302|lib2|Venetoclax",
+    "patient": "Pt109",
+    "orientation": "p1_to_p2",
+    "invalid_source_rows": [
+      145405
+    ],
+    "reasons": {
+      "145405": "missing_or_nonfinite"
+    }
+  },
+  {
+    "context": "Pt109_t1|KK302|lib2|Venetoclax",
+    "patient": "Pt109",
+    "orientation": "p2_to_p1",
+    "invalid_source_rows": [
+      145405
+    ],
+    "reasons": {
+      "145405": "missing_or_nonfinite"
+    }
+  },
+  {
+    "context": "Pt134_t1|KK333|lib2|Carfilzomib",
+    "patient": "Pt134",
+    "orientation": "p1_to_p2",
+    "invalid_source_rows": [
+      176115
+    ],
+    "reasons": {
+      "176115": "missing_or_nonfinite"
+    }
+  },
+  {
+    "context": "Pt134_t1|KK333|lib2|Carfilzomib",
+    "patient": "Pt134",
+    "orientation": "p2_to_p1",
+    "invalid_source_rows": [
+      176115
+    ],
+    "reasons": {
+      "176115": "missing_or_nonfinite"
+    }
+  },
+  {
+    "context": "Pt134_t1|KK333|lib2|LGK974",
+    "patient": "Pt134",
+    "orientation": "p1_to_p2",
+    "invalid_source_rows": [
+      176275
+    ],
+    "reasons": {
+      "176275": "missing_or_nonfinite"
+    }
+  },
+  {
+    "context": "Pt134_t1|KK333|lib2|LGK974",
+    "patient": "Pt134",
+    "orientation": "p2_to_p1",
+    "invalid_source_rows": [
+      176275
+    ],
+    "reasons": {
+      "176275": "missing_or_nonfinite"
+    }
+  },
+  {
+    "context": "Pt134_t1|KK333|lib2|Napabucasin",
+    "patient": "Pt134",
+    "orientation": "p1_to_p2",
+    "invalid_source_rows": [
+      176292
+    ],
+    "reasons": {
+      "176292": "missing_or_nonfinite"
+    }
+  },
+  {
+    "context": "Pt134_t1|KK333|lib2|Napabucasin",
+    "patient": "Pt134",
+    "orientation": "p2_to_p1",
+    "invalid_source_rows": [
+      176292
+    ],
+    "reasons": {
+      "176292": "missing_or_nonfinite"
+    }
+  },
+  {
+    "context": "Pt134_t1|KK333|lib2|Savolitinib",
+    "patient": "Pt134",
+    "orientation": "p1_to_p2",
+    "invalid_source_rows": [
+      176099
+    ],
+    "reasons": {
+      "176099": "missing_or_nonfinite"
+    }
+  },
+  {
+    "context": "Pt134_t1|KK333|lib2|Savolitinib",
+    "patient": "Pt134",
+    "orientation": "p2_to_p1",
+    "invalid_source_rows": [
+      176099
+    ],
+    "reasons": {
+      "176099": "missing_or_nonfinite"
+    }
+  },
+  {
+    "context": "Pt98_t6|KK268|lib2|Alisertib",
+    "patient": "Pt98",
+    "orientation": "p1_to_p2",
+    "invalid_source_rows": [
+      130601
+    ],
+    "reasons": {
+      "130601": "missing_or_nonfinite"
+    }
+  },
+  {
+    "context": "Pt98_t6|KK268|lib2|Alisertib",
+    "patient": "Pt98",
+    "orientation": "p2_to_p1",
+    "invalid_source_rows": [
+      130601
+    ],
+    "reasons": {
+      "130601": "missing_or_nonfinite"
+    }
+  },
+  {
+    "context": "Pt98_t6|KK268|lib2|Ceralasertib",
+    "patient": "Pt98",
+    "orientation": "p1_to_p2",
+    "invalid_source_rows": [
+      130610
+    ],
+    "reasons": {
+      "130610": "missing_or_nonfinite"
+    }
+  },
+  {
+    "context": "Pt98_t6|KK268|lib2|Ceralasertib",
+    "patient": "Pt98",
+    "orientation": "p2_to_p1",
+    "invalid_source_rows": [
+      130610
+    ],
+    "reasons": {
+      "130610": "missing_or_nonfinite"
+    }
+  },
+  {
+    "context": "Pt98_t6|KK268|lib2|LCL161",
+    "patient": "Pt98",
+    "orientation": "p1_to_p2",
+    "invalid_source_rows": [
+      130659
+    ],
+    "reasons": {
+      "130659": "missing_or_nonfinite"
+    }
+  },
+  {
+    "context": "Pt98_t6|KK268|lib2|LCL161",
+    "patient": "Pt98",
+    "orientation": "p2_to_p1",
+    "invalid_source_rows": [
+      130659
+    ],
+    "reasons": {
+      "130659": "missing_or_nonfinite"
+    }
+  },
+  {
+    "context": "Pt98_t6|KK268|lib2|Pevonedistat",
+    "patient": "Pt98",
+    "orientation": "p1_to_p2",
+    "invalid_source_rows": [
+      130692
+    ],
+    "reasons": {
+      "130692": "missing_or_nonfinite"
+    }
+  },
+  {
+    "context": "Pt98_t6|KK268|lib2|Pevonedistat",
+    "patient": "Pt98",
+    "orientation": "p2_to_p1",
+    "invalid_source_rows": [
+      130692
+    ],
+    "reasons": {
+      "130692": "missing_or_nonfinite"
+    }
+  },
+  {
+    "context": "Pt98_t6|KK268|lib2|Sotorasib",
+    "patient": "Pt98",
+    "orientation": "p1_to_p2",
+    "invalid_source_rows": [
+      130818
+    ],
+    "reasons": {
+      "130818": "missing_or_nonfinite"
+    }
+  },
+  {
+    "context": "Pt98_t6|KK268|lib2|Sotorasib",
+    "patient": "Pt98",
+    "orientation": "p2_to_p1",
+    "invalid_source_rows": [
+      130818
+    ],
+    "reasons": {
+      "130818": "missing_or_nonfinite"
+    }
+  },
+  {
+    "context": "Pt98_t6|KK268|lib2|Volasertib",
+    "patient": "Pt98",
+    "orientation": "p1_to_p2",
+    "invalid_source_rows": [
+      130708
+    ],
+    "reasons": {
+      "130708": "missing_or_nonfinite"
+    }
+  },
+  {
+    "context": "Pt98_t6|KK268|lib2|Volasertib",
+    "patient": "Pt98",
+    "orientation": "p2_to_p1",
+    "invalid_source_rows": [
+      130708
+    ],
+    "reasons": {
+      "130708": "missing_or_nonfinite"
+    }
+  },
+  {
+    "context": "Pt109_t1|KK302|lib2|TAS-102",
+    "patient": "Pt109",
+    "orientation": "p1_to_p2",
+    "invalid_source_rows": [
+      145681
+    ],
+    "reasons": {
+      "145681": "missing_or_nonfinite"
+    }
+  },
+  {
+    "context": "Pt109_t1|KK302|lib2|TAS-102",
+    "patient": "Pt109",
+    "orientation": "p2_to_p1",
+    "invalid_source_rows": [
+      145681
+    ],
+    "reasons": {
+      "145681": "missing_or_nonfinite"
+    }
+  },
+  {
+    "context": "Pt109_t1|KK302|lib2|Everolimus",
+    "patient": "Pt109",
+    "orientation": "p1_to_p2",
+    "invalid_source_rows": [
+      145330
+    ],
+    "reasons": {
+      "145330": "missing_or_nonfinite"
+    }
+  },
+  {
+    "context": "Pt109_t1|KK302|lib2|Everolimus",
+    "patient": "Pt109",
+    "orientation": "p2_to_p1",
+    "invalid_source_rows": [
+      145330
+    ],
+    "reasons": {
+      "145330": "missing_or_nonfinite"
+    }
+  },
+  {
+    "context": "Pt109_t1|KK302|lib2|Talazoparib",
+    "patient": "Pt109",
+    "orientation": "p1_to_p2",
+    "invalid_source_rows": [
+      145388
+    ],
+    "reasons": {
+      "145388": "missing_or_nonfinite"
+    }
+  },
+  {
+    "context": "Pt109_t1|KK302|lib2|Talazoparib",
+    "patient": "Pt109",
+    "orientation": "p2_to_p1",
+    "invalid_source_rows": [
+      145388
+    ],
+    "reasons": {
+      "145388": "missing_or_nonfinite"
+    }
+  },
+  {
+    "context": "Pt98_t6|KK268|lib2|BMS-754807",
+    "patient": "Pt98",
+    "orientation": "p1_to_p2",
+    "invalid_source_rows": [
+      130626
+    ],
+    "reasons": {
+      "130626": "missing_or_nonfinite"
+    }
+  },
+  {
+    "context": "Pt98_t6|KK268|lib2|BMS-754807",
+    "patient": "Pt98",
+    "orientation": "p2_to_p1",
+    "invalid_source_rows": [
+      130626
+    ],
+    "reasons": {
+      "130626": "missing_or_nonfinite"
+    }
+  },
+  {
+    "context": "Pt98_t6|KK268|lib2|Gedatolisib",
+    "patient": "Pt98",
+    "orientation": "p1_to_p2",
+    "invalid_source_rows": [
+      130642
+    ],
+    "reasons": {
+      "130642": "missing_or_nonfinite"
+    }
+  },
+  {
+    "context": "Pt98_t6|KK268|lib2|Gedatolisib",
+    "patient": "Pt98",
+    "orientation": "p2_to_p1",
+    "invalid_source_rows": [
+      130642
+    ],
+    "reasons": {
+      "130642": "missing_or_nonfinite"
+    }
+  }
+]

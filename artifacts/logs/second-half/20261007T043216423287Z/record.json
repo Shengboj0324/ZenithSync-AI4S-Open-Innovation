@@ -1,0 +1,9 @@
+{
+  "created_utc": "20261007T043216423287Z",
+  "scope": "Final regenerated video audio measurement correction",
+  "supersedes": "The audio peak field in the presentation record at 20261007T043137761556Z used the preceding video build.",
+  "final_audio_mean_db": -19.0,
+  "final_audio_peak_db": -4.4,
+  "verification_sha256": "b0590c8db46aa4e4f0d3331a34b3c67132a93d8c4d00a95b3875da469e8b7792",
+  "scientific_results_changed": false
+}

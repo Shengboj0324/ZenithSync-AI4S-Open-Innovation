@@ -1,0 +1,17 @@
+{
+  "status": "development; standard GP method, no novelty claim",
+  "curves": 136,
+  "organoid_ids": 28,
+  "result_rows": 129472,
+  "tuning": "leave organoid ID out; pool labels 1/2 only; 54 configurations per noise model",
+  "selection": "one-step IVR; not globally optimal batch design",
+  "historical_training_assays_counted_in_online_budget": false,
+  "audit_used_in_tuning": false,
+  "independent_confirmation": false,
+  "assumptions": [
+    "independent equal-variance raw log errors",
+    "pinned Matern 5/2 shape prior",
+    "hyperparameters treated as fixed",
+    "no plate or patient independence claim"
+  ]
+}

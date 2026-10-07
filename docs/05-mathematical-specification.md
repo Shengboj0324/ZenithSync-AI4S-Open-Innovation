@@ -2,7 +2,7 @@
 
 Implementation status is tracked separately in [Document 12](12-implementation-record.md). The following remains the full research specification; implemented primitives alone do not establish the proposed scientific claims.
 
-Everything here is a **proposed research design**, not an implemented method or established result. Established component methods are cited in [Document 04](04-data-and-prior-art.md). Novelty belongs only to a precise tested improvement, not to equations already used in Gaussian processes, conformal prediction, or experimental design.
+This is the full **proposed research design**, not a declaration that every component is implemented or validated. Consult Document 12 and its follow-ups for actual implementation status, and [Document 22](22-design-mathematical-audit.md) for additional derivations and counterexamples. Established component methods are cited in [Document 04](04-data-and-prior-art.md). Novelty belongs only to a precise tested improvement, not to equations already used in Gaussian processes, conformal prediction, or experimental design.
 
 ## 1. Define the estimand before the architecture
 

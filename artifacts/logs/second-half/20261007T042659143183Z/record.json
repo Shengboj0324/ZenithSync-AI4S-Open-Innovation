@@ -1,0 +1,326 @@
+{
+  "started_utc": "20261007T042659143183Z",
+  "fresh_directory": "/var/folders/y0/l9ns18ns5472mqrprmhhmsw00000gn/T/zenithsync-confirmation-reproduction-iw3q7zyt",
+  "raw_cache_initially_empty": true,
+  "meaning": "Reproduction of known results, not a new independent outcome evaluation",
+  "commands": [
+    {
+      "label": "create-environment",
+      "args": [
+        "/Users/jiangshengbo/Desktop/ZenithSync-AI4S-Open-Innovation/.venv/bin/python",
+        "-m",
+        "venv",
+        "/var/folders/y0/l9ns18ns5472mqrprmhhmsw00000gn/T/zenithsync-confirmation-reproduction-iw3q7zyt/.venv"
+      ],
+      "exit_code": 0,
+      "seconds": 1.159513,
+      "log": "create-environment.txt"
+    },
+    {
+      "label": "install-pinned",
+      "args": [
+        "/var/folders/y0/l9ns18ns5472mqrprmhhmsw00000gn/T/zenithsync-confirmation-reproduction-iw3q7zyt/.venv/bin/python",
+        "-m",
+        "pip",
+        "install",
+        "--disable-pip-version-check",
+        "-r",
+        "requirements-lock.txt"
+      ],
+      "exit_code": 0,
+      "seconds": 8.428164,
+      "log": "install-pinned.txt"
+    },
+    {
+      "label": "tests",
+      "args": [
+        "/var/folders/y0/l9ns18ns5472mqrprmhhmsw00000gn/T/zenithsync-confirmation-reproduction-iw3q7zyt/.venv/bin/python",
+        "-m",
+        "pytest",
+        "-q",
+        "-W",
+        "error"
+      ],
+      "exit_code": 0,
+      "seconds": 7.464197,
+      "log": "tests.txt"
+    },
+    {
+      "label": "fetch-farin",
+      "args": [
+        "/var/folders/y0/l9ns18ns5472mqrprmhhmsw00000gn/T/zenithsync-confirmation-reproduction-iw3q7zyt/.venv/bin/python",
+        "-W",
+        "error",
+        "scripts/fetch_farin.py"
+      ],
+      "exit_code": 0,
+      "seconds": 4.925003,
+      "log": "fetch-farin.txt"
+    },
+    {
+      "label": "audit-farin",
+      "args": [
+        "/var/folders/y0/l9ns18ns5472mqrprmhhmsw00000gn/T/zenithsync-confirmation-reproduction-iw3q7zyt/.venv/bin/python",
+        "-W",
+        "error",
+        "scripts/audit_farin.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.27815,
+      "log": "audit-farin.txt"
+    },
+    {
+      "label": "fetch-project-design",
+      "args": [
+        "/var/folders/y0/l9ns18ns5472mqrprmhhmsw00000gn/T/zenithsync-confirmation-reproduction-iw3q7zyt/.venv/bin/python",
+        "-W",
+        "error",
+        "scripts/inspect_kryeziu_design.py"
+      ],
+      "exit_code": 0,
+      "seconds": 20.517908,
+      "log": "fetch-project-design.txt"
+    },
+    {
+      "label": "fetch-project-patients",
+      "args": [
+        "/var/folders/y0/l9ns18ns5472mqrprmhhmsw00000gn/T/zenithsync-confirmation-reproduction-iw3q7zyt/.venv/bin/python",
+        "-W",
+        "error",
+        "scripts/inspect_kryeziu_patient_map.py"
+      ],
+      "exit_code": 0,
+      "seconds": 3.047259,
+      "log": "fetch-project-patients.txt"
+    },
+    {
+      "label": "admission",
+      "args": [
+        "/var/folders/y0/l9ns18ns5472mqrprmhhmsw00000gn/T/zenithsync-confirmation-reproduction-iw3q7zyt/.venv/bin/python",
+        "-W",
+        "error",
+        "scripts/audit_kryeziu_design.py"
+      ],
+      "exit_code": 0,
+      "seconds": 2.981842,
+      "log": "admission.txt"
+    },
+    {
+      "label": "preflight",
+      "args": [
+        "/var/folders/y0/l9ns18ns5472mqrprmhhmsw00000gn/T/zenithsync-confirmation-reproduction-iw3q7zyt/.venv/bin/python",
+        "-W",
+        "error",
+        "scripts/kryeziu_confirmation.py"
+      ],
+      "exit_code": 0,
+      "seconds": 3.488256,
+      "log": "preflight.txt"
+    },
+    {
+      "label": "project-outcomes",
+      "args": [
+        "/var/folders/y0/l9ns18ns5472mqrprmhhmsw00000gn/T/zenithsync-confirmation-reproduction-iw3q7zyt/.venv/bin/python",
+        "-W",
+        "error",
+        "scripts/unblind_kryeziu.py"
+      ],
+      "exit_code": 0,
+      "seconds": 4.358353,
+      "log": "project-outcomes.txt"
+    },
+    {
+      "label": "evaluate",
+      "args": [
+        "/var/folders/y0/l9ns18ns5472mqrprmhhmsw00000gn/T/zenithsync-confirmation-reproduction-iw3q7zyt/.venv/bin/python",
+        "-W",
+        "error",
+        "scripts/kryeziu_confirmation.py",
+        "--evaluate"
+      ],
+      "exit_code": 0,
+      "seconds": 15.765949,
+      "log": "evaluate.txt"
+    },
+    {
+      "label": "verify",
+      "args": [
+        "/var/folders/y0/l9ns18ns5472mqrprmhhmsw00000gn/T/zenithsync-confirmation-reproduction-iw3q7zyt/.venv/bin/python",
+        "-W",
+        "error",
+        "scripts/audit_kryeziu_confirmation.py"
+      ],
+      "exit_code": 0,
+      "seconds": 4.88654,
+      "log": "verify.txt"
+    },
+    {
+      "label": "diagnostics",
+      "args": [
+        "/var/folders/y0/l9ns18ns5472mqrprmhhmsw00000gn/T/zenithsync-confirmation-reproduction-iw3q7zyt/.venv/bin/python",
+        "-W",
+        "error",
+        "scripts/summarize_kryeziu_diagnostics.py"
+      ],
+      "exit_code": 0,
+      "seconds": 2.025353,
+      "log": "diagnostics.txt"
+    },
+    {
+      "label": "example",
+      "args": [
+        "/var/folders/y0/l9ns18ns5472mqrprmhhmsw00000gn/T/zenithsync-confirmation-reproduction-iw3q7zyt/.venv/bin/python",
+        "-W",
+        "error",
+        "scripts/build_well_example.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.456952,
+      "log": "example.txt"
+    }
+  ],
+  "comparisons": {
+    "artifacts/kryeziu_design_v1/design-1.csv": {
+      "expected_sha256": "45d3e9303e6f4ce5d6338daecf477c26c0768ba2ff2153d38e4c637d21173321",
+      "actual_sha256": "45d3e9303e6f4ce5d6338daecf477c26c0768ba2ff2153d38e4c637d21173321",
+      "identical": true
+    },
+    "artifacts/kryeziu_design_v1/patient-map.csv": {
+      "expected_sha256": "88a1a7109ccc794da863d6af439ac77dc11116c262b7a6e24cc9a631cb5a109b",
+      "actual_sha256": "88a1a7109ccc794da863d6af439ac77dc11116c262b7a6e24cc9a631cb5a109b",
+      "identical": true
+    },
+    "artifacts/kryeziu_design_v1/patient-map.json": {
+      "expected_sha256": "1ffa0ef10c85a5cbe0b52cb01f5ec0c2a16122d70846628f175646a7f76943ad",
+      "actual_sha256": "1ffa0ef10c85a5cbe0b52cb01f5ec0c2a16122d70846628f175646a7f76943ad",
+      "identical": true
+    },
+    "artifacts/kryeziu_design_v1/admission.csv": {
+      "expected_sha256": "fd316f912733ad179eaff0c51f9c347ab99fbcc278fd5e65581017802c1cf281",
+      "actual_sha256": "fd316f912733ad179eaff0c51f9c347ab99fbcc278fd5e65581017802c1cf281",
+      "identical": true
+    },
+    "artifacts/kryeziu_design_v1/patient-admission.csv": {
+      "expected_sha256": "5d8d0473a83f6f16cfed5c44fb4700c4ef2f74839f79be7ebd01f47cb02f65d7",
+      "actual_sha256": "5d8d0473a83f6f16cfed5c44fb4700c4ef2f74839f79be7ebd01f47cb02f65d7",
+      "identical": true
+    },
+    "artifacts/kryeziu_design_v1/paired_source_rows.json": {
+      "expected_sha256": "5b2ce48fc285fb7b7471d3c7f9751a76d258836fb7ddb3217356ec2b9c88529c",
+      "actual_sha256": "5b2ce48fc285fb7b7471d3c7f9751a76d258836fb7ddb3217356ec2b9c88529c",
+      "identical": true
+    },
+    "artifacts/kryeziu_design_v1/quality.json": {
+      "expected_sha256": "534117b7f7dfad3a93e379348712dc382a80eceee35658191025a6434335a204",
+      "actual_sha256": "534117b7f7dfad3a93e379348712dc382a80eceee35658191025a6434335a204",
+      "identical": true
+    },
+    "artifacts/kryeziu_confirmation_v1/preflight.json": {
+      "expected_sha256": "3f99f895db25ca581feafa05b61d98046be4a1927476a252d25fb487d939efbd",
+      "actual_sha256": "3f99f895db25ca581feafa05b61d98046be4a1927476a252d25fb487d939efbd",
+      "identical": true
+    },
+    "artifacts/kryeziu_confirmation_v1/results.csv.gz": {
+      "expected_sha256": "0627f40009c8e22ce323737cc2c57774f2f071dcd0c461ed79cfb73afd7184ce",
+      "actual_sha256": "0627f40009c8e22ce323737cc2c57774f2f071dcd0c461ed79cfb73afd7184ce",
+      "identical": true
+    },
+    "artifacts/kryeziu_confirmation_v1/exclusions.json": {
+      "expected_sha256": "eec7ec89621c574bb50d9ce2a06a497c4f66a0159bac9818c300dfb946e82c37",
+      "actual_sha256": "eec7ec89621c574bb50d9ce2a06a497c4f66a0159bac9818c300dfb946e82c37",
+      "identical": true
+    },
+    "artifacts/kryeziu_confirmation_v1/confirmation.json": {
+      "expected_sha256": "e2f7db9220693334b62f9c13d8c83adb14034a4758317a060a49f53501ca5fc8",
+      "actual_sha256": "e2f7db9220693334b62f9c13d8c83adb14034a4758317a060a49f53501ca5fc8",
+      "identical": true
+    },
+    "artifacts/kryeziu_confirmation_v1/patient-results.csv": {
+      "expected_sha256": "95cfc59387443e3ef59080f4ddfb04bbc7d8d54af8738a2fd315691ac940c579",
+      "actual_sha256": "95cfc59387443e3ef59080f4ddfb04bbc7d8d54af8738a2fd315691ac940c579",
+      "identical": true
+    },
+    "artifacts/kryeziu_confirmation_v1/verification.json": {
+      "expected_sha256": "69950d49d5123156d1d629dbebc83ba4b832d78656e2165ad246b51ecbaef567",
+      "actual_sha256": "69950d49d5123156d1d629dbebc83ba4b832d78656e2165ad246b51ecbaef567",
+      "identical": true
+    },
+    "artifacts/kryeziu_confirmation_v1/diagnostics.json": {
+      "expected_sha256": "e1f04a2e599cdb4ca6a05b52601138e560c629920bf2b6dab3895805394afc8b",
+      "actual_sha256": "e1f04a2e599cdb4ca6a05b52601138e560c629920bf2b6dab3895805394afc8b",
+      "identical": true
+    },
+    "artifacts/kryeziu_confirmation_v1/budget-diagnostics.csv": {
+      "expected_sha256": "ed3f959e8167f3433919c0d280e21e7937895092bb6862bb9b521f9a704c2278",
+      "actual_sha256": "ed3f959e8167f3433919c0d280e21e7937895092bb6862bb9b521f9a704c2278",
+      "identical": true
+    },
+    "artifacts/kryeziu_confirmation_v1/drug-diagnostics.csv": {
+      "expected_sha256": "f1cb4233e89dac2d234e9ea2aa514a20cd7f25dbf4601ac855f2720ce2606817",
+      "actual_sha256": "f1cb4233e89dac2d234e9ea2aa514a20cd7f25dbf4601ac855f2720ce2606817",
+      "identical": true
+    },
+    "artifacts/kryeziu_confirmation_v1/efficiency-budgets.csv": {
+      "expected_sha256": "2b19a44c4f4aac737b4df197bca108dfc842193d1b6eff324c9da5e788afea06",
+      "actual_sha256": "2b19a44c4f4aac737b4df197bca108dfc842193d1b6eff324c9da5e788afea06",
+      "identical": true
+    },
+    "artifacts/kryeziu_confirmation_v1/library_id-diagnostics.csv": {
+      "expected_sha256": "3ffe14afad1d0eaf52e75191f39325755997d9e5de72e71481e6dcb08fec0a85",
+      "actual_sha256": "3ffe14afad1d0eaf52e75191f39325755997d9e5de72e71481e6dcb08fec0a85",
+      "identical": true
+    },
+    "artifacts/kryeziu_confirmation_v1/overall-diagnostics.csv": {
+      "expected_sha256": "573169399813d1958d4e17b3d4f41f36fce727f27204636c6b78e2b05b4a860f",
+      "actual_sha256": "573169399813d1958d4e17b3d4f41f36fce727f27204636c6b78e2b05b4a860f",
+      "identical": true
+    },
+    "artifacts/kryeziu_confirmation_v1/paired-comparators.csv": {
+      "expected_sha256": "3a801b0a43acaf893fd06c93b666134c21ba6c0c8a810ba9b6cc6d1a840d9882",
+      "actual_sha256": "3a801b0a43acaf893fd06c93b666134c21ba6c0c8a810ba9b6cc6d1a840d9882",
+      "identical": true
+    },
+    "artifacts/kryeziu_confirmation_v1/patient-diagnostics.csv": {
+      "expected_sha256": "feefb9f18579e523f850f64bf83352e552e0572aaccfe2119e336f1860ebbacc",
+      "actual_sha256": "feefb9f18579e523f850f64bf83352e552e0572aaccfe2119e336f1860ebbacc",
+      "identical": true
+    },
+    "artifacts/farin_v1/quality.json": {
+      "expected_sha256": "c9b9d7e01f690c2a87ea1f7f8022d6d0fc3f1b9c19ac4d65ba485b07d9e9ea6f",
+      "actual_sha256": "c9b9d7e01f690c2a87ea1f7f8022d6d0fc3f1b9c19ac4d65ba485b07d9e9ea6f",
+      "identical": true
+    },
+    "artifacts/farin_v1/source_rows.csv": {
+      "expected_sha256": "ceba71ca556b9e242e43ee86390028e34340ee6a28962e3e63cd516d93fb9e25",
+      "actual_sha256": "ceba71ca556b9e242e43ee86390028e34340ee6a28962e3e63cd516d93fb9e25",
+      "identical": true
+    },
+    "artifacts/well_workflow_v1/example-response.json": {
+      "expected_sha256": "13309880b670e63e29d4d24e04cae93ccdb5360ed1c72ad8da7e36b82037f9c7",
+      "actual_sha256": "13309880b670e63e29d4d24e04cae93ccdb5360ed1c72ad8da7e36b82037f9c7",
+      "identical": true
+    },
+    "examples/farin_wells_request.json": {
+      "expected_sha256": "f10009cc91ced3114157a90d48b478e505a2d438cf175cf3c54c1e1b892ff0db",
+      "actual_sha256": "f10009cc91ced3114157a90d48b478e505a2d438cf175cf3c54c1e1b892ff0db",
+      "identical": true
+    },
+    "examples/farin_wells_provenance.json": {
+      "expected_sha256": "403ae3b2791f0ecbd770c902d2bbcd83b228d74458a6563568aec6ee4ff7ca0a",
+      "actual_sha256": "403ae3b2791f0ecbd770c902d2bbcd83b228d74458a6563568aec6ee4ff7ca0a",
+      "identical": true
+    },
+    "data/raw/kryeziu/signals-projection.csv": {
+      "expected_sha256": "88390dc4bff17b27e7f5e5eece2b3ca228aa131232b42a7ea6e5d58ddd5d22ec",
+      "actual_sha256": "88390dc4bff17b27e7f5e5eece2b3ca228aa131232b42a7ea6e5d58ddd5d22ec",
+      "identical": true
+    }
+  },
+  "status": "passed",
+  "historical_records_copied": [
+    "protocol-freeze.json",
+    "extraction.json"
+  ],
+  "deterministic_artifacts_identical": 27,
+  "finished_utc": "2026-10-07T04:28:19.034523+00:00"
+}

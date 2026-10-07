@@ -1,0 +1,2299 @@
+{
+  "ambiguous_curve_rows": 99,
+  "ambiguous_curves": [
+    "O06:Monoculture::Gef",
+    "O19:Coculture:F19:Gef",
+    "O25:Monoculture::5-FU",
+    "O28:Coculture:F28:Gef"
+  ],
+  "author_excluded_rows": 235,
+  "curve_inventory": [
+    {
+      "ambiguous": false,
+      "curve_id": "O01:Coculture:F01:5-FU",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 21,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O01:Coculture:F01:Gef",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O01:Coculture:F01:Oxa",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O01:Coculture:F01:SN-38",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 23,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O01:Monoculture::5-FU",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O01:Monoculture::Gef",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 23,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O01:Monoculture::Oxa",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O01:Monoculture::SN-38",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 22,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O02:Coculture:F20:5-FU",
+      "eligible_controls": 2,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 22,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O02:Coculture:F20:Gef",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 23,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O02:Coculture:F20:Oxa",
+      "eligible_controls": 2,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 23,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O02:Coculture:F20:SN-38",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 23,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O02:Monoculture::5-FU",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O02:Monoculture::Gef",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 22,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O02:Monoculture::Oxa",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 23,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O02:Monoculture::SN-38",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 22,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O03:Coculture:F20:5-FU",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O03:Coculture:F20:Gef",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O03:Coculture:F20:Oxa",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O03:Coculture:F20:SN-38",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O03:Monoculture::5-FU",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 23,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O03:Monoculture::Gef",
+      "eligible_controls": 2,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 22,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O03:Monoculture::Oxa",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O03:Monoculture::SN-38",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 22,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O04:Coculture:F04N:5-FU",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O04:Coculture:F04N:Gef",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 23,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O04:Coculture:F04N:Oxa",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O04:Coculture:F04N:SN-38",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 23,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O04:Monoculture::5-FU",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 23,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O04:Monoculture::Gef",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O04:Monoculture::Oxa",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O04:Monoculture::SN-38",
+      "eligible_controls": 2,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 23,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O05:Coculture:F05:5-FU",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 23,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O05:Coculture:F05:Gef",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 22,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O05:Coculture:F05:Oxa",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 23,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O05:Coculture:F05:SN-38",
+      "eligible_controls": 2,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 22,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O05:Monoculture::5-FU",
+      "eligible_controls": 2,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 21,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O05:Monoculture::Gef",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 23,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O05:Monoculture::Oxa",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O05:Monoculture::SN-38",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 21,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O06:Coculture:F06:5-FU",
+      "eligible_controls": 2,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 23,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O06:Coculture:F06:Gef",
+      "eligible_controls": 2,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 23,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O06:Coculture:F06:Oxa",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O06:Coculture:F06:SN-38",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O06:Coculture:F11:5-FU",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O06:Coculture:F11:Gef",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 23,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O06:Coculture:F11:Oxa",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O06:Coculture:F11:SN-38",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 23,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O06:Coculture:F14:5-FU",
+      "eligible_controls": 0,
+      "eligible_nonzero_doses": 6,
+      "eligible_rows": 18,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O06:Coculture:F14:Gef",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O06:Coculture:F14:Oxa",
+      "eligible_controls": 0,
+      "eligible_nonzero_doses": 6,
+      "eligible_rows": 18,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O06:Coculture:F14:SN-38",
+      "eligible_controls": 0,
+      "eligible_nonzero_doses": 6,
+      "eligible_rows": 18,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O06:Coculture:F17:5-FU",
+      "eligible_controls": 2,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 23,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O06:Coculture:F17:Gef",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O06:Coculture:F17:Oxa",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O06:Coculture:F17:SN-38",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O06:Monoculture::5-FU",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": true,
+      "curve_id": "O06:Monoculture::Gef",
+      "eligible_controls": 0,
+      "eligible_nonzero_doses": 0,
+      "eligible_rows": 0,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O06:Monoculture::Oxa",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O06:Monoculture::SN-38",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 21,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O07:Coculture:F07:5-FU",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O07:Coculture:F07:Gef",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 23,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O07:Coculture:F07:Oxa",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O07:Coculture:F07:SN-38",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O07:Monoculture::5-FU",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O07:Monoculture::Gef",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O07:Monoculture::Oxa",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O07:Monoculture::SN-38",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O09:Coculture:F17:5-FU",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O09:Coculture:F17:Gef",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 23,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O09:Coculture:F17:Oxa",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 23,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O09:Coculture:F17:SN-38",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 23,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O09:Monoculture::5-FU",
+      "eligible_controls": 2,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 23,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O09:Monoculture::Gef",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 23,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O09:Monoculture::Oxa",
+      "eligible_controls": 2,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 23,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O09:Monoculture::SN-38",
+      "eligible_controls": 2,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 18,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O10:Coculture:F11:5-FU",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O10:Coculture:F11:Gef",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O10:Coculture:F11:Oxa",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O10:Coculture:F11:SN-38",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O10:Monoculture::5-FU",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 22,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O10:Monoculture::Gef",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 22,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O10:Monoculture::Oxa",
+      "eligible_controls": 2,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 23,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O10:Monoculture::SN-38",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 22,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O11:Coculture:F06:5-FU",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O11:Coculture:F06:Gef",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O11:Coculture:F06:Oxa",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O11:Coculture:F06:SN-38",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O11:Coculture:F11:5-FU",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O11:Coculture:F11:Gef",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O11:Coculture:F11:Oxa",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O11:Coculture:F11:SN-38",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O11:Coculture:F14:5-FU",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O11:Coculture:F14:Gef",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O11:Coculture:F14:Oxa",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O11:Coculture:F14:SN-38",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O11:Coculture:F17:5-FU",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O11:Coculture:F17:Gef",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O11:Coculture:F17:Oxa",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O11:Coculture:F17:SN-38",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O11:Monoculture::5-FU",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O11:Monoculture::Gef",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O11:Monoculture::Oxa",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O11:Monoculture::SN-38",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O12:Coculture:F11:5-FU",
+      "eligible_controls": 2,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 22,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O12:Coculture:F11:Gef",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O12:Coculture:F11:Oxa",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 23,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O12:Coculture:F11:SN-38",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 23,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O12:Monoculture::5-FU",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O12:Monoculture::Gef",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O12:Monoculture::Oxa",
+      "eligible_controls": 2,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 22,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O12:Monoculture::SN-38",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O13:Coculture:F13:5-FU",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O13:Coculture:F13:Gef",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 22,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O13:Coculture:F13:Oxa",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O13:Coculture:F13:SN-38",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O13:Monoculture::5-FU",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 23,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O13:Monoculture::Gef",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O13:Monoculture::Oxa",
+      "eligible_controls": 2,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 23,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O13:Monoculture::SN-38",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 23,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O14:Coculture:F06:5-FU",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 23,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O14:Coculture:F06:Gef",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O14:Coculture:F06:Oxa",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O14:Coculture:F06:SN-38",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O14:Coculture:F11:5-FU",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O14:Coculture:F11:Gef",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 22,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O14:Coculture:F11:Oxa",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O14:Coculture:F11:SN-38",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O14:Coculture:F14:5-FU",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 23,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O14:Coculture:F14:Gef",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O14:Coculture:F14:Oxa",
+      "eligible_controls": 2,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 22,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O14:Coculture:F14:SN-38",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 22,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O14:Coculture:F17:5-FU",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 23,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O14:Coculture:F17:Gef",
+      "eligible_controls": 2,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 21,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O14:Coculture:F17:Oxa",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O14:Coculture:F17:SN-38",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 23,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O14:Monoculture::5-FU",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O14:Monoculture::Gef",
+      "eligible_controls": 1,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 20,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O14:Monoculture::Oxa",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O14:Monoculture::SN-38",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 23,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O15:Coculture:F15:5-FU",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O15:Coculture:F15:Gef",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O15:Coculture:F15:Oxa",
+      "eligible_controls": 2,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 22,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O15:Coculture:F15:SN-38",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O15:Monoculture::5-FU",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O15:Monoculture::Gef",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O15:Monoculture::Oxa",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O15:Monoculture::SN-38",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O16:Coculture:F17:5-FU",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O16:Coculture:F17:Gef",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O16:Coculture:F17:Oxa",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O16:Coculture:F17:SN-38",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O16:Monoculture::5-FU",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O16:Monoculture::Gef",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O16:Monoculture::Oxa",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O16:Monoculture::SN-38",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 22,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O17:Coculture:F06:5-FU",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O17:Coculture:F06:Gef",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 23,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O17:Coculture:F06:Oxa",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O17:Coculture:F06:SN-38",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 23,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O17:Coculture:F11:5-FU",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O17:Coculture:F11:Gef",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 23,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O17:Coculture:F11:Oxa",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O17:Coculture:F11:SN-38",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 23,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O17:Coculture:F14:5-FU",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 23,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O17:Coculture:F14:Gef",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 23,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O17:Coculture:F14:Oxa",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 22,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O17:Coculture:F14:SN-38",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 23,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O17:Coculture:F17:5-FU",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 23,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O17:Coculture:F17:Gef",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 23,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O17:Coculture:F17:Oxa",
+      "eligible_controls": 2,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 23,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O17:Coculture:F17:SN-38",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 23,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O17:Monoculture::5-FU",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O17:Monoculture::Gef",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 22,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O17:Monoculture::Oxa",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 22,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O17:Monoculture::SN-38",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 22,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O18:Coculture:F20:5-FU",
+      "eligible_controls": 2,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 23,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O18:Coculture:F20:Gef",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 22,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O18:Coculture:F20:Oxa",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O18:Coculture:F20:SN-38",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 23,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O18:Monoculture::5-FU",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O18:Monoculture::Gef",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 23,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O18:Monoculture::Oxa",
+      "eligible_controls": 2,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 22,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O18:Monoculture::SN-38",
+      "eligible_controls": 2,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 18,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O19:Coculture:F19:5-FU",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 23,
+      "rows": 24
+    },
+    {
+      "ambiguous": true,
+      "curve_id": "O19:Coculture:F19:Gef",
+      "eligible_controls": 0,
+      "eligible_nonzero_doses": 0,
+      "eligible_rows": 0,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O19:Coculture:F19:Oxa",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 23,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O19:Coculture:F19:SN-38",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O19:Monoculture::5-FU",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O19:Monoculture::Gef",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 22,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O19:Monoculture::Oxa",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O19:Monoculture::SN-38",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 23,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O20:Coculture:F20:5-FU",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O20:Coculture:F20:Gef",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 23,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O20:Coculture:F20:Oxa",
+      "eligible_controls": 4,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 27
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O20:Coculture:F20:SN-38",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 22,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O20:Monoculture::5-FU",
+      "eligible_controls": 4,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 25,
+      "rows": 25
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O20:Monoculture::Gef",
+      "eligible_controls": 2,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 21,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O20:Monoculture::Oxa",
+      "eligible_controls": 4,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 25,
+      "rows": 27
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O20:Monoculture::SN-38",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 21,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O21:Coculture:F14:5-FU",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O21:Coculture:F14:Gef",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 23,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O21:Coculture:F14:Oxa",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O21:Coculture:F14:SN-38",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O21:Monoculture::5-FU",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O21:Monoculture::Gef",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O21:Monoculture::Oxa",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O21:Monoculture::SN-38",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 23,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O22:Coculture:F22:5-FU",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 22,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O22:Coculture:F22:Gef",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 22,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O22:Coculture:F22:Oxa",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 22,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O22:Coculture:F22:SN-38",
+      "eligible_controls": 2,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 20,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O22:Monoculture::5-FU",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O22:Monoculture::Gef",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O22:Monoculture::Oxa",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 23,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O22:Monoculture::SN-38",
+      "eligible_controls": 2,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 21,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O23:Coculture:F14:5-FU",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O23:Coculture:F14:Gef",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 23,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O23:Coculture:F14:Oxa",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O23:Coculture:F14:SN-38",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 21,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O23:Monoculture::5-FU",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 22,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O23:Monoculture::Gef",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O23:Monoculture::Oxa",
+      "eligible_controls": 2,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 23,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O23:Monoculture::SN-38",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 23,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O24:Coculture:F20:5-FU",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O24:Coculture:F20:Gef",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 23,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O24:Coculture:F20:Oxa",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O24:Coculture:F20:SN-38",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O24:Monoculture::5-FU",
+      "eligible_controls": 2,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 23,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O24:Monoculture::Gef",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O24:Monoculture::Oxa",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O24:Monoculture::SN-38",
+      "eligible_controls": 2,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 21,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O25:Coculture:F25:5-FU",
+      "eligible_controls": 6,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 27,
+      "rows": 27
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O25:Coculture:F25:Gef",
+      "eligible_controls": 2,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 23,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O25:Coculture:F25:Oxa",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O25:Coculture:F25:SN-38",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 25,
+      "rows": 31
+    },
+    {
+      "ambiguous": true,
+      "curve_id": "O25:Monoculture::5-FU",
+      "eligible_controls": 0,
+      "eligible_nonzero_doses": 0,
+      "eligible_rows": 0,
+      "rows": 27
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O25:Monoculture::Gef",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O25:Monoculture::Oxa",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O25:Monoculture::SN-38",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 31
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O26:Coculture:F26:5-FU",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O26:Coculture:F26:Gef",
+      "eligible_controls": 2,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 23,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O26:Coculture:F26:Oxa",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O26:Coculture:F26:SN-38",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O26:Monoculture::5-FU",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 21,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O26:Monoculture::Gef",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 23,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O26:Monoculture::Oxa",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O26:Monoculture::SN-38",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 23,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O27:Coculture:F27:5-FU",
+      "eligible_controls": 2,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 21,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O27:Coculture:F27:Gef",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 23,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O27:Coculture:F27:Oxa",
+      "eligible_controls": 2,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 23,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O27:Coculture:F27:SN-38",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O27:Monoculture::5-FU",
+      "eligible_controls": 2,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 23,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O27:Monoculture::Gef",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 23,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O27:Monoculture::Oxa",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O27:Monoculture::SN-38",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O28:Coculture:F28:5-FU",
+      "eligible_controls": 6,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 27,
+      "rows": 27
+    },
+    {
+      "ambiguous": true,
+      "curve_id": "O28:Coculture:F28:Gef",
+      "eligible_controls": 0,
+      "eligible_nonzero_doses": 0,
+      "eligible_rows": 0,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O28:Coculture:F28:Oxa",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O28:Coculture:F28:SN-38",
+      "eligible_controls": 2,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 23,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O28:Monoculture::5-FU",
+      "eligible_controls": 4,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 27
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O28:Monoculture::Gef",
+      "eligible_controls": 2,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 23,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O28:Monoculture::Oxa",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O28:Monoculture::SN-38",
+      "eligible_controls": 2,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 23,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O29:Coculture:F14:5-FU",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O29:Coculture:F14:Gef",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O29:Coculture:F14:Oxa",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O29:Coculture:F14:SN-38",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O29:Monoculture::5-FU",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O29:Monoculture::Gef",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O29:Monoculture::Oxa",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O29:Monoculture::SN-38",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 7,
+      "eligible_rows": 24,
+      "rows": 24
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O30:Coculture:F30:5-FU",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 6,
+      "eligible_rows": 21,
+      "rows": 21
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O30:Coculture:F30:Gef",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 6,
+      "eligible_rows": 21,
+      "rows": 21
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O30:Coculture:F30:Oxa",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 6,
+      "eligible_rows": 21,
+      "rows": 21
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O30:Coculture:F30:SN-38",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 6,
+      "eligible_rows": 21,
+      "rows": 21
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O30:Monoculture::5-FU",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 6,
+      "eligible_rows": 21,
+      "rows": 21
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O30:Monoculture::Gef",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 6,
+      "eligible_rows": 21,
+      "rows": 21
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O30:Monoculture::Oxa",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 6,
+      "eligible_rows": 20,
+      "rows": 21
+    },
+    {
+      "ambiguous": false,
+      "curve_id": "O30:Monoculture::SN-38",
+      "eligible_controls": 3,
+      "eligible_nonzero_doses": 6,
+      "eligible_rows": 21,
+      "rows": 21
+    }
+  ],
+  "curves": 280,
+  "eligible_rows": 6398,
+  "organoid_ids": [
+    "O01",
+    "O02",
+    "O03",
+    "O04",
+    "O05",
+    "O06",
+    "O07",
+    "O09",
+    "O10",
+    "O11",
+    "O12",
+    "O13",
+    "O14",
+    "O15",
+    "O16",
+    "O17",
+    "O18",
+    "O19",
+    "O20",
+    "O21",
+    "O22",
+    "O23",
+    "O24",
+    "O25",
+    "O26",
+    "O27",
+    "O28",
+    "O29",
+    "O30"
+  ],
+  "patient_independence_verified": false,
+  "plate_ids_available": false,
+  "role": "development",
+  "rows": 6729,
+  "zero_dose_source_rows": [
+    1041,
+    4593,
+    6349,
+    6350,
+    6351,
+    6352,
+    6353,
+    6354
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "duration_seconds": 260.536333,
+  "within_five_minutes": true,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "full_video_and_audio_decode_exit_code": 0,
+  "all_nine_source_frames_visually_inspected": true,
+  "encoded_demo_frame_visually_inspected": true,
+  "audio_mean_db": -19.0,
+  "audio_peak_db": -4.4,
+  "audio_review_limit": "Synthetic audio was generated from the visible transcript; stream and amplitude checks passed. No independent listener review is claimed.",
+  "sha256": "62c2855ffcf317dffd1baada5016e714e677c899b5d8ae2e5a00d60067146571",
+  "publication_status": "local only",
+  "encoded_final_frame_visually_inspected": true,
+  "audio_review_note": "Final regenerated video stream checked: mean -19.0 dB, peak -4.4 dB; supersedes the previous build peak -4.5 dB."
+}

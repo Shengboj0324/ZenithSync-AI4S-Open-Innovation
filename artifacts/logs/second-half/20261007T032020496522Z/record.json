@@ -1,0 +1,67 @@
+{
+  "created_utc": "2026-10-07T03:20:21.957394+00:00",
+  "status": "development replay validated; M6-M10 remain unaccepted",
+  "commands": [
+    {
+      "command": [
+        ".venv/bin/python",
+        "-W",
+        "error",
+        "scripts/farin_replay_benchmark.py"
+      ],
+      "exit_code": 0,
+      "log": "01-replay.txt",
+      "execution": "completed before this record; captured stdout/stderr copied verbatim"
+    },
+    {
+      "command": [
+        ".venv/bin/python",
+        "-W",
+        "error",
+        "scripts/summarize_farin_replay.py"
+      ],
+      "exit_code": 0,
+      "log": "02.txt"
+    },
+    {
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "pytest",
+        "-q",
+        "-W",
+        "error"
+      ],
+      "exit_code": 0,
+      "log": "03.txt"
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "exit_code": 0,
+      "log": "04.txt"
+    }
+  ],
+  "sha256": {
+    "src/zenithsync/farin_replay.py": "19e50331ebca6ef1f973c81c6d9b22a259b70d3cd0a9bb835a24d1461e3fef48",
+    "tests/test_farin_replay.py": "91cdd299e8606e6ef2dcf0f1704c5b332bcaaf8983250be44306b65726bd265f",
+    "scripts/farin_replay_benchmark.py": "3307d9c17268ce32db7ffb4205fe8316fc67cf1172d66197c440c1b04e3fabc1",
+    "scripts/summarize_farin_replay.py": "ead4bcc3343b56101b10e38c6af3b528df6bb471e65f6836399abc5c341b4310",
+    "configs/farin-replay-protocol.json": "07bfe3879ae999c51d9c1ad7262ecf0c70e853a821a6c80bbf56c97af9492262",
+    "docs/24-second-half-development.md": "43bdaf5773091edf8318c6665fc53953cb8e7f0294d8dba7889d4d4c43f65b79",
+    "artifacts/farin_replay_v1/admission.csv": "864d3bfd4b00e7e7024f702f0c35fdfd9f1553baf7d8933253e999a92da18a42",
+    "artifacts/farin_replay_v1/comparison_limits.json": "5166e8ccdaff987afbe1428200a999f0bd997540eee7242196d31174a91c72bf",
+    "artifacts/farin_replay_v1/organoid_results.csv": "28e100981287a3a52b7f7c768f384d00dfc6fe4170ae93ccac954ee7dc036dcf",
+    "artifacts/farin_replay_v1/paired_comparisons.csv": "002c6827f907f9c69a45758bc34209299e2f7aa9411a5994c7fa36f9d4817680",
+    "artifacts/farin_replay_v1/record.json": "9292f0a5a3e755ef9c9154d7ae8ff515d5886cfb0c7f58eacac12b87df440c10",
+    "artifacts/farin_replay_v1/results.csv": "c0405fac9f6cf3e86be5872a3faeb7ca32c1de0220d2565c042daadd0dc510f5",
+    "artifacts/farin_replay_v1/selections.csv": "9369de1b0f7bf63565fcf8a2c4739d33aae9ce1aaf8f55bd2a54c936af7c9e93",
+    "artifacts/farin_replay_v1/summary.csv": "f1d63f309762fd98605da9888f30a6753fdbdd1516e58a6e3910a14ae3e8210c"
+  },
+  "manual_intervention_required_for_reproduction": false,
+  "known_result": "Control-first spacing has no established improvement over random across full budgets.",
+  "earlier_diagnostic_failure": "Direct interpreter import lacked src on sys.path; resolved with PYTHONPATH=src. Runnable scripts set their own source path."
+}

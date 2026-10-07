@@ -1,0 +1,14 @@
+{
+  "protocol_freeze_sha256": "44fb12ba45cc391baf25ed442562a3e4222c801e442f94f41f2407d62185489d",
+  "code_sha256": {
+    "src/zenithsync/confirmation.py": "cdb15c04223857de67dc4bb9b9c7fa9764a90162c4fa56e94759d50271c3edf5",
+    "src/zenithsync/symmetric_design.py": "a5b67183720c331a4108d5d6fcaa908264ac512d84c8b62ecece619999c922cd",
+    "src/zenithsync/joint_design.py": "5523ea1680256f29c57f01554ce07a849ecb4203a8c191c51990c50f87b8c5a7",
+    "scripts/kryeziu_confirmation.py": "9fbef87d8724312f562ddd4b6f307dae2fbaf281c283d2e2be3a52a698cf34e9",
+    "scripts/unblind_kryeziu.py": "001aacc407dc61ddb71e81ce0eb27d5fc0bb8004971cfecd62871e5e515fd1dd"
+  },
+  "context_orientations": 13048,
+  "pool_order": "controls by source row, then treatment doses ascending",
+  "status": "outcome-free preflight complete"
+}
+Unique designs: 11

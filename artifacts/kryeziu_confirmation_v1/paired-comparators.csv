@@ -1,0 +1,9 @@
+orientation,candidate,reference,mean_mse_difference,relative_reduction,difference_low95,difference_high95,status
+p1_to_p2,exact_joint,random_joint,-0.0340807194207,0.328187402184,-0.0370353584426,-0.0313048512103,primary
+p1_to_p2,exact_joint,greedy_joint,-0.000461495485894,0.00657156868294,-0.00089526951873,-2.56324189256e-05,secondary diagnostic; no multiplicity-adjusted claim
+p1_to_p2,exact_joint,exact_diagonal,-0.00893787932828,0.113565437152,-0.0111034477037,-0.00701068597051,secondary diagnostic; no multiplicity-adjusted claim
+p1_to_p2,exact_joint,random_pchip,-0.0153175115738,0.180032144072,-0.0191192596903,-0.0119381228046,secondary diagnostic; no multiplicity-adjusted claim
+p2_to_p1,exact_joint,random_joint,-0.0336194650625,0.33079546554,-0.0364459517266,-0.030961066939,secondary diagnostic; no multiplicity-adjusted claim
+p2_to_p1,exact_joint,greedy_joint,-0.000791107219856,0.011498012297,-0.00120447902823,-0.000370866969539,secondary diagnostic; no multiplicity-adjusted claim
+p2_to_p1,exact_joint,exact_diagonal,-0.0113704453088,0.14323497505,-0.0148194120288,-0.00863253332921,secondary diagnostic; no multiplicity-adjusted claim
+p2_to_p1,exact_joint,random_pchip,-0.0148351685971,0.179065143849,-0.0180388740322,-0.0118749145389,secondary diagnostic; no multiplicity-adjusted claim

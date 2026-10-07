@@ -1,0 +1,6 @@
+full_pool_size,reference_wells,candidate_wells,contexts,fraction_fewer_wells
+18,14,11,3590,0.214285714286
+22,17,13,2515,0.235294117647
+21,16,12,231,0.25
+15,12,9,86,0.25
+19,15,12,74,0.2

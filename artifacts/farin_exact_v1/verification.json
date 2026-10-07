@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "variance_comparisons": 3808,
+  "scope": [
+    "complete budget support",
+    "monotone fixed-model exact variance",
+    "exact objective no worse than feasible greedy objective",
+    "identical initial and full-information prediction loss"
+  ],
+  "does_not_verify": [
+    "biological superiority",
+    "independent patient sampling",
+    "novelty"
+  ]
+}

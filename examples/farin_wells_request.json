@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "assay_context": "research_single_agent_organoid",
+  "experiment_id": "O01:Coculture:F01:Gef",
+  "plate_id": "unreported-source-plate",
+  "concentration_unit": "uM",
+  "reference_control_id": "farin:169",
+  "future_control_count": 1,
+  "additional_wells": 3,
+  "wells": [
+    {
+      "id": "farin:169",
+      "kind": "vehicle_control",
+      "dose": 0.0,
+      "signal": 20036.0
+    },
+    {
+      "id": "farin:170",
+      "kind": "vehicle_control",
+      "dose": 0.0,
+      "signal": null
+    },
+    {
+      "id": "farin:172",
+      "kind": "treatment",
+      "dose": 0.01,
+      "signal": 31080.0
+    },
+    {
+      "id": "farin:173",
+      "kind": "treatment",
+      "dose": 0.01,
+      "signal": null
+    },
+    {
+      "id": "farin:175",
+      "kind": "treatment",
+      "dose": 0.04,
+      "signal": null
+    },
+    {
+      "id": "farin:176",
+      "kind": "treatment",
+      "dose": 0.04,
+      "signal": null
+    },
+    {
+      "id": "farin:178",
+      "kind": "treatment",
+      "dose": 0.1,
+      "signal": null
+    },
+    {
+      "id": "farin:179",
+      "kind": "treatment",
+      "dose": 0.1,
+      "signal": null
+    },
+    {
+      "id": "farin:181",
+      "kind": "treatment",
+      "dose": 0.4,
+      "signal": null
+    },
+    {
+      "id": "farin:182",
+      "kind": "treatment",
+      "dose": 0.4,
+      "signal": null
+    },
+    {
+      "id": "farin:184",
+      "kind": "treatment",
+      "dose": 1.1,
+      "signal": null
+    },
+    {
+      "id": "farin:185",
+      "kind": "treatment",
+      "dose": 1.1,
+      "signal": null
+    },
+    {
+      "id": "farin:187",
+      "kind": "treatment",
+      "dose": 3.3,
+      "signal": null
+    },
+    {
+      "id": "farin:188",
+      "kind": "treatment",
+      "dose": 3.3,
+      "signal": null
+    },
+    {
+      "id": "farin:190",
+      "kind": "treatment",
+      "dose": 10.0,
+      "signal": 5485.0
+    },
+    {
+      "id": "farin:191",
+      "kind": "treatment",
+      "dose": 10.0,
+      "signal": null
+    }
+  ]
+}

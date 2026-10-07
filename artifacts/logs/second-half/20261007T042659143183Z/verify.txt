@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "result_rows": 1603070,
+  "primary_valid_contexts": 6496,
+  "samples": 148,
+  "patients": 100,
+  "excluded_context_orientations": 56,
+  "checks": [
+    "complete methods/budgets/seeds",
+    "matched-information endpoints",
+    "independent serialized-data hierarchy",
+    "primary patient-bootstrap interval",
+    "integer-budget efficiency comparison and its bootstrap interval"
+  ],
+  "limits": [
+    "computational cross-check, not an external scientific review",
+    "retrospective separate-plate evaluation; no clinical or competition-rank guarantee"
+  ]
+}
+orientation   candidate      reference  mean_mse_difference  relative_reduction  difference_low95  difference_high95                                               status
+   p1_to_p2 exact_joint   random_joint            -0.034081            0.328187         -0.037035          -0.031305                                              primary
+   p1_to_p2 exact_joint   greedy_joint            -0.000461            0.006572         -0.000895          -0.000026 secondary diagnostic; no multiplicity-adjusted claim
+   p1_to_p2 exact_joint exact_diagonal            -0.008938            0.113565         -0.011103          -0.007011 secondary diagnostic; no multiplicity-adjusted claim
+   p1_to_p2 exact_joint   random_pchip            -0.015318            0.180032         -0.019119          -0.011938 secondary diagnostic; no multiplicity-adjusted claim
+   p2_to_p1 exact_joint   random_joint            -0.033619            0.330795         -0.036446          -0.030961 secondary diagnostic; no multiplicity-adjusted claim
+   p2_to_p1 exact_joint   greedy_joint            -0.000791            0.011498         -0.001204          -0.000371 secondary diagnostic; no multiplicity-adjusted claim
+   p2_to_p1 exact_joint exact_diagonal            -0.011370            0.143235         -0.014819          -0.008633 secondary diagnostic; no multiplicity-adjusted claim
+   p2_to_p1 exact_joint   random_pchip            -0.014835            0.179065         -0.018039          -0.011875 secondary diagnostic; no multiplicity-adjusted claim

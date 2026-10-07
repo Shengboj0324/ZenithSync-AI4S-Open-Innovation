@@ -1,0 +1,102 @@
+{
+  "created_utc": "2026-10-07T03:29:36.637912+00:00",
+  "status": "correlated measured replay and exact design implemented; M6-M10 remain unaccepted",
+  "commands": [
+    {
+      "command": [
+        ".venv/bin/python",
+        "-W",
+        "error",
+        "scripts/farin_gp_benchmark.py"
+      ],
+      "exit_code": 0,
+      "log": "01.txt",
+      "execution": "completed earlier in this turn; captured combined stdout/stderr copied verbatim"
+    },
+    {
+      "command": [
+        ".venv/bin/python",
+        "-W",
+        "error",
+        "scripts/farin_exact_design.py"
+      ],
+      "exit_code": 0,
+      "log": "02.txt",
+      "execution": "completed earlier in this turn; captured combined stdout/stderr copied verbatim"
+    },
+    {
+      "command": [
+        ".venv/bin/python",
+        "-W",
+        "error",
+        "scripts/summarize_farin_gp.py"
+      ],
+      "exit_code": 0,
+      "log": "03.txt"
+    },
+    {
+      "command": [
+        ".venv/bin/python",
+        "-W",
+        "error",
+        "scripts/verify_farin_results.py"
+      ],
+      "exit_code": 0,
+      "log": "04.txt"
+    },
+    {
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "pytest",
+        "-q",
+        "-W",
+        "error"
+      ],
+      "exit_code": 0,
+      "log": "05.txt"
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "exit_code": 0,
+      "log": "06.txt"
+    }
+  ],
+  "sha256": {
+    "src/zenithsync/contrast_gp.py": "a96db6722725093782fca1f2af3efb18c0085f5146e4815f37e9f333bf5083b0",
+    "src/zenithsync/joint_design.py": "5523ea1680256f29c57f01554ce07a849ecb4203a8c191c51990c50f87b8c5a7",
+    "tests/test_contrast_gp.py": "23d6f734cb885a849168da8eea2dc1bade15d078e414c5e9f1d22162e3be6718",
+    "tests/test_farin_gp_replay.py": "fb4ef42186133d5ac2816fb8c4f20b741b9ed26616cf8acf05a337dbb9ab6849",
+    "tests/test_joint_design.py": "2649baa2e6b37cd21f40041446bf42a101697e46af46677b80e11c30a1aad7c3",
+    "scripts/farin_gp_benchmark.py": "d935a599488e23ebd6c41c5b4f24ffb07d1b8f7d24f70b40da38c97d3ca3a8c2",
+    "scripts/farin_exact_design.py": "c116c253169a760997fa5a9ae8b103750a6c3cb3e70efd56e304a6aee2acc69e",
+    "scripts/summarize_farin_gp.py": "e7f4ab1147525bba2f1cceeeec70167e95fa137b77cb8a9e4ea4263eb9509c52",
+    "scripts/verify_farin_results.py": "26953a245f38ede89c0224cb3320374f0bfc8c14549a4e846002492b1fa3a633",
+    "docs/25-correlated-well-evaluation.md": "91a0e4bceced57c07ba79c1071eb6f54520a7b331a037fbb29d8aabec52ce161",
+    "data/kryeziu_candidate_metadata.json": "d31d0fba530294e6ca907f1e1c9130f2681135330469b45a27f9c62360a33699",
+    "README.md": "58916f60a3cd67b8bf8998083cd6f8127a7d5fefae34639445abf6bda3a8877b",
+    "artifacts/farin_gp_v1/comparison_limits.json": "b8f37c91ca90c7427f68b2086eaf3cce71b0581a8ca449fb1f169fc1ec5b0bb7",
+    "artifacts/farin_gp_v1/organoid_results.csv": "41259a3349d769328c1962225d9b6b229baf4a62d7db4336326c5a3a9ac7c01c",
+    "artifacts/farin_gp_v1/paired_comparisons.csv": "7958582440fd70cf5d1c37c9df0c0a23dab6c79ab30ce96baa49a5ff2806e4cc",
+    "artifacts/farin_gp_v1/record.json": "a92faa1f848880dd1a652544cd4c7775449fc0657e2a1e383a92f721db945c43",
+    "artifacts/farin_gp_v1/results.csv": "259f7c71415fc296b4f8531ee436f33cef7becf6d83c2c542f42eed967a120e3",
+    "artifacts/farin_gp_v1/selections.csv": "0ffe4241c2d26b7fca617ea7e9b082a07e1365c04fce9025be712c44803255f7",
+    "artifacts/farin_gp_v1/summary.csv": "92df789980f0237b25f1171302aac24852b81ef509b68dd83eb851b6e91ef55b",
+    "artifacts/farin_gp_v1/tuning.json": "71c6849a7b7bf75dcd3d93d120e9da4b6c76a260042fe96e38dcdad3f2e015a9",
+    "artifacts/farin_gp_v1/tuning_scores.csv": "cb1faae6abc14a0fec4cce4601226b8878d5ab9d7702463965759a66e2cf1da3",
+    "artifacts/farin_exact_v1/organoid_results.csv": "ff223999b9874d415ee49ce3732744cfa6e1b4b7faf817d68d85304d0c0bcd9e",
+    "artifacts/farin_exact_v1/record.json": "7b37dc93f0b4267bad4d8878aa1db75f754cf702633c7ee9279a4dcad6afe1ee",
+    "artifacts/farin_exact_v1/results.csv": "1f7e2894f09084276b06a64ae62fbf62eb8a06d5df614bd08d6b0496aeaeff38",
+    "artifacts/farin_exact_v1/selections.csv": "97c69a3c07a19f5e7fc0c1e7b7b777f70baf7bc4781e96361bcb8ede2418c717",
+    "artifacts/farin_exact_v1/summary.csv": "10883185e2610873fd9924c461ac6fa32cc32d705f839530cd621b589c4c3fc6",
+    "artifacts/farin_exact_v1/verification.json": "d149310fcbf0b6a35a72143275b770970c6945ab3e2c08a98bbf2fe8a3d92ea9"
+  },
+  "manual_intervention_required_for_local_reproduction": false,
+  "scientific_limit": "All reported paired-ID bootstrap intervals include zero; no demonstrated assay savings or new algorithm claim.",
+  "independent_confirmation_outcomes_downloaded": false,
+  "external_actions_performed": []
+}

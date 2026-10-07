@@ -1,0 +1,27 @@
+{
+  "request": "examples/farin_wells_request.json",
+  "observed": 3,
+  "selected_wells": [
+    {
+      "id": "farin:170",
+      "kind": "vehicle_control",
+      "dose": 0.0
+    },
+    {
+      "id": "farin:178",
+      "kind": "treatment",
+      "dose": 0.1
+    },
+    {
+      "id": "farin:184",
+      "kind": "treatment",
+      "dose": 1.1
+    }
+  ],
+  "variance_reduction": 0.1997883585855267,
+  "optimization": {
+    "representatives_evaluated": 1944,
+    "subsets_represented": 8192,
+    "assurance": "exact fixed-Gaussian, unit-cost, unrestricted-subset design up to numerical symmetry tolerance"
+  }
+}

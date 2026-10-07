@@ -1,0 +1,103 @@
+{
+  "created_utc": "2026-10-07T04:39:00.019821+00:00",
+  "scope": "Focused local accessibility and release checks; not WCAG certification",
+  "contrast_pairs": [
+    {
+      "element": "body",
+      "foreground": "#16352f",
+      "background": "#ffffff",
+      "ratio": 13.254203419722058,
+      "threshold": 4.5,
+      "passes": true
+    },
+    {
+      "element": "muted",
+      "foreground": "#50665f",
+      "background": "#ffffff",
+      "ratio": 6.163983396163078,
+      "threshold": 4.5,
+      "passes": true
+    },
+    {
+      "element": "button",
+      "foreground": "#ffffff",
+      "background": "#116d55",
+      "ratio": 6.2827878610603065,
+      "threshold": 4.5,
+      "passes": true
+    },
+    {
+      "element": "focus-white",
+      "foreground": "#a85e00",
+      "background": "#ffffff",
+      "ratio": 4.922589210195188,
+      "threshold": 3,
+      "passes": true
+    },
+    {
+      "element": "focus-page",
+      "foreground": "#a85e00",
+      "background": "#f1f5f1",
+      "ratio": 4.470482744810666,
+      "threshold": 3,
+      "passes": true
+    },
+    {
+      "element": "input-border",
+      "foreground": "#70877d",
+      "background": "#ffffff",
+      "ratio": 3.8527361143376897,
+      "threshold": 3,
+      "passes": true
+    },
+    {
+      "element": "chart-interval",
+      "foreground": "#5c9784",
+      "background": "#f7faf8",
+      "ratio": 3.2155874784704546,
+      "threshold": 3,
+      "passes": true
+    }
+  ],
+  "keyboard_observations": {
+    "skip_link_focuses_planner": true,
+    "tab_moves_to_budget": true,
+    "request_disclosure_operates_with_keyboard": true,
+    "calculation_returns_focus_to_initiator": true,
+    "invalid_budget_keeps_calculate_focus": true,
+    "reset_recovers_example": true
+  },
+  "dense_chart_observation": {
+    "synthetic_not_biological": true,
+    "total_wells": 64,
+    "dose_points": 63,
+    "displayed_dose_labels": 8,
+    "numeric_rows_retained": 63,
+    "status": "successful"
+  },
+  "frozen_hashes_verified": {
+    "configs/kryeziu-confirmation-protocol.json": "88afbc9e73339ad0608216cc871812b8572b8ee214037a2b2396513a466c7b9b",
+    "src/zenithsync/contrast_gp.py": "a96db6722725093782fca1f2af3efb18c0085f5146e4815f37e9f333bf5083b0",
+    "src/zenithsync/kryeziu_design.py": "f5424e3b0d645aed0811ef11ac39a07e9e2e2bb048dc71ccb78d5d428d443b48",
+    "artifacts/kryeziu_design_v1/extraction.json": "2dff0c8dc964aac714c7f1bc34817b8a15b6a78ac8d49bf6878333c0a6d8f35b",
+    "artifacts/kryeziu_design_v1/patient-map.json": "1ffa0ef10c85a5cbe0b52cb01f5ec0c2a16122d70846628f175646a7f76943ad",
+    "artifacts/kryeziu_design_v1/patient-admission.csv": "5d8d0473a83f6f16cfed5c44fb4700c4ef2f74839f79be7ebd01f47cb02f65d7",
+    "artifacts/kryeziu_design_v1/paired_source_rows.json": "5b2ce48fc285fb7b7471d3c7f9751a76d258836fb7ddb3217356ec2b9c88529c",
+    "src/zenithsync/confirmation.py": "cdb15c04223857de67dc4bb9b9c7fa9764a90162c4fa56e94759d50271c3edf5",
+    "src/zenithsync/symmetric_design.py": "a5b67183720c331a4108d5d6fcaa908264ac512d84c8b62ecece619999c922cd",
+    "src/zenithsync/joint_design.py": "5523ea1680256f29c57f01554ce07a849ecb4203a8c191c51990c50f87b8c5a7",
+    "scripts/kryeziu_confirmation.py": "d469836b25e8962f2599f3a72494d20740f94314fb2a0dafff7ff321e20dee92",
+    "scripts/unblind_kryeziu.py": "001aacc407dc61ddb71e81ce0eb27d5fc0bb8004971cfecd62871e5e515fd1dd"
+  },
+  "prior_reproduction_artifacts_unchanged": 27,
+  "limits": [
+    "One in-app browser at its default 625px width",
+    "No independent assistive-technology or cross-browser certification",
+    "Public access and external review remain pending"
+  ],
+  "changed_files": {
+    "demo/index.html": "55bd45f124f7092253f0f41d6e28927550978ab195d00bdfaf90f5cd0d38f7c3",
+    "demo/styles.css": "8fb814c6017ed4ad742afdf39a288afd90f52f8eb71ff70bf40713c003b51145",
+    "demo/app.js": "ff3356e883e2edb776a4b277b5e019498e4e13abdbc8b7728718d6c37e9b2cb5"
+  }
+}

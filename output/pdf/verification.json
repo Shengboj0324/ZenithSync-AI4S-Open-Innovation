@@ -1,0 +1,30 @@
+{
+  "pages": 17,
+  "page_word_counts": [
+    282,
+    284,
+    275,
+    281,
+    287,
+    270,
+    299,
+    289,
+    280,
+    288,
+    234,
+    271,
+    273,
+    272,
+    276,
+    281,
+    236
+  ],
+  "visual_review": "All 17 pages inspected through rendered contact sheets; no clipped text, broken tables, missing glyphs or footer collisions observed.",
+  "sha256": "39b39227a018512faa95a1fe2a228b9e21244193834e7da7fc24ee9d8fa0c7d7",
+  "rendering_note": "Poppler emitted a fontconfig configuration notice; all pages rendered and inspected successfully.",
+  "not_established": [
+    "External scientific review",
+    "PDF accessibility certification"
+  ],
+  "final_revision_review": "Revised reproduction page 15 rerendered and inspected; other pages unchanged."
+}

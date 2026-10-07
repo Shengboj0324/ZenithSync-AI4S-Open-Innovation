@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "result_rows": 1603070,
+  "primary_valid_contexts": 6496,
+  "samples": 148,
+  "patients": 100,
+  "excluded_context_orientations": 56,
+  "checks": [
+    "complete methods/budgets/seeds",
+    "matched-information endpoints",
+    "independent serialized-data hierarchy",
+    "primary patient-bootstrap interval",
+    "integer-budget efficiency comparison and its bootstrap interval"
+  ],
+  "limits": [
+    "computational cross-check, not an external scientific review",
+    "retrospective separate-plate evaluation; no clinical or competition-rank guarantee"
+  ]
+}

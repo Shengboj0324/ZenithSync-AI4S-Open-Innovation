@@ -1,0 +1,11 @@
+{
+  "source_sha256": "d125c5b3a1144aab2b5406cf8f26fa3c5998426ff452b4a742e651f0b253fcc7",
+  "projection_sha256": "88a1a7109ccc794da863d6af439ac77dc11116c262b7a6e24cc9a631cb5a109b",
+  "distinct_sample_patient_type_rows": 224,
+  "fields_exported": [
+    "sample_id",
+    "patient",
+    "sample_type"
+  ],
+  "mutation_fields_exposed_or_analyzed": false
+}

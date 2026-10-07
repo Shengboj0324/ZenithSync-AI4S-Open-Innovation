@@ -1,0 +1,11 @@
+{
+  "status": "development baseline; no novel-method superiority tested",
+  "protocol_sha256": "07bfe3879ae999c51d9c1ad7262ecf0c70e853a821a6c80bbf56c97af9492262",
+  "admitted_curves": 136,
+  "organoid_ids": 28,
+  "random_seeds": 20,
+  "result_rows": 125664,
+  "noise_floor_subtracted": false,
+  "independent_patients_verified": false,
+  "external_confirmation": false
+}

@@ -1,0 +1,39 @@
+{
+  "status": "development baseline; no novel-method superiority tested",
+  "protocol_sha256": "07bfe3879ae999c51d9c1ad7262ecf0c70e853a821a6c80bbf56c97af9492262",
+  "admitted_curves": 136,
+  "organoid_ids": 28,
+  "random_seeds": 20,
+  "result_rows": 125664,
+  "noise_floor_subtracted": false,
+  "independent_patients_verified": false,
+  "external_confirmation": false
+}
+             policy   method  budget      mse     rmse
+control_first_space constant       3 1.251443 1.118679
+control_first_space constant       8 1.111089 1.054082
+control_first_space constant      16 1.098229 1.047964
+control_first_space   linear       3 0.554463 0.744623
+control_first_space   linear       8 0.354049 0.595020
+control_first_space   linear      16 0.289553 0.538101
+control_first_space    pchip       3 0.788330 0.887880
+control_first_space    pchip       8 0.356144 0.596778
+control_first_space    pchip      16 0.289553 0.538101
+             random constant       3 1.251443 1.118679
+             random constant       8 1.122295 1.059384
+             random constant      16 1.098229 1.047964
+             random   linear       3 0.554463 0.744623
+             random   linear       8 0.353550 0.594601
+             random   linear      16 0.289553 0.538101
+             random    pchip       3 0.788330 0.887880
+             random    pchip       8 0.356060 0.596708
+             random    pchip      16 0.289553 0.538101
+      space_filling constant       3 1.251443 1.118679
+      space_filling constant       8 1.129724 1.062885
+      space_filling constant      16 1.098229 1.047964
+      space_filling   linear       3 0.554463 0.744623
+      space_filling   linear       8 0.392155 0.626223
+      space_filling   linear      16 0.289553 0.538101
+      space_filling    pchip       3 0.788330 0.887880
+      space_filling    pchip       8 0.392155 0.626223
+      space_filling    pchip      16 0.289553 0.538101

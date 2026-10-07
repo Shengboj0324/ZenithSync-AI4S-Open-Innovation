@@ -1,0 +1,16 @@
+{
+  "source_doi": "10.17632/fypp6xhkjy.1",
+  "source_sha256": "f9a9a51fd77ae1a5b19ad71fc236ce446223b3c2fcc66631ab304ab69bec78f0",
+  "source_url": "https://data.mendeley.com/datasets/fypp6xhkjy/1",
+  "license": "CC BY 4.0",
+  "request_sha256": "f10009cc91ced3114157a90d48b478e505a2d438cf175cf3c54c1e1b892ff0db",
+  "source_curve": "O01:Coculture:F01:Gef",
+  "selection": "first lexicographic complete admitted development curve",
+  "observed_source_rows": [
+    169,
+    172,
+    190
+  ],
+  "plate_limitation": "No plate ID exists in the source. The example is a within-curve modeling demonstration, not a verified physical-plate instruction.",
+  "outcomes_in_request": "Only the three declared observed raw signals; all candidates are null."
+}

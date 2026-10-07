@@ -1,0 +1,69 @@
+{
+  "created_utc": "2026-10-07T04:15:43.526405+00:00",
+  "scope": "Integrated local measured-well workflow and browser demonstration",
+  "tests_passed": 127,
+  "commands": [
+    {
+      "args": [
+        ".venv/bin/python",
+        "-m",
+        "pytest",
+        "-q",
+        "-W",
+        "error"
+      ],
+      "exit_code": 0,
+      "log": "pytest.txt"
+    },
+    {
+      "args": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "exit_code": 0,
+      "log": "whitespace.txt"
+    }
+  ],
+  "frozen_scientific_hashes_verified": {
+    "configs/kryeziu-confirmation-protocol.json": "88afbc9e73339ad0608216cc871812b8572b8ee214037a2b2396513a466c7b9b",
+    "src/zenithsync/contrast_gp.py": "a96db6722725093782fca1f2af3efb18c0085f5146e4815f37e9f333bf5083b0",
+    "src/zenithsync/kryeziu_design.py": "f5424e3b0d645aed0811ef11ac39a07e9e2e2bb048dc71ccb78d5d428d443b48",
+    "artifacts/kryeziu_design_v1/extraction.json": "2dff0c8dc964aac714c7f1bc34817b8a15b6a78ac8d49bf6878333c0a6d8f35b",
+    "artifacts/kryeziu_design_v1/patient-map.json": "1ffa0ef10c85a5cbe0b52cb01f5ec0c2a16122d70846628f175646a7f76943ad",
+    "artifacts/kryeziu_design_v1/patient-admission.csv": "5d8d0473a83f6f16cfed5c44fb4700c4ef2f74839f79be7ebd01f47cb02f65d7",
+    "artifacts/kryeziu_design_v1/paired_source_rows.json": "5b2ce48fc285fb7b7471d3c7f9751a76d258836fb7ddb3217356ec2b9c88529c",
+    "src/zenithsync/confirmation.py": "cdb15c04223857de67dc4bb9b9c7fa9764a90162c4fa56e94759d50271c3edf5",
+    "src/zenithsync/symmetric_design.py": "a5b67183720c331a4108d5d6fcaa908264ac512d84c8b62ecece619999c922cd",
+    "src/zenithsync/joint_design.py": "5523ea1680256f29c57f01554ce07a849ecb4203a8c191c51990c50f87b8c5a7",
+    "scripts/kryeziu_confirmation.py": "d469836b25e8962f2599f3a72494d20740f94314fb2a0dafff7ff321e20dee92",
+    "scripts/unblind_kryeziu.py": "001aacc407dc61ddb71e81ce0eb27d5fc0bb8004971cfecd62871e5e515fd1dd"
+  },
+  "direct_and_cli_response_equal": true,
+  "sha256": {
+    "README.md": "ef13005cfb94a45efe64c3ac988cb599e3e8de9d95f743d4400940944e214350",
+    "artifacts/well_workflow_v1/cli-response.json": "13309880b670e63e29d4d24e04cae93ccdb5360ed1c72ad8da7e36b82037f9c7",
+    "artifacts/well_workflow_v1/demo.jpg": "8de3f51c2d6c7e97cab0c3db4fe78024e13badc85e4176aeb6f6730bd47ebca7",
+    "artifacts/well_workflow_v1/example-response.json": "13309880b670e63e29d4d24e04cae93ccdb5360ed1c72ad8da7e36b82037f9c7",
+    "artifacts/well_workflow_v1/ui-verification.json": "48a75fb8e74c12dbb2c2019a7bedffaeb4e9381d4dc357807742108b037c0779",
+    "demo/app.js": "6e9e9b7d1961a685f6e911ae7fdbb25c8f533f240602bfb7d6062d79d7fbd8d7",
+    "demo/index.html": "50d792de94779fd8f9f67c5d2c7171cab0fb41b1c316403f7be871ac894201c6",
+    "demo/styles.css": "d4aca25598b16d6d60670b1cd1f4152b051378422185481b8a4c583c0f5a1524",
+    "docs/28-integrated-well-workflow.md": "91de66be3f94b0000748c937a7d7879063dff1f18ab6e88f0e8e07d70f1c68f6",
+    "examples/farin_wells_provenance.json": "403ae3b2791f0ecbd770c902d2bbcd83b228d74458a6563568aec6ee4ff7ca0a",
+    "examples/farin_wells_request.json": "f10009cc91ced3114157a90d48b478e505a2d438cf175cf3c54c1e1b892ff0db",
+    "scripts/build_well_example.py": "9dd9aae9f00b9947bec19a5079d1b5bfc2282843169e2b65274a3d71cce5be3e",
+    "scripts/plan_wells.py": "c4172b198d7aba5351b0ca74e040d5ff5dda474cdcfa621d557548c5f2846b57",
+    "scripts/serve_demo.py": "82b2216cdc85d5b929ac065dcf3b6f19bc96eb330a2a9d2565834ae5d10600fa",
+    "src/zenithsync/well_workflow.py": "1342da0750e6a3e7ef6795b867f53b98385c7959dd67c32385be3b6739b13e29",
+    "tests/test_demo_api.py": "9eed775457ed8c91483354233673c64c3283edb21dab092737a9bb1d6751791d",
+    "tests/test_well_workflow.py": "88ecd5dc41eba7e03056dfe74a0af9d088a6b14882a27d0758a7d4b011067771"
+  },
+  "repairs": [
+    "Initial new-test collection failed from a bracket syntax error; repaired before validation.",
+    "Hardened oversized integer rejection and capped interactive enumeration at 10000 representatives.",
+    "Browser export event timed out; verified copy field and CLI fallback."
+  ],
+  "manual_interventions_required_for_local_demo": [],
+  "goal_complete": false
+}

@@ -4,7 +4,7 @@
 
 Choose the project with the strongest achievable scientific claim under both rubrics, conditional on admissible evidence. Unlimited planning time does not imply unlimited biological data, identifiable parameters, or permission to use restricted resources.
 
-The repository contained only a title README at inspection. No existing implementation, dataset, or validated result was available to extend. No wet-lab access has been established in this round. The recommendation therefore starts from public resources and makes additional evidence acquisition an explicit work package.
+At the original planning inspection, the repository contained only a title README. Subsequent implementation evidence is recorded in Documents 12–20; it does not establish the full proposed scientific claim. The recommendation starts from public resources and makes additional evidence acquisition an explicit work package. See Document 21 for the refreshed strategy.
 
 ## Alternatives
 

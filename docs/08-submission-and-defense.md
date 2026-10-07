@@ -1,6 +1,6 @@
 # Submission package and defense plan
 
-These are proposed structures. The competition requirements are recorded in [Document 01](01-competition-intelligence.md); scientific results remain **not run**.
+These are proposed structures. The competition requirements are recorded in [Document 01](01-competition-intelligence.md). Existing exploratory results are recorded in Documents 12–20; the full proposed confirmatory experiments remain **not run**.
 
 ## One central statement
 

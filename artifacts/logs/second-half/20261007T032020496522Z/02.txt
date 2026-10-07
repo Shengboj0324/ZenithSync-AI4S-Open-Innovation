@@ -1,0 +1,7 @@
+          candidate     reference   method  organoid_ids  candidate_budget_mean_mse  reference_budget_mean_mse  paired_difference  exploratory_id_bootstrap_low  exploratory_id_bootstrap_high
+control_first_space space_filling constant            28                   1.136587                   1.131408           0.005180                     -0.013986                       0.025372
+control_first_space        random constant            28                   1.136587                   1.136619          -0.000031                     -0.021303                       0.019674
+control_first_space space_filling   linear            28                   0.380041                   0.375085           0.004956                     -0.018148                       0.028335
+control_first_space        random   linear            28                   0.380041                   0.362401           0.017640                     -0.008409                       0.046754
+control_first_space space_filling    pchip            28                   0.412773                   0.395074           0.017700                     -0.011529                       0.053727
+control_first_space        random    pchip            28                   0.412773                   0.387820           0.024953                     -0.006049                       0.060312

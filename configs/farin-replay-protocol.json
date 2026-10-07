@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "status": "development protocol, not independent confirmation",
+  "source": "10.17632/fypp6xhkjy.1",
+  "admission": "Complete eight-dose by three-label rectangles, labels exactly 1/2/3, all rows eligible under the pinned adapter. Retrospective author QC and completeness selection limit the study population.",
+  "pool": "Replicate labels 1 and 2, sixteen measured wells per admitted curve.",
+  "audit": "Replicate label 3, eight wells. Outcomes forbidden to policies, predictors, tuning, noise estimation, stopping and budget selection within an evaluated curve.",
+  "endpoint": "Seven log treatment RLU minus log held-out control RLU responses, in natural log units. This is a noisy technical replicate endpoint, not exact latent viability or clinical efficacy.",
+  "initialization": "Label-1 control, lowest nonzero dose, highest nonzero dose. Three assays charged to every policy.",
+  "budgets": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],
+  "cost": "One unit per revealed well, including controls. No currency, laboratory overhead or retrospective audit cost saving claim.",
+  "aggregation": "Per-curve mean squared error across seven audit responses; first average curves within organoid ID, then average organoid IDs equally. IDs are clustering labels, not verified independent patients.",
+  "reporting": "Full budget curves and paired organoid-cluster comparisons; no selecting the favorable budget after observing audit outcomes. Random repeats are algorithmic sensitivity, not biological sample size.",
+  "limits": ["No plate or run mapping", "Retrospective technical-replicate replay", "Complete-case selection", "Development data already inspected", "No demonstrated technical contribution yet"]
+}

@@ -1,0 +1,68 @@
+{
+  "status": "first frozen-protocol independent outcome evaluation",
+  "orientations": {
+    "p1_to_p2": {
+      "patients": 100,
+      "mean_budget_mse": {
+        "exact_diagonal": 0.07870246047030874,
+        "exact_joint": 0.0697645811420289,
+        "greedy_joint": 0.07022607662792253,
+        "random_diagonal": 0.11678665736971,
+        "random_joint": 0.10384530056269455,
+        "random_linear": 0.09521646981483002,
+        "random_pchip": 0.08508209271579778
+      },
+      "paired_difference": -0.03408071942066564,
+      "difference_interval95": [
+        -0.03703535844255531,
+        -0.031304851210342384
+      ],
+      "relative_reduction": 0.3281874021837905,
+      "relative_reduction_interval95": [
+        0.31343313639737413,
+        0.34209620523342943
+      ],
+      "primary_criteria_met": true,
+      "efficiency_secondary": {
+        "mse_ratio": 0.8918458229553281,
+        "ratio_interval95": [
+          0.864302634620103,
+          0.92126720800955
+        ],
+        "noninferiority_criteria_met": true
+      }
+    },
+    "p2_to_p1": {
+      "patients": 100,
+      "mean_budget_mse": {
+        "exact_diagonal": 0.07938316256062905,
+        "exact_joint": 0.06801271725184888,
+        "greedy_joint": 0.06880382447170567,
+        "random_diagonal": 0.11643861872822313,
+        "random_joint": 0.10163218231437561,
+        "random_linear": 0.09327730776396048,
+        "random_pchip": 0.08284788584896749
+      },
+      "paired_difference": -0.03361946506252672,
+      "difference_interval95": [
+        -0.036445951726567886,
+        -0.0309610669389819
+      ],
+      "relative_reduction": 0.33079546553996764,
+      "relative_reduction_interval95": [
+        0.31745629760424354,
+        0.343720145496443
+      ],
+      "primary_criteria_met": true,
+      "efficiency_secondary": {
+        "mse_ratio": 0.8507298023226243,
+        "ratio_interval95": [
+          0.8319822090505999,
+          0.8700169812285696
+        ],
+        "noninferiority_criteria_met": true
+      }
+    }
+  },
+  "interpretation": "Primary conclusion uses p1_to_p2 only. Reverse orientation is sensitivity. No rank or clinical guarantee."
+}

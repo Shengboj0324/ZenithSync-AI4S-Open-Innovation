@@ -1,0 +1,27 @@
+{
+  "recorded_utc": "2026-10-07T04:15:43.526405+00:00",
+  "browser": "Codex in-app browser",
+  "viewport_width_pixels": 625,
+  "observed_checks": {
+    "budget_3_ids": [
+      "farin:170",
+      "farin:178",
+      "farin:184"
+    ],
+    "budget_1_ids": [
+      "farin:181"
+    ],
+    "duplicate_key_rejected": true,
+    "stale_results_cleared_on_edit": true,
+    "reset_recovery": true,
+    "copyable_json_ids_verified": true,
+    "console_errors_or_warnings_observed": false,
+    "final_server_recalculation_after_hardening": true
+  },
+  "screenshot": "artifacts/well_workflow_v1/demo.jpg",
+  "limitations": [
+    "Download event wait timed out at 10 seconds; browser download portability unverified.",
+    "Not a full accessibility or cross-browser audit."
+  ],
+  "interaction_repair": "An incorrect button name produced no match; refreshed accessibility tree and used Calculate plan successfully."
+}

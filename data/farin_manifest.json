@@ -1,0 +1,16 @@
+{
+  "dataset": "Colorectal cancer organoid-stroma biobank allows subtype-specific assessment of individualized therapy responses",
+  "doi": "10.17632/fypp6xhkjy.1",
+  "version": 1,
+  "contributor": "Henner Farin",
+  "landing_url": "https://data.mendeley.com/datasets/fypp6xhkjy/1",
+  "filename": "Drug_sensitivity_all_lines.txt",
+  "download_url": "https://data.mendeley.com/public-files/datasets/fypp6xhkjy/files/62256dd8-dcfd-4a13-9d8a-199c6f75f6f8/file_downloaded",
+  "sha256": "f9a9a51fd77ae1a5b19ad71fc236ce446223b3c2fcc66631ab304ab69bec78f0",
+  "bytes": 326610,
+  "license": "CC BY 4.0",
+  "license_evidence": "Provider file-information panel explicitly identifies CC BY 4.0 and the matching SHA-256.",
+  "role": "development only; outcomes inspected before method selection",
+  "concentration_units_from_provider_methods": {"5-FU": "uM", "Oxa": "uM", "SN-38": "nM", "Gef": "uM"},
+  "limitations": ["Organoid cultures, not perfused chips", "No explicit plate or run identifier in this file", "Organoid identifiers are not independently verified unique patient identifiers", "Provider dates render August 24 UTC versus August 23 local time"]
+}

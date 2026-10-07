@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "status": "research_plan",
+  "experiment_id": "O01:Coculture:F01:Gef",
+  "plate_id": "unreported-source-plate",
+  "concentration_unit": "uM",
+  "request_sha256": "e8aaccfda452a8b9459e93a7d2c9acdfb11d6ea0d90490de65a68fed58be8b36",
+  "observed_wells": 3,
+  "additional_wells": 3,
+  "cost_unit": "one measured well",
+  "selected_wells": [
+    {
+      "id": "farin:170",
+      "kind": "vehicle_control",
+      "dose": 0.0
+    },
+    {
+      "id": "farin:178",
+      "kind": "treatment",
+      "dose": 0.1
+    },
+    {
+      "id": "farin:184",
+      "kind": "treatment",
+      "dose": 1.1
+    }
+  ],
+  "predictions": [
+    {
+      "dose": 0.01,
+      "mean_log_response": -0.029382619544001898,
+      "latent_variance": 0.04666984471867419,
+      "future_contrast_interval90": [
+        -0.8124950729116089,
+        0.7537298338236051
+      ],
+      "expected_latent_variance_after_batch": 0.026931770870555313
+    },
+    {
+      "dose": 0.04,
+      "mean_log_response": -0.11424290119814218,
+      "latent_variance": 0.21126007300937505,
+      "future_contrast_interval90": [
+        -1.1431117603728222,
+        0.914625957976538
+      ],
+      "expected_latent_variance_after_batch": 0.0765444588378163
+    },
+    {
+      "dose": 0.1,
+      "mean_log_response": -0.258158972471327,
+      "latent_variance": 0.3784307697250457,
+      "future_contrast_interval90": [
+        -1.4873289011610344,
+        0.9710109562183803
+      ],
+      "expected_latent_variance_after_batch": 0.09547413365471075
+    },
+    {
+      "dose": 0.4,
+      "mean_log_response": -0.5967780669972698,
+      "latent_variance": 0.5291607816499087,
+      "future_contrast_interval90": [
+        -1.9819370148058224,
+        0.7883808808112829
+      ],
+      "expected_latent_variance_after_batch": 0.11240047138413461
+    },
+    {
+      "dose": 1.1,
+      "mean_log_response": -0.8872821540597656,
+      "latent_variance": 0.46172293613760806,
+      "future_contrast_interval90": [
+        -2.2049351012389513,
+        0.43037079311942017
+      ],
+      "expected_latent_variance_after_batch": 0.10097187778398753
+    },
+    {
+      "dose": 3.3,
+      "mean_log_response": -1.216982296661165,
+      "latent_variance": 0.2620374577991049,
+      "future_contrast_interval90": [
+        -2.310577994537371,
+        -0.12338659878495917
+      ],
+      "expected_latent_variance_after_batch": 0.10511009814335662
+    },
+    {
+      "dose": 10.0,
+      "mean_log_response": -1.571148257733139,
+      "latent_variance": 0.131657458133694,
+      "future_contrast_interval90": [
+        -2.4894090027144493,
+        -0.6528875127518288
+      ],
+      "expected_latent_variance_after_batch": 0.10498800040016218
+    }
+  ],
+  "fixed_parameters": {
+    "amplitude": 1.0,
+    "length": 0.5,
+    "noise_sd": 0.3,
+    "slope": 2.0,
+    "correlated": true
+  },
+  "objective": "mean latent log-response variance over the designed positive doses",
+  "variance_reduction": 0.1997883585855267,
+  "optimization": {
+    "representatives_evaluated": 1944,
+    "subsets_represented": 8192,
+    "assurance": "exact fixed-Gaussian, unit-cost, unrestricted-subset design up to numerical symmetry tolerance"
+  },
+  "uncertainty": {
+    "future_control_count": 1,
+    "meaning": "fresh treatment log signal minus the mean of fresh control log signals",
+    "calibration": "model-conditional; nominal 90% intervals were conservative in the frozen cohort"
+  },
+  "scope": [
+    "single plate, single drug, positive raw signals",
+    "fixed model assumes independent equal-variance raw log errors",
+    "all supplied unmeasured wells are assumed feasible and equally costly",
+    "batch selection is not a sequential stopping or clinical recommendation",
+    "future observed responses and posterior means after measurement are unknown"
+  ]
+}

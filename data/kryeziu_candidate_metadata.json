@@ -1,0 +1,46 @@
+{
+  "dataset_doi": "10.17632/hr94h42xdc.3",
+  "role": "candidate confirmation; metadata only",
+  "retrieved_utc": "2026-10-07T03:29:06.534218+00:00",
+  "metadata_url": "https://data.mendeley.com/public-api/datasets/hr94h42xdc/files?folder_id=root&version=3&$start=0&$limit=1000",
+  "landing_page": "https://data.mendeley.com/datasets/hr94h42xdc/3",
+  "landing_page_license": "CC BY 4.0",
+  "outcome_files_downloaded": false,
+  "files": [
+    {
+      "filename": "Data S1.xlsx",
+      "file_id": "4ebe71f2-e01f-4b80-8c8a-2eaf9ecab42a",
+      "size": 78287,
+      "sha256": "d125c5b3a1144aab2b5406cf8f26fa3c5998426ff452b4a742e651f0b253fcc7",
+      "download_url": "https://data.mendeley.com/public-files/datasets/hr94h42xdc/files/4ebe71f2-e01f-4b80-8c8a-2eaf9ecab42a/file_downloaded"
+    },
+    {
+      "filename": "Data S2.xlsx",
+      "file_id": "2c6f1f7f-f7ae-4f39-9304-e3f0ec1b3366",
+      "size": 10164905,
+      "sha256": "3a4dbd7c444311752bb0894a21704d92d0c181d21757ccb9e4f9091d24493393",
+      "download_url": "https://data.mendeley.com/public-files/datasets/hr94h42xdc/files/2c6f1f7f-f7ae-4f39-9304-e3f0ec1b3366/file_downloaded"
+    },
+    {
+      "filename": "Data S3.xlsx",
+      "file_id": "abff576c-1323-430c-8d48-78943ad263d0",
+      "size": 117324,
+      "sha256": "9917e679f6bb916686613b631b69467f004efb577dc161c9a7475d00224833df",
+      "download_url": "https://data.mendeley.com/public-files/datasets/hr94h42xdc/files/abff576c-1323-430c-8d48-78943ad263d0/file_downloaded"
+    },
+    {
+      "filename": "Data S4.xlsx",
+      "file_id": "7302f514-ae1f-42a4-a0f9-77d4ebf468e9",
+      "size": 15886254,
+      "sha256": "3847aa93b2a84c7d5d0b04c26494f39f35963fc41e96eae97d8a180fbc33d81c",
+      "download_url": "https://data.mendeley.com/public-files/datasets/hr94h42xdc/files/7302f514-ae1f-42a4-a0f9-77d4ebf468e9/file_downloaded"
+    },
+    {
+      "filename": "Data S5.xlsx",
+      "file_id": "edff5df3-d549-4281-8f9d-81ee631dc0f5",
+      "size": 136815,
+      "sha256": "05be116a1cc837a70b97ed24af1d7a01efdb57faa5e9d9b711882ebaec5ebae2",
+      "download_url": "https://data.mendeley.com/public-files/datasets/hr94h42xdc/files/edff5df3-d549-4281-8f9d-81ee631dc0f5/file_downloaded"
+    }
+  ]
+}

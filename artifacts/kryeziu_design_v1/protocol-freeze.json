@@ -1,0 +1,14 @@
+{
+  "frozen_utc": "2026-10-07T03:38:30.865883+00:00",
+  "status": "pre-outcome protocol freeze; confirmation runner not yet implemented",
+  "outcome_values_exposed_or_analyzed": false,
+  "sha256": {
+    "configs/kryeziu-confirmation-protocol.json": "88afbc9e73339ad0608216cc871812b8572b8ee214037a2b2396513a466c7b9b",
+    "src/zenithsync/contrast_gp.py": "a96db6722725093782fca1f2af3efb18c0085f5146e4815f37e9f333bf5083b0",
+    "src/zenithsync/kryeziu_design.py": "f5424e3b0d645aed0811ef11ac39a07e9e2e2bb048dc71ccb78d5d428d443b48",
+    "artifacts/kryeziu_design_v1/extraction.json": "2dff0c8dc964aac714c7f1bc34817b8a15b6a78ac8d49bf6878333c0a6d8f35b",
+    "artifacts/kryeziu_design_v1/patient-map.json": "1ffa0ef10c85a5cbe0b52cb01f5ec0c2a16122d70846628f175646a7f76943ad",
+    "artifacts/kryeziu_design_v1/patient-admission.csv": "5d8d0473a83f6f16cfed5c44fb4700c4ef2f74839f79be7ebd01f47cb02f65d7",
+    "artifacts/kryeziu_design_v1/paired_source_rows.json": "5b2ce48fc285fb7b7471d3c7f9751a76d258836fb7ddb3217356ec2b9c88529c"
+  }
+}

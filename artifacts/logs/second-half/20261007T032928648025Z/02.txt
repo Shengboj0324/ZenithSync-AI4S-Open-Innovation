@@ -1,0 +1,13 @@
+Enumerated design 1: 8192 subsets
+Enumerated design 2: 8192 subsets
+Enumerated design 3: 8192 subsets
+Enumerated design 4: 8192 subsets
+Enumerated design 5: 8192 subsets
+Enumerated design 6: 8192 subsets
+            policy   method  budget      mse  coverage90  posterior_target_variance     rmse
+exact_fixed_budget diagonal       3 0.528649    0.893738                   0.268469 0.727082
+exact_fixed_budget diagonal       8 0.327514    0.872091                   0.062252 0.572288
+exact_fixed_budget diagonal      16 0.311473    0.876944                   0.038111 0.558098
+exact_fixed_budget    joint       3 0.499433    0.904604                   0.281419 0.706706
+exact_fixed_budget    joint       8 0.329161    0.895536                   0.074309 0.573725
+exact_fixed_budget    joint      16 0.277738    0.906529                   0.053828 0.527008

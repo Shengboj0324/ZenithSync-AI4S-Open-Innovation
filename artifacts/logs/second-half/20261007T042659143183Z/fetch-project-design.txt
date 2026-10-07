@@ -1,0 +1,32 @@
+{
+  "created_utc": "2026-10-07T03:31:09.487428+00:00",
+  "dataset_doi": "10.17632/hr94h42xdc.3",
+  "source_sha256": "3847aa93b2a84c7d5d0b04c26494f39f35963fc41e96eae97d8a180fbc33d81c",
+  "source_file_downloaded": true,
+  "outcome_values_exposed_or_analyzed": false,
+  "fields_exported": [
+    "sample_id",
+    "sample_id_drums",
+    "run_id",
+    "assay_no",
+    "library_id",
+    "compound_name",
+    "compound_fimm",
+    "compound_drums",
+    "compound_type",
+    "concentration",
+    "concentration_unit",
+    "drow",
+    "dcol",
+    "plate"
+  ],
+  "sheets": [
+    {
+      "sheet": "DSRT_RAW_211PDOs",
+      "rows": 191030,
+      "design_file": "design-1.csv",
+      "sha256": "45d3e9303e6f4ce5d6338daecf477c26c0768ba2ff2153d38e4c637d21173321"
+    }
+  ],
+  "status": "design admission only; no model confirmation"
+}
