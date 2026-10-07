@@ -1,0 +1,19 @@
+             policy  budget  macro_rmse  macro_threshold_error  compound_count
+       decision_voi       2   25.872585               0.138889               6
+       decision_voi       3   25.327759               0.138889               6
+       decision_voi       4   24.574788               0.138889               6
+       decision_voi       5   27.614556               0.166667               5
+integrated_variance       2   25.872585               0.138889               6
+integrated_variance       3   24.102459               0.138889               6
+integrated_variance       4   24.591617               0.138889               6
+integrated_variance       5   27.614556               0.166667               5
+             random       2   25.872585               0.138889               6
+             random       3   24.976504               0.138889               6
+             random       4   24.559993               0.138889               6
+             random       5   27.614556               0.166667               5
+      space_filling       2   25.872585               0.138889               6
+      space_filling       3   24.321663               0.138889               6
+      space_filling       4   24.395861               0.138889               6
+      space_filling       5   27.614556               0.166667               5
+Budget is a revealed dose-group mean, not a chip or validated experimental cost.
+Later budgets have fewer eligible compounds; compare policies within a budget.

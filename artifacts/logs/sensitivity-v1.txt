@@ -1,0 +1,55 @@
+Completed noise_sd=10, length_scale=0.75
+Completed noise_sd=10, length_scale=1.5
+Completed noise_sd=10, length_scale=3.0
+Completed noise_sd=20, length_scale=0.75
+Completed noise_sd=20, length_scale=1.5
+Completed noise_sd=20, length_scale=3.0
+Completed noise_sd=40, length_scale=0.75
+Completed noise_sd=40, length_scale=1.5
+Completed noise_sd=40, length_scale=3.0
+ noise_sd  length_scale                policy  budget  macro_rmse  threshold_error  n_compounds
+       10          0.75          decision_voi       3   27.379313         0.111111            6
+       10          0.75 decision_voi_adaptive       3   27.379313         0.111111            6
+       10          0.75   integrated_variance       3   26.404041         0.111111            6
+       10          0.75                random       3   27.636031         0.111111            6
+       10          0.75         space_filling       3   26.603955         0.111111            6
+       10          1.50          decision_voi       3   24.640758         0.138889            6
+       10          1.50 decision_voi_adaptive       3   24.540915         0.138889            6
+       10          1.50   integrated_variance       3   24.179165         0.138889            6
+       10          1.50                random       3   25.055976         0.138889            6
+       10          1.50         space_filling       3   24.262685         0.138889            6
+       10          3.00          decision_voi       3   23.271838         0.111111            6
+       10          3.00 decision_voi_adaptive       3   23.271838         0.111111            6
+       10          3.00   integrated_variance       3   23.584118         0.083333            6
+       10          3.00                random       3   24.632575         0.100000            6
+       10          3.00         space_filling       3   23.518611         0.111111            6
+       20          0.75          decision_voi       3   27.740747         0.111111            6
+       20          0.75 decision_voi_adaptive       3   27.740747         0.111111            6
+       20          0.75   integrated_variance       3   26.820034         0.111111            6
+       20          0.75                random       3   27.925218         0.111111            6
+       20          0.75         space_filling       3   27.002230         0.111111            6
+       20          1.50          decision_voi       3   25.327759         0.138889            6
+       20          1.50 decision_voi_adaptive       3   25.290831         0.138889            6
+       20          1.50   integrated_variance       3   24.102459         0.138889            6
+       20          1.50                random       3   24.976504         0.138889            6
+       20          1.50         space_filling       3   24.321663         0.138889            6
+       20          3.00          decision_voi       3   24.608864         0.138889            6
+       20          3.00 decision_voi_adaptive       3   24.608864         0.138889            6
+       20          3.00   integrated_variance       3   23.683410         0.138889            6
+       20          3.00                random       3   24.864233         0.138889            6
+       20          3.00         space_filling       3   23.853277         0.138889            6
+       40          0.75          decision_voi       3   28.936660         0.111111            6
+       40          0.75 decision_voi_adaptive       3   28.936660         0.111111            6
+       40          0.75   integrated_variance       3   28.219831         0.111111            6
+       40          0.75                random       3   29.028376         0.111111            6
+       40          0.75         space_filling       3   28.350591         0.111111            6
+       40          1.50          decision_voi       3   26.872764         0.111111            6
+       40          1.50 decision_voi_adaptive       3   26.892753         0.111111            6
+       40          1.50   integrated_variance       3   25.112203         0.111111            6
+       40          1.50                random       3   26.152901         0.111111            6
+       40          1.50         space_filling       3   25.461301         0.111111            6
+       40          3.00          decision_voi       3   27.616278         0.111111            6
+       40          3.00 decision_voi_adaptive       3   27.616278         0.111111            6
+       40          3.00   integrated_variance       3   24.880015         0.111111            6
+       40          3.00                random       3   26.149647         0.113889            6
+       40          3.00         space_filling       3   25.173348         0.111111            6

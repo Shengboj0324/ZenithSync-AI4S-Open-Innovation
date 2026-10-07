@@ -1,0 +1,25 @@
+ewart_supplement_1.xlsx: 45931 bytes sha256=8a37ff64f0b2b425650d4bafc43e9e79f90f995d47b7e87e49a7416e1af9567d
+ewart_supplement_8.xlsx: 23251 bytes sha256=87cc22d0c1d4508f7e0830df348c52238bdb18d821c8d29cc0751114081509fc
+Traceback (most recent call last):
+  File "/Users/jiangshengbo/Desktop/ZenithSync-AI4S-Open-Innovation/scripts/fetch_public_data.py", line 56, in <module>
+    main()
+    ~~~~^^
+  File "/Users/jiangshengbo/Desktop/ZenithSync-AI4S-Open-Innovation/scripts/fetch_public_data.py", line 37, in main
+    with urllib.request.urlopen(request, timeout=60) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.7/Frameworks/Python.framework/Versions/3.13/lib/python3.13/urllib/request.py", line 189, in urlopen
+    return opener.open(url, data, timeout)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.7/Frameworks/Python.framework/Versions/3.13/lib/python3.13/urllib/request.py", line 495, in open
+    response = meth(req, response)
+  File "/opt/homebrew/Cellar/python@3.13/3.13.7/Frameworks/Python.framework/Versions/3.13/lib/python3.13/urllib/request.py", line 604, in http_response
+    response = self.parent.error(
+        'http', request, response, code, msg, hdrs)
+  File "/opt/homebrew/Cellar/python@3.13/3.13.7/Frameworks/Python.framework/Versions/3.13/lib/python3.13/urllib/request.py", line 533, in error
+    return self._call_chain(*args)
+           ~~~~~~~~~~~~~~~~^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.7/Frameworks/Python.framework/Versions/3.13/lib/python3.13/urllib/request.py", line 466, in _call_chain
+    result = func(*args)
+  File "/opt/homebrew/Cellar/python@3.13/3.13.7/Frameworks/Python.framework/Versions/3.13/lib/python3.13/urllib/request.py", line 613, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 403: Forbidden

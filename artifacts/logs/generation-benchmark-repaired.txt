@@ -1,0 +1,12 @@
+                            rmse       mae
+context  model                            
+FAC      gp_fixed       0.112670  0.092680
+         gp_past_tuned  0.109567  0.090247
+         nearest        0.180760  0.157351
+         ridge_fixed    0.100898  0.085195
+         train_mean     0.107969  0.090133
+OLA-IBET gp_fixed       0.117225  0.096698
+         gp_past_tuned  0.111251  0.095492
+         nearest        0.141774  0.119423
+         ridge_fixed    0.099044  0.087731
+         train_mean     0.179348  0.164991

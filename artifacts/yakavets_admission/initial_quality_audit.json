@@ -1,0 +1,383 @@
+{
+  "FAC/concurrent/data/data_FAC_con.csv": {
+    "rows": 35,
+    "columns": [
+      "conc0",
+      "conc1",
+      "conc2",
+      "ci",
+      "ci_err",
+      "conc0_inv",
+      "conc1_inv",
+      "conc2_inv",
+      "cv_exp",
+      "cv_err",
+      "cv_theor",
+      "conc_total",
+      "gen",
+      "number"
+    ],
+    "generation_counts": {
+      "0": 7,
+      "1": 7,
+      "2": 7,
+      "3": 7,
+      "4": 7
+    },
+    "duplicate_generation_number": 0,
+    "fields": {
+      "conc0": {
+        "missing": 0,
+        "numeric_count": 35,
+        "numeric_min": 0.0,
+        "numeric_max": 0.638100931,
+        "nonnumeric_values": []
+      },
+      "conc1": {
+        "missing": 0,
+        "numeric_count": 35,
+        "numeric_min": 0.0,
+        "numeric_max": 0.697554886,
+        "nonnumeric_values": []
+      },
+      "conc2": {
+        "missing": 0,
+        "numeric_count": 35,
+        "numeric_min": 0.0,
+        "numeric_max": 0.937421641,
+        "nonnumeric_values": []
+      },
+      "ci": {
+        "missing": 0,
+        "numeric_count": 35,
+        "numeric_min": -0.193347532,
+        "numeric_max": 0.414906581,
+        "nonnumeric_values": []
+      },
+      "ci_err": {
+        "missing": 0,
+        "numeric_count": 35,
+        "numeric_min": 0.007349269,
+        "numeric_max": 0.212889956,
+        "nonnumeric_values": []
+      },
+      "conc0_inv": {
+        "missing": 0,
+        "numeric_count": 35,
+        "numeric_min": 0.1,
+        "numeric_max": 8.209236983,
+        "nonnumeric_values": []
+      },
+      "conc1_inv": {
+        "missing": 0,
+        "numeric_count": 35,
+        "numeric_min": 10.0,
+        "numeric_max": 10004.70963,
+        "nonnumeric_values": []
+      },
+      "conc2_inv": {
+        "missing": 0,
+        "numeric_count": 35,
+        "numeric_min": 10.0,
+        "numeric_max": 6490.302263,
+        "nonnumeric_values": []
+      },
+      "cv_exp": {
+        "missing": 0,
+        "numeric_count": 35,
+        "numeric_min": 0.643436534,
+        "numeric_max": 1.072943404,
+        "nonnumeric_values": []
+      },
+      "cv_err": {
+        "missing": 0,
+        "numeric_count": 35,
+        "numeric_min": 0.007349269,
+        "numeric_max": 0.212889956,
+        "nonnumeric_values": []
+      },
+      "cv_theor": {
+        "missing": 0,
+        "numeric_count": 35,
+        "numeric_min": 0.33633731,
+        "numeric_max": 0.980177725,
+        "nonnumeric_values": []
+      },
+      "conc_total": {
+        "missing": 0,
+        "numeric_count": 35,
+        "numeric_min": 0.051640717,
+        "numeric_max": 0.595278391,
+        "nonnumeric_values": []
+      },
+      "gen": {
+        "missing": 0,
+        "numeric_count": 35,
+        "numeric_min": 0.0,
+        "numeric_max": 4.0,
+        "nonnumeric_values": []
+      },
+      "number": {
+        "missing": 0,
+        "numeric_count": 35,
+        "numeric_min": 1.0,
+        "numeric_max": 7.0,
+        "nonnumeric_values": []
+      }
+    }
+  },
+  "FAC/sequential/data/data_FAC_seq.csv": {
+    "rows": 32,
+    "columns": [
+      "seq",
+      "t0",
+      "t1",
+      "cv",
+      "cv_err",
+      "gen",
+      "number"
+    ],
+    "generation_counts": {
+      "0": 8,
+      "1": 8,
+      "2": 8,
+      "3": 8
+    },
+    "duplicate_generation_number": 0,
+    "fields": {
+      "seq": {
+        "missing": 0,
+        "numeric_count": 0,
+        "numeric_min": null,
+        "numeric_max": null,
+        "nonnumeric_values": [
+          "c",
+          "a",
+          "d",
+          "e",
+          "b",
+          "f"
+        ]
+      },
+      "t0": {
+        "missing": 0,
+        "numeric_count": 32,
+        "numeric_min": 1.0,
+        "numeric_max": 20.0,
+        "nonnumeric_values": []
+      },
+      "t1": {
+        "missing": 0,
+        "numeric_count": 32,
+        "numeric_min": 2.0,
+        "numeric_max": 22.0,
+        "nonnumeric_values": []
+      },
+      "cv": {
+        "missing": 0,
+        "numeric_count": 32,
+        "numeric_min": 64.7072365,
+        "numeric_max": 100.0039098,
+        "nonnumeric_values": []
+      },
+      "cv_err": {
+        "missing": 0,
+        "numeric_count": 32,
+        "numeric_min": 1.565811653,
+        "numeric_max": 11.39519069,
+        "nonnumeric_values": []
+      },
+      "gen": {
+        "missing": 0,
+        "numeric_count": 32,
+        "numeric_min": 0.0,
+        "numeric_max": 3.0,
+        "nonnumeric_values": []
+      },
+      "number": {
+        "missing": 0,
+        "numeric_count": 32,
+        "numeric_min": 1.0,
+        "numeric_max": 8.0,
+        "nonnumeric_values": []
+      }
+    }
+  },
+  "OLA-IBET/concurrent/data/data_OLA-IBET_con.csv": {
+    "rows": 50,
+    "columns": [
+      "conc0",
+      "conc1",
+      "ci",
+      "ci_err",
+      "conc0_inv",
+      "conc1_inv",
+      "cv_exp",
+      "cv_err",
+      "cv_theor",
+      "gen",
+      "number"
+    ],
+    "generation_counts": {
+      "0": 10,
+      "1": 10,
+      "2": 10,
+      "3": 10,
+      "4": 10
+    },
+    "duplicate_generation_number": 0,
+    "fields": {
+      "conc0": {
+        "missing": 0,
+        "numeric_count": 50,
+        "numeric_min": 0.028748807,
+        "numeric_max": 0.999894407,
+        "nonnumeric_values": []
+      },
+      "conc1": {
+        "missing": 0,
+        "numeric_count": 50,
+        "numeric_min": 0.022364315,
+        "numeric_max": 0.997980884,
+        "nonnumeric_values": []
+      },
+      "ci": {
+        "missing": 0,
+        "numeric_count": 50,
+        "numeric_min": -0.232773737,
+        "numeric_max": 0.537451276,
+        "nonnumeric_values": []
+      },
+      "ci_err": {
+        "missing": 0,
+        "numeric_count": 50,
+        "numeric_min": 0.006468282,
+        "numeric_max": 0.247050686,
+        "nonnumeric_values": []
+      },
+      "conc0_inv": {
+        "missing": 0,
+        "numeric_count": 50,
+        "numeric_min": 11.41557033,
+        "numeric_max": 999.5138445,
+        "nonnumeric_values": []
+      },
+      "conc1_inv": {
+        "missing": 0,
+        "numeric_count": 50,
+        "numeric_min": 0.012592958,
+        "numeric_max": 293.8200495,
+        "nonnumeric_values": []
+      },
+      "cv_exp": {
+        "missing": 0,
+        "numeric_count": 50,
+        "numeric_min": 0.364284021,
+        "numeric_max": 0.969406218,
+        "nonnumeric_values": []
+      },
+      "cv_err": {
+        "missing": 0,
+        "numeric_count": 50,
+        "numeric_min": 0.006468282,
+        "numeric_max": 0.247050686,
+        "nonnumeric_values": []
+      },
+      "cv_theor": {
+        "missing": 0,
+        "numeric_count": 49,
+        "numeric_min": 0.313510844,
+        "numeric_max": 0.953019027,
+        "nonnumeric_values": [
+          "0.657297993356274 0.6966443970099095 0.7292294246943655 0.6234091072948126 0.6171022825803036 0.6307123337263434 0.666979870445637 0.6621768849699953 0.5795758420489611 0.643146255194698"
+        ]
+      },
+      "gen": {
+        "missing": 0,
+        "numeric_count": 50,
+        "numeric_min": 0.0,
+        "numeric_max": 4.0,
+        "nonnumeric_values": []
+      },
+      "number": {
+        "missing": 0,
+        "numeric_count": 50,
+        "numeric_min": 1.0,
+        "numeric_max": 10.0,
+        "nonnumeric_values": []
+      }
+    }
+  },
+  "OLA-IBET/sequential/data/data_OLA-IBET_seq.csv": {
+    "rows": 27,
+    "columns": [
+      "seq",
+      "t0",
+      "t1",
+      "cv",
+      "cv_err",
+      "gen",
+      "number"
+    ],
+    "generation_counts": {
+      "0": 9,
+      "1": 9,
+      "2": 9
+    },
+    "duplicate_generation_number": 0,
+    "fields": {
+      "seq": {
+        "missing": 0,
+        "numeric_count": 0,
+        "numeric_min": null,
+        "numeric_max": null,
+        "nonnumeric_values": [
+          "b",
+          "a"
+        ]
+      },
+      "t0": {
+        "missing": 0,
+        "numeric_count": 27,
+        "numeric_min": 4.0,
+        "numeric_max": 44.0,
+        "nonnumeric_values": []
+      },
+      "t1": {
+        "missing": 0,
+        "numeric_count": 27,
+        "numeric_min": 4.0,
+        "numeric_max": 44.0,
+        "nonnumeric_values": []
+      },
+      "cv": {
+        "missing": 0,
+        "numeric_count": 27,
+        "numeric_min": 88.22945742,
+        "numeric_max": 123.2981124,
+        "nonnumeric_values": []
+      },
+      "cv_err": {
+        "missing": 0,
+        "numeric_count": 27,
+        "numeric_min": 0.13836182,
+        "numeric_max": 11.10789099,
+        "nonnumeric_values": []
+      },
+      "gen": {
+        "missing": 0,
+        "numeric_count": 27,
+        "numeric_min": 0.0,
+        "numeric_max": 2.0,
+        "nonnumeric_values": []
+      },
+      "number": {
+        "missing": 0,
+        "numeric_count": 27,
+        "numeric_min": 1.0,
+        "numeric_max": 9.0,
+        "nonnumeric_values": []
+      }
+    }
+  }
+}

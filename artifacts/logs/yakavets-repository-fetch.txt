@@ -1,0 +1,6 @@
+FAC/concurrent/data/data_FAC_con.csv: 5121 bytes, sha256=b34b355dba706fe16b8b830abbd6004587f628eda1b340d9c15448553bb27ca9
+FAC/sequential/data/data_FAC_seq.csv: 1143 bytes, sha256=8b1bd4468a8c357e0e8c0edf068023a46d306914ff65e2338414ecaae37248f2
+OLA-IBET/concurrent/data/data_OLA-IBET_con.csv: 5836 bytes, sha256=6e6c0c9d7f86cadd2b37091a13f54c2a85a49c13492efc4ec2e0f51fe5d074a6
+OLA-IBET/sequential/data/data_OLA-IBET_seq.csv: 990 bytes, sha256=3eee11810dc4e65745939034bacea27b11db2954c1adaf269b11f126701a0a4f
+README.md: 6658 bytes, sha256=e7c81d5ed203103a1b8460d7921442f18a0efe7db2c12594ca75fb57ed51ad6f
+LICENSE: 35149 bytes, sha256=3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986

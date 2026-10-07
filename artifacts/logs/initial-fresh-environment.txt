@@ -1,0 +1,100 @@
+
+COMMAND ['/var/folders/y0/l9ns18ns5472mqrprmhhmsw00000gn/T/zenithsync-reproduce-opkmkib1/bin/python', '-m', 'pip', 'install', '-r', 'requirements-lock.txt']
+Collecting contourpy==1.4.0 (from -r requirements-lock.txt (line 1))
+  Using cached contourpy-1.4.0-cp313-cp313-macosx_11_0_arm64.whl.metadata (3.8 kB)
+Collecting cycler==0.12.1 (from -r requirements-lock.txt (line 2))
+  Using cached cycler-0.12.1-py3-none-any.whl.metadata (3.8 kB)
+Collecting et_xmlfile==2.0.0 (from -r requirements-lock.txt (line 3))
+  Using cached et_xmlfile-2.0.0-py3-none-any.whl.metadata (2.7 kB)
+Collecting fonttools==4.66.1 (from -r requirements-lock.txt (line 4))
+  Using cached fonttools-4.66.1-cp313-cp313-macosx_10_13_universal2.whl.metadata (130 kB)
+Collecting iniconfig==2.3.1 (from -r requirements-lock.txt (line 5))
+  Using cached iniconfig-2.3.1-py3-none-any.whl.metadata (2.8 kB)
+Collecting kiwisolver==1.5.1 (from -r requirements-lock.txt (line 6))
+  Using cached kiwisolver-1.5.1-cp313-cp313-macosx_11_0_arm64.whl.metadata (5.2 kB)
+Collecting matplotlib==3.10.3 (from -r requirements-lock.txt (line 7))
+  Using cached matplotlib-3.10.3-cp313-cp313-macosx_11_0_arm64.whl.metadata (11 kB)
+Collecting numpy==2.2.6 (from -r requirements-lock.txt (line 8))
+  Using cached numpy-2.2.6-cp313-cp313-macosx_14_0_arm64.whl.metadata (62 kB)
+Collecting openpyxl==3.1.5 (from -r requirements-lock.txt (line 9))
+  Using cached openpyxl-3.1.5-py2.py3-none-any.whl.metadata (2.5 kB)
+Collecting packaging==26.3 (from -r requirements-lock.txt (line 10))
+  Using cached packaging-26.3-py3-none-any.whl.metadata (3.5 kB)
+Collecting pandas==2.2.3 (from -r requirements-lock.txt (line 11))
+  Using cached pandas-2.2.3-cp313-cp313-macosx_11_0_arm64.whl.metadata (89 kB)
+Collecting pillow==12.3.0 (from -r requirements-lock.txt (line 12))
+  Using cached pillow-12.3.0-cp313-cp313-macosx_11_0_arm64.whl.metadata (9.1 kB)
+Collecting pluggy==1.6.0 (from -r requirements-lock.txt (line 13))
+  Using cached pluggy-1.6.0-py3-none-any.whl.metadata (4.8 kB)
+Collecting pyparsing==3.3.3 (from -r requirements-lock.txt (line 14))
+  Using cached pyparsing-3.3.3-py3-none-any.whl.metadata (5.9 kB)
+Collecting pytest==8.3.5 (from -r requirements-lock.txt (line 15))
+  Using cached pytest-8.3.5-py3-none-any.whl.metadata (7.6 kB)
+Collecting python-dateutil==2.9.0.post0 (from -r requirements-lock.txt (line 16))
+  Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+Collecting pytz==2026.5 (from -r requirements-lock.txt (line 17))
+  Using cached pytz-2026.5-py2.py3-none-any.whl.metadata (22 kB)
+Collecting scipy==1.16.2 (from -r requirements-lock.txt (line 18))
+  Using cached scipy-1.16.2-cp313-cp313-macosx_14_0_arm64.whl.metadata (62 kB)
+Collecting six==1.17.0 (from -r requirements-lock.txt (line 19))
+  Using cached six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+Collecting tzdata==2026.5 (from -r requirements-lock.txt (line 20))
+  Using cached tzdata-2026.5-py2.py3-none-any.whl.metadata (1.4 kB)
+Using cached contourpy-1.4.0-cp313-cp313-macosx_11_0_arm64.whl (285 kB)
+Using cached cycler-0.12.1-py3-none-any.whl (8.3 kB)
+Using cached et_xmlfile-2.0.0-py3-none-any.whl (18 kB)
+Using cached fonttools-4.66.1-cp313-cp313-macosx_10_13_universal2.whl (3.1 MB)
+Using cached iniconfig-2.3.1-py3-none-any.whl (7.6 kB)
+Using cached kiwisolver-1.5.1-cp313-cp313-macosx_11_0_arm64.whl (64 kB)
+Using cached matplotlib-3.10.3-cp313-cp313-macosx_11_0_arm64.whl (8.1 MB)
+Using cached numpy-2.2.6-cp313-cp313-macosx_14_0_arm64.whl (5.1 MB)
+Using cached openpyxl-3.1.5-py2.py3-none-any.whl (250 kB)
+Using cached packaging-26.3-py3-none-any.whl (129 kB)
+Using cached pandas-2.2.3-cp313-cp313-macosx_11_0_arm64.whl (11.3 MB)
+Using cached pillow-12.3.0-cp313-cp313-macosx_11_0_arm64.whl (4.8 MB)
+Using cached pluggy-1.6.0-py3-none-any.whl (20 kB)
+Using cached pyparsing-3.3.3-py3-none-any.whl (126 kB)
+Using cached pytest-8.3.5-py3-none-any.whl (343 kB)
+Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Using cached pytz-2026.5-py2.py3-none-any.whl (506 kB)
+Using cached scipy-1.16.2-cp313-cp313-macosx_14_0_arm64.whl (20.9 MB)
+Using cached six-1.17.0-py2.py3-none-any.whl (11 kB)
+Using cached tzdata-2026.5-py2.py3-none-any.whl (347 kB)
+Installing collected packages: pytz, tzdata, six, pyparsing, pluggy, pillow, packaging, numpy, kiwisolver, iniconfig, fonttools, et_xmlfile, cycler, scipy, python-dateutil, pytest, openpyxl, contourpy, pandas, matplotlib
+
+Successfully installed contourpy-1.4.0 cycler-0.12.1 et_xmlfile-2.0.0 fonttools-4.66.1 iniconfig-2.3.1 kiwisolver-1.5.1 matplotlib-3.10.3 numpy-2.2.6 openpyxl-3.1.5 packaging-26.3 pandas-2.2.3 pillow-12.3.0 pluggy-1.6.0 pyparsing-3.3.3 pytest-8.3.5 python-dateutil-2.9.0.post0 pytz-2026.5 scipy-1.16.2 six-1.17.0 tzdata-2026.5
+
+[notice] A new release of pip is available: 25.2 -> 26.2.1
+[notice] To update, run: /private/var/folders/y0/l9ns18ns5472mqrprmhhmsw00000gn/T/zenithsync-reproduce-opkmkib1/bin/python -m pip install --upgrade pip
+
+COMMAND ['/var/folders/y0/l9ns18ns5472mqrprmhhmsw00000gn/T/zenithsync-reproduce-opkmkib1/bin/python', '-m', 'pytest', '-q']
+...................                                                      [100%]
+19 passed in 5.50s
+
+COMMAND ['/var/folders/y0/l9ns18ns5472mqrprmhhmsw00000gn/T/zenithsync-reproduce-opkmkib1/bin/python', 'scripts/benchmark.py']
+              model      rmse       mae
+constant_train_mean 33.485963 27.229239
+    hill_decreasing 29.286701 22.796655
+    matern_gp_fixed 29.068727 23.601767
+Exploratory reconstruction only; no ranking or assay-savings conclusion.
+
+COMMAND ['/var/folders/y0/l9ns18ns5472mqrprmhhmsw00000gn/T/zenithsync-reproduce-opkmkib1/bin/python', 'scripts/replay_benchmark.py']
+             policy  budget  macro_rmse  macro_threshold_error  compound_count
+       decision_voi       2   25.872585               0.138889               6
+       decision_voi       3   25.327759               0.138889               6
+       decision_voi       4   24.574788               0.138889               6
+       decision_voi       5   27.614556               0.166667               5
+integrated_variance       2   25.872585               0.138889               6
+integrated_variance       3   24.102459               0.138889               6
+integrated_variance       4   24.591617               0.138889               6
+integrated_variance       5   27.614556               0.166667               5
+             random       2   25.872585               0.138889               6
+             random       3   24.976504               0.138889               6
+             random       4   24.559993               0.138889               6
+             random       5   27.614556               0.166667               5
+      space_filling       2   25.872585               0.138889               6
+      space_filling       3   24.321663               0.138889               6
+      space_filling       4   24.395861               0.138889               6
+      space_filling       5   27.614556               0.166667               5
+Budget is a revealed dose-group mean, not a chip or validated experimental cost.
+Later budgets have fewer eligible compounds; compare policies within a budget.

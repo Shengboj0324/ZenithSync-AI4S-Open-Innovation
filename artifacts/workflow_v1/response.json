@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "context": "yakavets_ola_ibet_concurrent",
+  "research_only": true,
+  "human_review_required": true,
+  "request_sha256": "6417f4f6ec9b48f0215720c3abe0a88c4c372c58600ade2c3e1007a8cdfed13b",
+  "model": "ridge_conditional_gaussian_v1",
+  "assumptions": {
+    "noise_sd": 0.1,
+    "ridge_penalty": 0.1,
+    "threshold": 0.5,
+    "false_positive_cost": 1.0,
+    "false_negative_cost": 1.0,
+    "abstention_cost": 0.1
+  },
+  "uncertainty": "conditional_on_fixed_noise_and_linear_model_not_empirically_calibrated",
+  "support": "observed_input_convex_hull_only_not_biological_validity",
+  "acquisition": "integrated_latent_variance_reduction_per_supplied_cost",
+  "cost_semantics": "caller_supplied_relative_units_no_validated_laboratory_cost",
+  "observation_ids": [
+    "source-row-2",
+    "source-row-3",
+    "source-row-4",
+    "source-row-5",
+    "source-row-6",
+    "source-row-7",
+    "source-row-8",
+    "source-row-9",
+    "source-row-10",
+    "source-row-11"
+  ],
+  "candidates": [
+    {
+      "id": "source-row-12",
+      "status": "abstain",
+      "reason": "outside_observed_convex_support",
+      "prediction": null,
+      "acquisition_score": null
+    },
+    {
+      "id": "source-row-13",
+      "status": "abstain",
+      "reason": "outside_observed_convex_support",
+      "prediction": null,
+      "acquisition_score": null
+    },
+    {
+      "id": "source-row-14",
+      "status": "provisional_not_below_threshold",
+      "reason": "expected_loss_rule_under_uncalibrated_model",
+      "prediction": 0.6227001278188147,
+      "latent_sd": 0.04829469877890565,
+      "observation_interval90": [
+        0.44003709274511627,
+        0.8053631628925131
+      ],
+      "probability_latent_below_threshold": 0.005532265048590141,
+      "expected_losses": {
+        "provisional_below_threshold": 0.9944677349514098,
+        "provisional_not_below_threshold": 0.005532265048590141,
+        "abstain": 0.1
+      },
+      "acquisition_score": 0.00038987266758512567
+    },
+    {
+      "id": "source-row-15",
+      "status": "provisional_not_below_threshold",
+      "reason": "expected_loss_rule_under_uncalibrated_model",
+      "prediction": 0.6119072731163637,
+      "latent_sd": 0.05148692059222093,
+      "observation_interval90": [
+        0.42690033330439303,
+        0.7969142129283344
+      ],
+      "probability_latent_below_threshold": 0.0148710234798728,
+      "expected_losses": {
+        "provisional_below_threshold": 0.9851289765201272,
+        "provisional_not_below_threshold": 0.0148710234798728,
+        "abstain": 0.1
+      },
+      "acquisition_score": 0.0004257956142251203
+    },
+    {
+      "id": "source-row-16",
+      "status": "abstain",
+      "reason": "outside_observed_convex_support",
+      "prediction": null,
+      "acquisition_score": null
+    },
+    {
+      "id": "source-row-17",
+      "status": "abstain",
+      "reason": "outside_observed_convex_support",
+      "prediction": null,
+      "acquisition_score": null
+    },
+    {
+      "id": "source-row-18",
+      "status": "abstain",
+      "reason": "outside_observed_convex_support",
+      "prediction": null,
+      "acquisition_score": null
+    },
+    {
+      "id": "source-row-19",
+      "status": "abstain",
+      "reason": "outside_observed_convex_support",
+      "prediction": null,
+      "acquisition_score": null
+    },
+    {
+      "id": "source-row-20",
+      "status": "abstain",
+      "reason": "expected_loss_rule_under_uncalibrated_model",
+      "prediction": 0.5648743071463819,
+      "latent_sd": 0.055998030945451846,
+      "observation_interval90": [
+        0.3763552838122071,
+        0.7533933304805567
+      ],
+      "probability_latent_below_threshold": 0.12332788347381646,
+      "expected_losses": {
+        "provisional_below_threshold": 0.8766721165261835,
+        "provisional_not_below_threshold": 0.12332788347381646,
+        "abstain": 0.1
+      },
+      "acquisition_score": 0.00039160193541556266
+    },
+    {
+      "id": "source-row-21",
+      "status": "provisional_not_below_threshold",
+      "reason": "expected_loss_rule_under_uncalibrated_model",
+      "prediction": 0.6931391810144257,
+      "latent_sd": 0.03995673954444635,
+      "observation_interval90": [
+        0.5160094384880658,
+        0.8702689235407857
+      ],
+      "probability_latent_below_threshold": 6.700681555753226e-07,
+      "expected_losses": {
+        "provisional_below_threshold": 0.9999993299318444,
+        "provisional_not_below_threshold": 6.700681555753226e-07,
+        "abstain": 0.1
+      },
+      "acquisition_score": 0.00024031093193273862
+    }
+  ],
+  "ranked_candidate_ids": [
+    "source-row-15",
+    "source-row-20",
+    "source-row-14",
+    "source-row-21"
+  ],
+  "next_measurement": "source-row-15",
+  "limitations": [
+    "No physical-dose recommendation",
+    "No clinical treatment recommendation",
+    "No independent biological calibration",
+    "No guaranteed assay savings"
+  ],
+  "implementation_sha256": {
+    "workflow.py": "3d4cfcfe8e5300b1d72d7059b752041cc350540307de18902842b9762e112885",
+    "linear.py": "5c7d664b287bb1cccd8ac4af9a84541e40bcfb2eb5e3cd83dcff2643bd6dceef",
+    "acquisition.py": "cebdac5c7dc0106309f8018932f91441a845f0589e2bfc7e2b4727f932f91073",
+    "models.py": "aad22942a64e256b3b93858327af883c7d05cf6ead23f257edde47eae2c11551",
+    "multidimensional.py": "c17687905187a8d566b64fbd728ffe7413bfbf2e6e7f55a65c9eea22f3905d82"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "repository": "https://github.com/yakavetsiv/ml-mf_chemo",
+  "revision": "e38fc0ded24abbf5bc8a87cf6d05f320ed01565c",
+  "retrieved_utc": "2026-10-07T01:09:33.395505+00:00",
+  "files": {
+    "FAC/concurrent/data/data_FAC_con.csv": {
+      "url": "https://raw.githubusercontent.com/yakavetsiv/ml-mf_chemo/e38fc0ded24abbf5bc8a87cf6d05f320ed01565c/FAC/concurrent/data/data_FAC_con.csv",
+      "sha256": "b34b355dba706fe16b8b830abbd6004587f628eda1b340d9c15448553bb27ca9",
+      "bytes": 5121
+    },
+    "FAC/sequential/data/data_FAC_seq.csv": {
+      "url": "https://raw.githubusercontent.com/yakavetsiv/ml-mf_chemo/e38fc0ded24abbf5bc8a87cf6d05f320ed01565c/FAC/sequential/data/data_FAC_seq.csv",
+      "sha256": "8b1bd4468a8c357e0e8c0edf068023a46d306914ff65e2338414ecaae37248f2",
+      "bytes": 1143
+    },
+    "OLA-IBET/concurrent/data/data_OLA-IBET_con.csv": {
+      "url": "https://raw.githubusercontent.com/yakavetsiv/ml-mf_chemo/e38fc0ded24abbf5bc8a87cf6d05f320ed01565c/OLA-IBET/concurrent/data/data_OLA-IBET_con.csv",
+      "sha256": "6e6c0c9d7f86cadd2b37091a13f54c2a85a49c13492efc4ec2e0f51fe5d074a6",
+      "bytes": 5836
+    },
+    "OLA-IBET/sequential/data/data_OLA-IBET_seq.csv": {
+      "url": "https://raw.githubusercontent.com/yakavetsiv/ml-mf_chemo/e38fc0ded24abbf5bc8a87cf6d05f320ed01565c/OLA-IBET/sequential/data/data_OLA-IBET_seq.csv",
+      "sha256": "3eee11810dc4e65745939034bacea27b11db2954c1adaf269b11f126701a0a4f",
+      "bytes": 990
+    },
+    "README.md": {
+      "url": "https://raw.githubusercontent.com/yakavetsiv/ml-mf_chemo/e38fc0ded24abbf5bc8a87cf6d05f320ed01565c/README.md",
+      "sha256": "e7c81d5ed203103a1b8460d7921442f18a0efe7db2c12594ca75fb57ed51ad6f",
+      "bytes": 6658
+    },
+    "LICENSE": {
+      "url": "https://raw.githubusercontent.com/yakavetsiv/ml-mf_chemo/e38fc0ded24abbf5bc8a87cf6d05f320ed01565c/LICENSE",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "bytes": 35149
+    }
+  }
+}

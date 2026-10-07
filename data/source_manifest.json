@@ -1,0 +1,14 @@
+{
+  "ewart_supplement_1.xlsx": {
+    "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs43856-022-00209-1/MediaObjects/43856_2022_209_MOESM1_ESM.xlsx",
+    "sha256": "8a37ff64f0b2b425650d4bafc43e9e79f90f995d47b7e87e49a7416e1af9567d",
+    "bytes": 45931,
+    "retrieved_utc": "2026-10-07T00:51:13.717814+00:00"
+  },
+  "ewart_supplement_8.xlsx": {
+    "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs43856-022-00209-1/MediaObjects/43856_2022_209_MOESM8_ESM.xlsx",
+    "sha256": "87cc22d0c1d4508f7e0830df348c52238bdb18d821c8d29cc0751114081509fc",
+    "bytes": 23251,
+    "retrieved_utc": "2026-10-07T00:51:13.924526+00:00"
+  }
+}

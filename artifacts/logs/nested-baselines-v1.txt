@@ -1,0 +1,15 @@
+Completed Clozapine
+Completed Levofloxacin
+Completed Olanzapine
+Completed Pioglitazone
+Completed Troglitazone
+Completed Trovafloxacin
+                        rmse        mae
+model                                  
+linear             28.028888  22.028238
+finite_gp_mixture  28.599746  22.988284
+pchip              28.993892  22.903173
+fixed_gp           29.068727  23.601767
+hill               29.286701  22.796655
+nested_gp          32.536730  26.089648
+constant           33.485963  27.229239

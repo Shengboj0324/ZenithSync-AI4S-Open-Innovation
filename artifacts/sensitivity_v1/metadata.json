@@ -1,0 +1,48 @@
+{
+  "config": {
+    "status": "exploratory; frozen after observing initial benchmark",
+    "noise_sd": [
+      10,
+      20,
+      40
+    ],
+    "length_scale": [
+      0.75,
+      1.5,
+      3.0
+    ],
+    "amplitude": 50,
+    "mean": 100,
+    "threshold": 50,
+    "policies": [
+      "random",
+      "space_filling",
+      "integrated_variance",
+      "decision_voi",
+      "decision_voi_adaptive"
+    ],
+    "random_seeds": 20,
+    "primary_comparison_budget": 3,
+    "outcome": "held-out dose mean; not latent truth or independent biology",
+    "purpose": "test numerical ranking stability and prior sensitivity without selecting a winner from test performance"
+  },
+  "config_sha256": "ac3992d2e574901de8099f8c3c58af7266b8970cb77ac33ec4d65b0f86d6347d",
+  "elapsed_seconds": 7.918851792004716,
+  "trace_rows": 29160,
+  "adaptive_error_estimate_max": 5.00554445207149e-10,
+  "source_hashes": {
+    "src/zenithsync/__init__.py": "ff5bb500e679331096f8253e02978eed08a8da47a9d59ffa51173302e2c9465f",
+    "src/zenithsync/acquisition.py": "cebdac5c7dc0106309f8018932f91441a845f0589e2bfc7e2b4727f932f91073",
+    "src/zenithsync/data.py": "6ccace428667d81bedcd7b4964616836237c441fdf0a1aa22faaea4c5081617f",
+    "src/zenithsync/likelihoods.py": "ec50774f8e48cc9154c6f086dcaf29fed9b57e83837cc92a86456661575c9d2c",
+    "src/zenithsync/linear.py": "5c7d664b287bb1cccd8ac4af9a84541e40bcfb2eb5e3cd83dcff2643bd6dceef",
+    "src/zenithsync/mixture.py": "195fbbd9b0c3d65fafcf96a8f0b71438c0aa9f0d771d32164bfba9d54ff2f3a4",
+    "src/zenithsync/models.py": "aad22942a64e256b3b93858327af883c7d05cf6ead23f257edde47eae2c11551",
+    "src/zenithsync/multidimensional.py": "c17687905187a8d566b64fbd728ffe7413bfbf2e6e7f55a65c9eea22f3905d82",
+    "src/zenithsync/replay.py": "f2fcd96db2a82d7767cd7989f2e47ea93796466433fa3e18732cd636316f485e",
+    "src/zenithsync/tuning.py": "07274fe3f851f6744ad15b5c11c12859105fa400c91e39a443a92a7aabe79328",
+    "src/zenithsync/uncertainty.py": "be284b9477b68c58d258db9eabeb7df6ab9e035a17c94aaaa9d235275dc882ee",
+    "src/zenithsync/workflow.py": "3d4cfcfe8e5300b1d72d7059b752041cc350540307de18902842b9762e112885",
+    "src/zenithsync/yakavets.py": "d98cbb757cc138946806932bc965a8290252af53c8f9ca3a6a2cc0fc8bcb9823"
+  }
+}

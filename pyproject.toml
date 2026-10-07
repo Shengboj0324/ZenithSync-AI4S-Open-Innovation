@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "zenithsync-assay-planner"
+version = "0.1.0"
+description = "Research pipeline for uncertainty-aware assay planning"
+requires-python = ">=3.11"
+dependencies = ["numpy==2.2.6", "scipy==1.16.2", "pandas==2.2.3", "openpyxl==3.1.5", "matplotlib==3.10.3"]
+
+[project.optional-dependencies]
+test = ["pytest==8.3.5"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

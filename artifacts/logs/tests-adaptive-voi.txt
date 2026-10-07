@@ -1,0 +1,19 @@
+F...........................                                             [100%]
+=================================== FAILURES ===================================
+____________ test_adaptive_voi_closed_form_over_noise_range[1e-06] _____________
+
+noise = 1e-06
+
+    @pytest.mark.parametrize("noise", [1e-6, .01, .7, 1, 100, 1e6])
+    def test_adaptive_voi_closed_form_over_noise_range(noise):
+        exact = .5-np.arccos(1/np.sqrt(1+noise))/np.pi
+        scores, errors = decision_voi_adaptive([0], [[1]], [noise], [1], threshold=0)
+>       assert abs(scores[0]-exact) < max(1e-10, errors[0]*5)
+E       assert np.float64(0.00031830978009211863) < 1e-10
+E        +  where np.float64(0.00031830978009211863) = abs((np.float64(0.5) - np.float64(0.4996816902199079)))
+E        +  and   1e-10 = max(1e-10, (np.float64(1.5239706048320948e-23) * 5))
+
+tests/test_adaptive_voi.py:10: AssertionError
+=========================== short test summary info ============================
+FAILED tests/test_adaptive_voi.py::test_adaptive_voi_closed_form_over_noise_range[1e-06]
+1 failed, 27 passed in 0.85s

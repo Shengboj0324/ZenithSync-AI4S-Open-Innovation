@@ -1,0 +1,59 @@
+{
+  "FAC": {
+    "rows": 35,
+    "features": [
+      "conc0",
+      "conc1",
+      "conc2"
+    ],
+    "target": "cv_exp",
+    "feature_scale": "author dimensionless normalized concentration",
+    "response_scale": "author concurrent normalized viability coordinate",
+    "source_sha256": "b34b355dba706fe16b8b830abbd6004587f628eda1b340d9c15448553bb27ca9",
+    "excluded_predictors": [
+      "ci",
+      "ci_err",
+      "conc0_inv",
+      "conc1_inv",
+      "conc2_inv",
+      "conc_total",
+      "cv_err",
+      "cv_theor"
+    ],
+    "duplicate_feature_rows": 0,
+    "admitted_claim": "predict next logged generation within this assay context",
+    "not_admitted": [
+      "unmeasured action outcomes",
+      "independent donor generalization",
+      "physical dose recommendation",
+      "prospective assay savings"
+    ]
+  },
+  "OLA-IBET": {
+    "rows": 50,
+    "features": [
+      "conc0",
+      "conc1"
+    ],
+    "target": "cv_exp",
+    "feature_scale": "author dimensionless normalized concentration",
+    "response_scale": "author concurrent normalized viability coordinate",
+    "source_sha256": "6e6c0c9d7f86cadd2b37091a13f54c2a85a49c13492efc4ec2e0f51fe5d074a6",
+    "excluded_predictors": [
+      "ci",
+      "ci_err",
+      "conc0_inv",
+      "conc1_inv",
+      "cv_err",
+      "cv_theor"
+    ],
+    "duplicate_feature_rows": 0,
+    "admitted_claim": "predict next logged generation within this assay context",
+    "not_admitted": [
+      "unmeasured action outcomes",
+      "independent donor generalization",
+      "physical dose recommendation",
+      "prospective assay savings"
+    ]
+  }
+}

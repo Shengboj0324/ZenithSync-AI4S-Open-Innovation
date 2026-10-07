@@ -1,0 +1,57 @@
+{
+  "started_utc": "2026-10-07T00:56:47.604156+00:00",
+  "commands": [
+    {
+      "argv": [
+        "/var/folders/y0/l9ns18ns5472mqrprmhhmsw00000gn/T/zenithsync-reproduce-opkmkib1/bin/python",
+        "-m",
+        "pip",
+        "install",
+        "-r",
+        "requirements-lock.txt"
+      ],
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "/var/folders/y0/l9ns18ns5472mqrprmhhmsw00000gn/T/zenithsync-reproduce-opkmkib1/bin/python",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "/var/folders/y0/l9ns18ns5472mqrprmhhmsw00000gn/T/zenithsync-reproduce-opkmkib1/bin/python",
+        "scripts/benchmark.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "/var/folders/y0/l9ns18ns5472mqrprmhhmsw00000gn/T/zenithsync-reproduce-opkmkib1/bin/python",
+        "scripts/replay_benchmark.py"
+      ],
+      "returncode": 0
+    }
+  ],
+  "before": {
+    "initial_benchmark/predictions.json": "c21ba5d72e1691a48b35f56aa44db1664c2a8105b6ad09eaec2ca934a6bffff0",
+    "initial_benchmark/macro_metrics.csv": "209552944861eed153952ec4f04666b019092f69df3e5a7eeffc57b06f8541f2",
+    "initial_benchmark/data_audit.json": "4286a30408678732dbfd4ec95ae20993640d670695018993070cc151cb5f0d3c",
+    "initial_benchmark/hill_diagnostics.json": "9511f15cfa4e9bdf27251d66e98630ee259566c1c146467083a46329b62b6f64",
+    "measured_pool_replay/traces.json": "48459f4e7b434d5abe0824b154bb9f6598640204d16f0a882ecd7ecbb20f9dd4",
+    "measured_pool_replay/macro_metrics.csv": "976b0182ec3382b067972ac2d14692f0e55aae03d5c2e2d60ddcd8db47fe6b31"
+  },
+  "after": {
+    "initial_benchmark/predictions.json": "c21ba5d72e1691a48b35f56aa44db1664c2a8105b6ad09eaec2ca934a6bffff0",
+    "initial_benchmark/macro_metrics.csv": "209552944861eed153952ec4f04666b019092f69df3e5a7eeffc57b06f8541f2",
+    "initial_benchmark/data_audit.json": "4286a30408678732dbfd4ec95ae20993640d670695018993070cc151cb5f0d3c",
+    "initial_benchmark/hill_diagnostics.json": "9511f15cfa4e9bdf27251d66e98630ee259566c1c146467083a46329b62b6f64",
+    "measured_pool_replay/traces.json": "48459f4e7b434d5abe0824b154bb9f6598640204d16f0a882ecd7ecbb20f9dd4",
+    "measured_pool_replay/macro_metrics.csv": "976b0182ec3382b067972ac2d14692f0e55aae03d5c2e2d60ddcd8db47fe6b31"
+  },
+  "byte_identical": true,
+  "finished_utc": "2026-10-07T00:57:05.353796+00:00"
+}

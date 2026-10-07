@@ -1,0 +1,19 @@
+Completed Clozapine
+Completed Levofloxacin
+Completed Olanzapine
+Completed Pioglitazone
+Completed Troglitazone
+Completed Trovafloxacin
+          policy  budget  macro_rmse  threshold_error  n_compounds
+mixture_variance       2   26.321760         0.138889            6
+mixture_variance       3   23.804950         0.138889            6
+mixture_variance       4   24.388497         0.138889            6
+mixture_variance       5   27.230967         0.166667            5
+          random       2   26.321760         0.138889            6
+          random       3   24.991297         0.138889            6
+          random       4   24.216553         0.138889            6
+          random       5   27.230967         0.166667            5
+   space_filling       2   26.321760         0.138889            6
+   space_filling       3   24.253067         0.138889            6
+   space_filling       4   24.221198         0.138889            6
+   space_filling       5   27.230967         0.166667            5

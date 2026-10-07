@@ -1,0 +1,15 @@
+model,position,rmse
+constant,edge_extrapolation,44.610328196489284
+constant,interpolation,25.625106704741636
+finite_gp_mixture,edge_extrapolation,34.72730062732304
+finite_gp_mixture,interpolation,24.426076086669585
+fixed_gp,edge_extrapolation,35.324543295949695
+fixed_gp,interpolation,24.865287504763845
+hill,edge_extrapolation,28.765034871964833
+hill,interpolation,28.36219529587311
+linear,edge_extrapolation,33.784811835498026
+linear,interpolation,23.872390324804556
+nested_gp,edge_extrapolation,41.62707656993706
+nested_gp,interpolation,26.422638774429434
+pchip,edge_extrapolation,33.784811835498026
+pchip,interpolation,25.118469010129203

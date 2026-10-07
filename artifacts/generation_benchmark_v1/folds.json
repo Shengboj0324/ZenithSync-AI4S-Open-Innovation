@@ -1,0 +1,2636 @@
+[
+  {
+    "context": "FAC",
+    "test_generation": 1,
+    "training_generations": [
+      0
+    ],
+    "train_rows": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "test_rows": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "selection": "prespecified_default_no_inner_generation",
+    "scores": []
+  },
+  {
+    "context": "FAC",
+    "test_generation": 2,
+    "training_generations": [
+      0,
+      1
+    ],
+    "train_rows": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "test_rows": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "selection": "minimum_past_generation_macro_mse",
+    "selected": 17,
+    "scores": [
+      {
+        "parameters": {
+          "amplitude": 0.2,
+          "length_scale": 0.1,
+          "mean": 1.0,
+          "noise_sd": 0.05,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.0303101820849468
+        ],
+        "mean_mse": 0.0303101820849468
+      },
+      {
+        "parameters": {
+          "amplitude": 0.2,
+          "length_scale": 0.1,
+          "mean": 1.0,
+          "noise_sd": 0.15,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.029034126719115896
+        ],
+        "mean_mse": 0.029034126719115896
+      },
+      {
+        "parameters": {
+          "amplitude": 0.2,
+          "length_scale": 0.1,
+          "mean": 1.0,
+          "noise_sd": 0.3,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.02970299427729286
+        ],
+        "mean_mse": 0.02970299427729286
+      },
+      {
+        "parameters": {
+          "amplitude": 0.2,
+          "length_scale": 0.3,
+          "mean": 1.0,
+          "noise_sd": 0.05,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.025958552412482957
+        ],
+        "mean_mse": 0.025958552412482957
+      },
+      {
+        "parameters": {
+          "amplitude": 0.2,
+          "length_scale": 0.3,
+          "mean": 1.0,
+          "noise_sd": 0.15,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.019420073150248705
+        ],
+        "mean_mse": 0.019420073150248705
+      },
+      {
+        "parameters": {
+          "amplitude": 0.2,
+          "length_scale": 0.3,
+          "mean": 1.0,
+          "noise_sd": 0.3,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.022214953297409513
+        ],
+        "mean_mse": 0.022214953297409513
+      },
+      {
+        "parameters": {
+          "amplitude": 0.2,
+          "length_scale": 1.0,
+          "mean": 1.0,
+          "noise_sd": 0.05,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.014894618808800204
+        ],
+        "mean_mse": 0.014894618808800204
+      },
+      {
+        "parameters": {
+          "amplitude": 0.2,
+          "length_scale": 1.0,
+          "mean": 1.0,
+          "noise_sd": 0.15,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.014933579234014477
+        ],
+        "mean_mse": 0.014933579234014477
+      },
+      {
+        "parameters": {
+          "amplitude": 0.2,
+          "length_scale": 1.0,
+          "mean": 1.0,
+          "noise_sd": 0.3,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.016890016899636616
+        ],
+        "mean_mse": 0.016890016899636616
+      },
+      {
+        "parameters": {
+          "amplitude": 0.5,
+          "length_scale": 0.1,
+          "mean": 1.0,
+          "noise_sd": 0.05,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.0308221548440405
+        ],
+        "mean_mse": 0.0308221548440405
+      },
+      {
+        "parameters": {
+          "amplitude": 0.5,
+          "length_scale": 0.1,
+          "mean": 1.0,
+          "noise_sd": 0.15,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.03011107633599459
+        ],
+        "mean_mse": 0.03011107633599459
+      },
+      {
+        "parameters": {
+          "amplitude": 0.5,
+          "length_scale": 0.1,
+          "mean": 1.0,
+          "noise_sd": 0.3,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.02920131601485046
+        ],
+        "mean_mse": 0.02920131601485046
+      },
+      {
+        "parameters": {
+          "amplitude": 0.5,
+          "length_scale": 0.3,
+          "mean": 1.0,
+          "noise_sd": 0.05,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.03562185590054641
+        ],
+        "mean_mse": 0.03562185590054641
+      },
+      {
+        "parameters": {
+          "amplitude": 0.5,
+          "length_scale": 0.3,
+          "mean": 1.0,
+          "noise_sd": 0.15,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.023897287625486287
+        ],
+        "mean_mse": 0.023897287625486287
+      },
+      {
+        "parameters": {
+          "amplitude": 0.5,
+          "length_scale": 0.3,
+          "mean": 1.0,
+          "noise_sd": 0.3,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.019514821514719515
+        ],
+        "mean_mse": 0.019514821514719515
+      },
+      {
+        "parameters": {
+          "amplitude": 0.5,
+          "length_scale": 1.0,
+          "mean": 1.0,
+          "noise_sd": 0.05,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.022280545413918367
+        ],
+        "mean_mse": 0.022280545413918367
+      },
+      {
+        "parameters": {
+          "amplitude": 0.5,
+          "length_scale": 1.0,
+          "mean": 1.0,
+          "noise_sd": 0.15,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.014883353060819005
+        ],
+        "mean_mse": 0.014883353060819005
+      },
+      {
+        "parameters": {
+          "amplitude": 0.5,
+          "length_scale": 1.0,
+          "mean": 1.0,
+          "noise_sd": 0.3,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.014812216841924217
+        ],
+        "mean_mse": 0.014812216841924217
+      },
+      {
+        "parameters": {
+          "amplitude": 1.0,
+          "length_scale": 0.1,
+          "mean": 1.0,
+          "noise_sd": 0.05,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.03091602366904869
+        ],
+        "mean_mse": 0.03091602366904869
+      },
+      {
+        "parameters": {
+          "amplitude": 1.0,
+          "length_scale": 0.1,
+          "mean": 1.0,
+          "noise_sd": 0.15,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.030679600126170076
+        ],
+        "mean_mse": 0.030679600126170076
+      },
+      {
+        "parameters": {
+          "amplitude": 1.0,
+          "length_scale": 0.1,
+          "mean": 1.0,
+          "noise_sd": 0.3,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.030111076337977192
+        ],
+        "mean_mse": 0.030111076337977192
+      },
+      {
+        "parameters": {
+          "amplitude": 1.0,
+          "length_scale": 0.3,
+          "mean": 1.0,
+          "noise_sd": 0.05,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.03942905433033359
+        ],
+        "mean_mse": 0.03942905433033359
+      },
+      {
+        "parameters": {
+          "amplitude": 1.0,
+          "length_scale": 0.3,
+          "mean": 1.0,
+          "noise_sd": 0.15,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.03193171880735805
+        ],
+        "mean_mse": 0.03193171880735805
+      },
+      {
+        "parameters": {
+          "amplitude": 1.0,
+          "length_scale": 0.3,
+          "mean": 1.0,
+          "noise_sd": 0.3,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.02389728764317559
+        ],
+        "mean_mse": 0.02389728764317559
+      },
+      {
+        "parameters": {
+          "amplitude": 1.0,
+          "length_scale": 1.0,
+          "mean": 1.0,
+          "noise_sd": 0.05,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.05876549986843138
+        ],
+        "mean_mse": 0.05876549986843138
+      },
+      {
+        "parameters": {
+          "amplitude": 1.0,
+          "length_scale": 1.0,
+          "mean": 1.0,
+          "noise_sd": 0.15,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.015982955769657886
+        ],
+        "mean_mse": 0.015982955769657886
+      },
+      {
+        "parameters": {
+          "amplitude": 1.0,
+          "length_scale": 1.0,
+          "mean": 1.0,
+          "noise_sd": 0.3,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.01488335306090694
+        ],
+        "mean_mse": 0.01488335306090694
+      }
+    ]
+  },
+  {
+    "context": "FAC",
+    "test_generation": 3,
+    "training_generations": [
+      0,
+      1,
+      2
+    ],
+    "train_rows": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "test_rows": [
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ],
+    "selection": "minimum_past_generation_macro_mse",
+    "selected": 6,
+    "scores": [
+      {
+        "parameters": {
+          "amplitude": 0.2,
+          "length_scale": 0.1,
+          "mean": 1.0,
+          "noise_sd": 0.05,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.0303101820849468,
+          0.02623975904404674
+        ],
+        "mean_mse": 0.028274970564496772
+      },
+      {
+        "parameters": {
+          "amplitude": 0.2,
+          "length_scale": 0.1,
+          "mean": 1.0,
+          "noise_sd": 0.15,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.029034126719115896,
+          0.027651158290206986
+        ],
+        "mean_mse": 0.02834264250466144
+      },
+      {
+        "parameters": {
+          "amplitude": 0.2,
+          "length_scale": 0.1,
+          "mean": 1.0,
+          "noise_sd": 0.3,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.02970299427729286,
+          0.029714338284033637
+        ],
+        "mean_mse": 0.029708666280663248
+      },
+      {
+        "parameters": {
+          "amplitude": 0.2,
+          "length_scale": 0.3,
+          "mean": 1.0,
+          "noise_sd": 0.05,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.025958552412482957,
+          0.0073211288388034855
+        ],
+        "mean_mse": 0.01663984062564322
+      },
+      {
+        "parameters": {
+          "amplitude": 0.2,
+          "length_scale": 0.3,
+          "mean": 1.0,
+          "noise_sd": 0.15,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.019420073150248705,
+          0.01239722610734
+        ],
+        "mean_mse": 0.015908649628794354
+      },
+      {
+        "parameters": {
+          "amplitude": 0.2,
+          "length_scale": 0.3,
+          "mean": 1.0,
+          "noise_sd": 0.3,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.022214953297409513,
+          0.01753714178337882
+        ],
+        "mean_mse": 0.019876047540394168
+      },
+      {
+        "parameters": {
+          "amplitude": 0.2,
+          "length_scale": 1.0,
+          "mean": 1.0,
+          "noise_sd": 0.05,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.014894618808800204,
+          0.006699265797582338
+        ],
+        "mean_mse": 0.010796942303191271
+      },
+      {
+        "parameters": {
+          "amplitude": 0.2,
+          "length_scale": 1.0,
+          "mean": 1.0,
+          "noise_sd": 0.15,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.014933579234014477,
+          0.008053178676210544
+        ],
+        "mean_mse": 0.01149337895511251
+      },
+      {
+        "parameters": {
+          "amplitude": 0.2,
+          "length_scale": 1.0,
+          "mean": 1.0,
+          "noise_sd": 0.3,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.016890016899636616,
+          0.01100239284267014
+        ],
+        "mean_mse": 0.013946204871153379
+      },
+      {
+        "parameters": {
+          "amplitude": 0.5,
+          "length_scale": 0.1,
+          "mean": 1.0,
+          "noise_sd": 0.05,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.0308221548440405,
+          0.02600246494016888
+        ],
+        "mean_mse": 0.028412309892104692
+      },
+      {
+        "parameters": {
+          "amplitude": 0.5,
+          "length_scale": 0.1,
+          "mean": 1.0,
+          "noise_sd": 0.15,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.03011107633599459,
+          0.026354340571153552
+        ],
+        "mean_mse": 0.02823270845357407
+      },
+      {
+        "parameters": {
+          "amplitude": 0.5,
+          "length_scale": 0.1,
+          "mean": 1.0,
+          "noise_sd": 0.3,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.02920131601485046,
+          0.0272049061932075
+        ],
+        "mean_mse": 0.02820311110402898
+      },
+      {
+        "parameters": {
+          "amplitude": 0.5,
+          "length_scale": 0.3,
+          "mean": 1.0,
+          "noise_sd": 0.05,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.03562185590054641,
+          0.005904417998730543
+        ],
+        "mean_mse": 0.020763136949638477
+      },
+      {
+        "parameters": {
+          "amplitude": 0.5,
+          "length_scale": 0.3,
+          "mean": 1.0,
+          "noise_sd": 0.15,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.023897287625486287,
+          0.008121934027362105
+        ],
+        "mean_mse": 0.016009610826424197
+      },
+      {
+        "parameters": {
+          "amplitude": 0.5,
+          "length_scale": 0.3,
+          "mean": 1.0,
+          "noise_sd": 0.3,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.019514821514719515,
+          0.011290681396642601
+        ],
+        "mean_mse": 0.015402751455681058
+      },
+      {
+        "parameters": {
+          "amplitude": 0.5,
+          "length_scale": 1.0,
+          "mean": 1.0,
+          "noise_sd": 0.05,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.022280545413918367,
+          0.005609653070311092
+        ],
+        "mean_mse": 0.01394509924211473
+      },
+      {
+        "parameters": {
+          "amplitude": 0.5,
+          "length_scale": 1.0,
+          "mean": 1.0,
+          "noise_sd": 0.15,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.014883353060819005,
+          0.006716300985905292
+        ],
+        "mean_mse": 0.010799827023362149
+      },
+      {
+        "parameters": {
+          "amplitude": 0.5,
+          "length_scale": 1.0,
+          "mean": 1.0,
+          "noise_sd": 0.3,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.014812216841924217,
+          0.0074959799493761956
+        ],
+        "mean_mse": 0.011154098395650206
+      },
+      {
+        "parameters": {
+          "amplitude": 1.0,
+          "length_scale": 0.1,
+          "mean": 1.0,
+          "noise_sd": 0.05,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.03091602366904869,
+          0.025966809575856845
+        ],
+        "mean_mse": 0.028441416622452767
+      },
+      {
+        "parameters": {
+          "amplitude": 1.0,
+          "length_scale": 0.1,
+          "mean": 1.0,
+          "noise_sd": 0.15,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.030679600126170076,
+          0.026061046124863367
+        ],
+        "mean_mse": 0.02837032312551672
+      },
+      {
+        "parameters": {
+          "amplitude": 1.0,
+          "length_scale": 0.1,
+          "mean": 1.0,
+          "noise_sd": 0.3,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.030111076337977192,
+          0.026354340569939957
+        ],
+        "mean_mse": 0.028232708453958574
+      },
+      {
+        "parameters": {
+          "amplitude": 1.0,
+          "length_scale": 0.3,
+          "mean": 1.0,
+          "noise_sd": 0.05,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.03942905433033359,
+          0.007194922768129526
+        ],
+        "mean_mse": 0.02331198854923156
+      },
+      {
+        "parameters": {
+          "amplitude": 1.0,
+          "length_scale": 0.3,
+          "mean": 1.0,
+          "noise_sd": 0.15,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.03193171880735805,
+          0.005903369406479645
+        ],
+        "mean_mse": 0.01891754410691885
+      },
+      {
+        "parameters": {
+          "amplitude": 1.0,
+          "length_scale": 0.3,
+          "mean": 1.0,
+          "noise_sd": 0.3,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.02389728764317559,
+          0.008121934019730326
+        ],
+        "mean_mse": 0.016009610831452956
+      },
+      {
+        "parameters": {
+          "amplitude": 1.0,
+          "length_scale": 1.0,
+          "mean": 1.0,
+          "noise_sd": 0.05,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.05876549986843138,
+          0.0026640355431342216
+        ],
+        "mean_mse": 0.0307147677057828
+      },
+      {
+        "parameters": {
+          "amplitude": 1.0,
+          "length_scale": 1.0,
+          "mean": 1.0,
+          "noise_sd": 0.15,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.015982955769657886,
+          0.006547907677016004
+        ],
+        "mean_mse": 0.011265431723336945
+      },
+      {
+        "parameters": {
+          "amplitude": 1.0,
+          "length_scale": 1.0,
+          "mean": 1.0,
+          "noise_sd": 0.3,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.01488335306090694,
+          0.006716300985521881
+        ],
+        "mean_mse": 0.010799827023214411
+      }
+    ]
+  },
+  {
+    "context": "FAC",
+    "test_generation": 4,
+    "training_generations": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "train_rows": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ],
+    "test_rows": [
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36
+    ],
+    "selection": "minimum_past_generation_macro_mse",
+    "selected": 17,
+    "scores": [
+      {
+        "parameters": {
+          "amplitude": 0.2,
+          "length_scale": 0.1,
+          "mean": 1.0,
+          "noise_sd": 0.05,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.0303101820849468,
+          0.02623975904404674,
+          0.03747366480695658
+        ],
+        "mean_mse": 0.03134120197865004
+      },
+      {
+        "parameters": {
+          "amplitude": 0.2,
+          "length_scale": 0.1,
+          "mean": 1.0,
+          "noise_sd": 0.15,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.029034126719115896,
+          0.027651158290206986,
+          0.03484336556341407
+        ],
+        "mean_mse": 0.030509550190912314
+      },
+      {
+        "parameters": {
+          "amplitude": 0.2,
+          "length_scale": 0.1,
+          "mean": 1.0,
+          "noise_sd": 0.3,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.02970299427729286,
+          0.029714338284033637,
+          0.039270754029460675
+        ],
+        "mean_mse": 0.032896028863595723
+      },
+      {
+        "parameters": {
+          "amplitude": 0.2,
+          "length_scale": 0.3,
+          "mean": 1.0,
+          "noise_sd": 0.05,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.025958552412482957,
+          0.0073211288388034855,
+          0.021547147306838616
+        ],
+        "mean_mse": 0.018275609519375017
+      },
+      {
+        "parameters": {
+          "amplitude": 0.2,
+          "length_scale": 0.3,
+          "mean": 1.0,
+          "noise_sd": 0.15,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.019420073150248705,
+          0.01239722610734,
+          0.01691463620408301
+        ],
+        "mean_mse": 0.016243978487223906
+      },
+      {
+        "parameters": {
+          "amplitude": 0.2,
+          "length_scale": 0.3,
+          "mean": 1.0,
+          "noise_sd": 0.3,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.022214953297409513,
+          0.01753714178337882,
+          0.019276019701819684
+        ],
+        "mean_mse": 0.01967603826086934
+      },
+      {
+        "parameters": {
+          "amplitude": 0.2,
+          "length_scale": 1.0,
+          "mean": 1.0,
+          "noise_sd": 0.05,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.014894618808800204,
+          0.006699265797582338,
+          0.014435448731485693
+        ],
+        "mean_mse": 0.012009777779289412
+      },
+      {
+        "parameters": {
+          "amplitude": 0.2,
+          "length_scale": 1.0,
+          "mean": 1.0,
+          "noise_sd": 0.15,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.014933579234014477,
+          0.008053178676210544,
+          0.013540951455249929
+        ],
+        "mean_mse": 0.012175903121824982
+      },
+      {
+        "parameters": {
+          "amplitude": 0.2,
+          "length_scale": 1.0,
+          "mean": 1.0,
+          "noise_sd": 0.3,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.016890016899636616,
+          0.01100239284267014,
+          0.015867160036222967
+        ],
+        "mean_mse": 0.014586523259509909
+      },
+      {
+        "parameters": {
+          "amplitude": 0.5,
+          "length_scale": 0.1,
+          "mean": 1.0,
+          "noise_sd": 0.05,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.0308221548440405,
+          0.02600246494016888,
+          0.03815537246330612
+        ],
+        "mean_mse": 0.031659997415838505
+      },
+      {
+        "parameters": {
+          "amplitude": 0.5,
+          "length_scale": 0.1,
+          "mean": 1.0,
+          "noise_sd": 0.15,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.03011107633599459,
+          0.026354340571153552,
+          0.0371165979520774
+        ],
+        "mean_mse": 0.031194004953075182
+      },
+      {
+        "parameters": {
+          "amplitude": 0.5,
+          "length_scale": 0.1,
+          "mean": 1.0,
+          "noise_sd": 0.3,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.02920131601485046,
+          0.0272049061932075,
+          0.035118313736936226
+        ],
+        "mean_mse": 0.030508178648331396
+      },
+      {
+        "parameters": {
+          "amplitude": 0.5,
+          "length_scale": 0.3,
+          "mean": 1.0,
+          "noise_sd": 0.05,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.03562185590054641,
+          0.005904417998730543,
+          0.027043893312879538
+        ],
+        "mean_mse": 0.022856722404052163
+      },
+      {
+        "parameters": {
+          "amplitude": 0.5,
+          "length_scale": 0.3,
+          "mean": 1.0,
+          "noise_sd": 0.15,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.023897287625486287,
+          0.008121934027362105,
+          0.02025091603779693
+        ],
+        "mean_mse": 0.01742337923021511
+      },
+      {
+        "parameters": {
+          "amplitude": 0.5,
+          "length_scale": 0.3,
+          "mean": 1.0,
+          "noise_sd": 0.3,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.019514821514719515,
+          0.011290681396642601,
+          0.017240583159804663
+        ],
+        "mean_mse": 0.016015362023722262
+      },
+      {
+        "parameters": {
+          "amplitude": 0.5,
+          "length_scale": 1.0,
+          "mean": 1.0,
+          "noise_sd": 0.05,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.022280545413918367,
+          0.005609653070311092,
+          0.015215234323370214
+        ],
+        "mean_mse": 0.014368477602533224
+      },
+      {
+        "parameters": {
+          "amplitude": 0.5,
+          "length_scale": 1.0,
+          "mean": 1.0,
+          "noise_sd": 0.15,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.014883353060819005,
+          0.006716300985905292,
+          0.014164297409284352
+        ],
+        "mean_mse": 0.011921317152002883
+      },
+      {
+        "parameters": {
+          "amplitude": 0.5,
+          "length_scale": 1.0,
+          "mean": 1.0,
+          "noise_sd": 0.3,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.014812216841924217,
+          0.0074959799493761956,
+          0.013443833032328434
+        ],
+        "mean_mse": 0.01191734327454295
+      },
+      {
+        "parameters": {
+          "amplitude": 1.0,
+          "length_scale": 0.1,
+          "mean": 1.0,
+          "noise_sd": 0.05,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.03091602366904869,
+          0.025966809575856845,
+          0.03823623236668387
+        ],
+        "mean_mse": 0.03170635520386313
+      },
+      {
+        "parameters": {
+          "amplitude": 1.0,
+          "length_scale": 0.1,
+          "mean": 1.0,
+          "noise_sd": 0.15,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.030679600126170076,
+          0.026061046124863367,
+          0.038004343229532445
+        ],
+        "mean_mse": 0.03158166316018863
+      },
+      {
+        "parameters": {
+          "amplitude": 1.0,
+          "length_scale": 0.1,
+          "mean": 1.0,
+          "noise_sd": 0.3,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.030111076337977192,
+          0.026354340569939957,
+          0.0371165979558465
+        ],
+        "mean_mse": 0.031194004954587882
+      },
+      {
+        "parameters": {
+          "amplitude": 1.0,
+          "length_scale": 0.3,
+          "mean": 1.0,
+          "noise_sd": 0.05,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.03942905433033359,
+          0.007194922768129526,
+          0.026230059863760764
+        ],
+        "mean_mse": 0.02428467898740796
+      },
+      {
+        "parameters": {
+          "amplitude": 1.0,
+          "length_scale": 0.3,
+          "mean": 1.0,
+          "noise_sd": 0.15,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.03193171880735805,
+          0.005903369406479645,
+          0.025415868342691637
+        ],
+        "mean_mse": 0.02108365218550978
+      },
+      {
+        "parameters": {
+          "amplitude": 1.0,
+          "length_scale": 0.3,
+          "mean": 1.0,
+          "noise_sd": 0.3,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.02389728764317559,
+          0.008121934019730326,
+          0.020250916048784127
+        ],
+        "mean_mse": 0.017423379237230013
+      },
+      {
+        "parameters": {
+          "amplitude": 1.0,
+          "length_scale": 1.0,
+          "mean": 1.0,
+          "noise_sd": 0.05,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.05876549986843138,
+          0.0026640355431342216,
+          0.015693096776279263
+        ],
+        "mean_mse": 0.025707544062614954
+      },
+      {
+        "parameters": {
+          "amplitude": 1.0,
+          "length_scale": 1.0,
+          "mean": 1.0,
+          "noise_sd": 0.15,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.015982955769657886,
+          0.006547907677016004,
+          0.015004435420776662
+        ],
+        "mean_mse": 0.012511766289150184
+      },
+      {
+        "parameters": {
+          "amplitude": 1.0,
+          "length_scale": 1.0,
+          "mean": 1.0,
+          "noise_sd": 0.3,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.01488335306090694,
+          0.006716300985521881,
+          0.014164297411809948
+        ],
+        "mean_mse": 0.011921317152746256
+      }
+    ]
+  },
+  {
+    "context": "OLA-IBET",
+    "test_generation": 1,
+    "training_generations": [
+      0
+    ],
+    "train_rows": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "test_rows": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "selection": "prespecified_default_no_inner_generation",
+    "scores": []
+  },
+  {
+    "context": "OLA-IBET",
+    "test_generation": 2,
+    "training_generations": [
+      0,
+      1
+    ],
+    "train_rows": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "test_rows": [
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31
+    ],
+    "selection": "minimum_past_generation_macro_mse",
+    "selected": 26,
+    "scores": [
+      {
+        "parameters": {
+          "amplitude": 0.2,
+          "length_scale": 0.1,
+          "mean": 1.0,
+          "noise_sd": 0.05,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.09307909818301738
+        ],
+        "mean_mse": 0.09307909818301738
+      },
+      {
+        "parameters": {
+          "amplitude": 0.2,
+          "length_scale": 0.1,
+          "mean": 1.0,
+          "noise_sd": 0.15,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.11608182307243733
+        ],
+        "mean_mse": 0.11608182307243733
+      },
+      {
+        "parameters": {
+          "amplitude": 0.2,
+          "length_scale": 0.1,
+          "mean": 1.0,
+          "noise_sd": 0.3,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.15077798053912614
+        ],
+        "mean_mse": 0.15077798053912614
+      },
+      {
+        "parameters": {
+          "amplitude": 0.2,
+          "length_scale": 0.3,
+          "mean": 1.0,
+          "noise_sd": 0.05,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.018561816415681547
+        ],
+        "mean_mse": 0.018561816415681547
+      },
+      {
+        "parameters": {
+          "amplitude": 0.2,
+          "length_scale": 0.3,
+          "mean": 1.0,
+          "noise_sd": 0.15,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.03476671374372388
+        ],
+        "mean_mse": 0.03476671374372388
+      },
+      {
+        "parameters": {
+          "amplitude": 0.2,
+          "length_scale": 0.3,
+          "mean": 1.0,
+          "noise_sd": 0.3,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.08132509254404457
+        ],
+        "mean_mse": 0.08132509254404457
+      },
+      {
+        "parameters": {
+          "amplitude": 0.2,
+          "length_scale": 1.0,
+          "mean": 1.0,
+          "noise_sd": 0.05,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.010646513787021954
+        ],
+        "mean_mse": 0.010646513787021954
+      },
+      {
+        "parameters": {
+          "amplitude": 0.2,
+          "length_scale": 1.0,
+          "mean": 1.0,
+          "noise_sd": 0.15,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.020545843784072183
+        ],
+        "mean_mse": 0.020545843784072183
+      },
+      {
+        "parameters": {
+          "amplitude": 0.2,
+          "length_scale": 1.0,
+          "mean": 1.0,
+          "noise_sd": 0.3,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.051664463420864136
+        ],
+        "mean_mse": 0.051664463420864136
+      },
+      {
+        "parameters": {
+          "amplitude": 0.5,
+          "length_scale": 0.1,
+          "mean": 1.0,
+          "noise_sd": 0.05,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.09014831506071046
+        ],
+        "mean_mse": 0.09014831506071046
+      },
+      {
+        "parameters": {
+          "amplitude": 0.5,
+          "length_scale": 0.1,
+          "mean": 1.0,
+          "noise_sd": 0.15,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.0946033083494733
+        ],
+        "mean_mse": 0.0946033083494733
+      },
+      {
+        "parameters": {
+          "amplitude": 0.5,
+          "length_scale": 0.1,
+          "mean": 1.0,
+          "noise_sd": 0.3,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.1079661839612289
+        ],
+        "mean_mse": 0.1079661839612289
+      },
+      {
+        "parameters": {
+          "amplitude": 0.5,
+          "length_scale": 0.3,
+          "mean": 1.0,
+          "noise_sd": 0.05,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.019129922620997317
+        ],
+        "mean_mse": 0.019129922620997317
+      },
+      {
+        "parameters": {
+          "amplitude": 0.5,
+          "length_scale": 0.3,
+          "mean": 1.0,
+          "noise_sd": 0.15,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.019024739459964496
+        ],
+        "mean_mse": 0.019024739459964496
+      },
+      {
+        "parameters": {
+          "amplitude": 0.5,
+          "length_scale": 0.3,
+          "mean": 1.0,
+          "noise_sd": 0.3,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.02747034827924098
+        ],
+        "mean_mse": 0.02747034827924098
+      },
+      {
+        "parameters": {
+          "amplitude": 0.5,
+          "length_scale": 1.0,
+          "mean": 1.0,
+          "noise_sd": 0.05,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.012411259331849032
+        ],
+        "mean_mse": 0.012411259331849032
+      },
+      {
+        "parameters": {
+          "amplitude": 0.5,
+          "length_scale": 1.0,
+          "mean": 1.0,
+          "noise_sd": 0.15,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.010519287760073872
+        ],
+        "mean_mse": 0.010519287760073872
+      },
+      {
+        "parameters": {
+          "amplitude": 0.5,
+          "length_scale": 1.0,
+          "mean": 1.0,
+          "noise_sd": 0.3,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.015380914074484506
+        ],
+        "mean_mse": 0.015380914074484506
+      },
+      {
+        "parameters": {
+          "amplitude": 1.0,
+          "length_scale": 0.1,
+          "mean": 1.0,
+          "noise_sd": 0.05,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.08973777712485592
+        ],
+        "mean_mse": 0.08973777712485592
+      },
+      {
+        "parameters": {
+          "amplitude": 1.0,
+          "length_scale": 0.1,
+          "mean": 1.0,
+          "noise_sd": 0.15,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.0908415581601088
+        ],
+        "mean_mse": 0.0908415581601088
+      },
+      {
+        "parameters": {
+          "amplitude": 1.0,
+          "length_scale": 0.1,
+          "mean": 1.0,
+          "noise_sd": 0.3,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.09460330833296696
+        ],
+        "mean_mse": 0.09460330833296696
+      },
+      {
+        "parameters": {
+          "amplitude": 1.0,
+          "length_scale": 0.3,
+          "mean": 1.0,
+          "noise_sd": 0.05,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.020039055891785108
+        ],
+        "mean_mse": 0.020039055891785108
+      },
+      {
+        "parameters": {
+          "amplitude": 1.0,
+          "length_scale": 0.3,
+          "mean": 1.0,
+          "noise_sd": 0.15,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.018583516032780693
+        ],
+        "mean_mse": 0.018583516032780693
+      },
+      {
+        "parameters": {
+          "amplitude": 1.0,
+          "length_scale": 0.3,
+          "mean": 1.0,
+          "noise_sd": 0.3,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.01902473945388037
+        ],
+        "mean_mse": 0.01902473945388037
+      },
+      {
+        "parameters": {
+          "amplitude": 1.0,
+          "length_scale": 1.0,
+          "mean": 1.0,
+          "noise_sd": 0.05,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.013361043377686682
+        ],
+        "mean_mse": 0.013361043377686682
+      },
+      {
+        "parameters": {
+          "amplitude": 1.0,
+          "length_scale": 1.0,
+          "mean": 1.0,
+          "noise_sd": 0.15,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.01162463037222666
+        ],
+        "mean_mse": 0.01162463037222666
+      },
+      {
+        "parameters": {
+          "amplitude": 1.0,
+          "length_scale": 1.0,
+          "mean": 1.0,
+          "noise_sd": 0.3,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.01051928776000682
+        ],
+        "mean_mse": 0.01051928776000682
+      }
+    ]
+  },
+  {
+    "context": "OLA-IBET",
+    "test_generation": 3,
+    "training_generations": [
+      0,
+      1,
+      2
+    ],
+    "train_rows": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31
+    ],
+    "test_rows": [
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41
+    ],
+    "selection": "minimum_past_generation_macro_mse",
+    "selected": 25,
+    "scores": [
+      {
+        "parameters": {
+          "amplitude": 0.2,
+          "length_scale": 0.1,
+          "mean": 1.0,
+          "noise_sd": 0.05,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.09307909818301738,
+          0.06301135516867054
+        ],
+        "mean_mse": 0.07804522667584396
+      },
+      {
+        "parameters": {
+          "amplitude": 0.2,
+          "length_scale": 0.1,
+          "mean": 1.0,
+          "noise_sd": 0.15,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.11608182307243733,
+          0.07246552001484602
+        ],
+        "mean_mse": 0.09427367154364168
+      },
+      {
+        "parameters": {
+          "amplitude": 0.2,
+          "length_scale": 0.1,
+          "mean": 1.0,
+          "noise_sd": 0.3,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.15077798053912614,
+          0.09018361634665076
+        ],
+        "mean_mse": 0.12048079844288845
+      },
+      {
+        "parameters": {
+          "amplitude": 0.2,
+          "length_scale": 0.3,
+          "mean": 1.0,
+          "noise_sd": 0.05,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.018561816415681547,
+          0.013425362195544138
+        ],
+        "mean_mse": 0.015993589305612843
+      },
+      {
+        "parameters": {
+          "amplitude": 0.2,
+          "length_scale": 0.3,
+          "mean": 1.0,
+          "noise_sd": 0.15,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.03476671374372388,
+          0.018329163612725845
+        ],
+        "mean_mse": 0.026547938678224862
+      },
+      {
+        "parameters": {
+          "amplitude": 0.2,
+          "length_scale": 0.3,
+          "mean": 1.0,
+          "noise_sd": 0.3,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.08132509254404457,
+          0.03146013675553063
+        ],
+        "mean_mse": 0.056392614649787606
+      },
+      {
+        "parameters": {
+          "amplitude": 0.2,
+          "length_scale": 1.0,
+          "mean": 1.0,
+          "noise_sd": 0.05,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.010646513787021954,
+          0.005391817946329773
+        ],
+        "mean_mse": 0.008019165866675865
+      },
+      {
+        "parameters": {
+          "amplitude": 0.2,
+          "length_scale": 1.0,
+          "mean": 1.0,
+          "noise_sd": 0.15,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.020545843784072183,
+          0.012537772219366994
+        ],
+        "mean_mse": 0.016541808001719588
+      },
+      {
+        "parameters": {
+          "amplitude": 0.2,
+          "length_scale": 1.0,
+          "mean": 1.0,
+          "noise_sd": 0.3,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.051664463420864136,
+          0.022828803666206675
+        ],
+        "mean_mse": 0.037246633543535405
+      },
+      {
+        "parameters": {
+          "amplitude": 0.5,
+          "length_scale": 0.1,
+          "mean": 1.0,
+          "noise_sd": 0.05,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.09014831506071046,
+          0.061847436032990366
+        ],
+        "mean_mse": 0.07599787554685042
+      },
+      {
+        "parameters": {
+          "amplitude": 0.5,
+          "length_scale": 0.1,
+          "mean": 1.0,
+          "noise_sd": 0.15,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.0946033083494733,
+          0.06363141855243437
+        ],
+        "mean_mse": 0.07911736345095383
+      },
+      {
+        "parameters": {
+          "amplitude": 0.5,
+          "length_scale": 0.1,
+          "mean": 1.0,
+          "noise_sd": 0.3,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.1079661839612289,
+          0.06901018522278188
+        ],
+        "mean_mse": 0.08848818459200539
+      },
+      {
+        "parameters": {
+          "amplitude": 0.5,
+          "length_scale": 0.3,
+          "mean": 1.0,
+          "noise_sd": 0.05,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.019129922620997317,
+          0.01861118332612898
+        ],
+        "mean_mse": 0.01887055297356315
+      },
+      {
+        "parameters": {
+          "amplitude": 0.5,
+          "length_scale": 0.3,
+          "mean": 1.0,
+          "noise_sd": 0.15,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.019024739459964496,
+          0.013070410708829482
+        ],
+        "mean_mse": 0.01604757508439699
+      },
+      {
+        "parameters": {
+          "amplitude": 0.5,
+          "length_scale": 0.3,
+          "mean": 1.0,
+          "noise_sd": 0.3,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.02747034827924098,
+          0.015896040151790657
+        ],
+        "mean_mse": 0.021683194215515816
+      },
+      {
+        "parameters": {
+          "amplitude": 0.5,
+          "length_scale": 1.0,
+          "mean": 1.0,
+          "noise_sd": 0.05,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.012411259331849032,
+          0.004097603674138402
+        ],
+        "mean_mse": 0.008254431502993717
+      },
+      {
+        "parameters": {
+          "amplitude": 0.5,
+          "length_scale": 1.0,
+          "mean": 1.0,
+          "noise_sd": 0.15,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.010519287760073872,
+          0.006067375288772505
+        ],
+        "mean_mse": 0.008293331524423188
+      },
+      {
+        "parameters": {
+          "amplitude": 0.5,
+          "length_scale": 1.0,
+          "mean": 1.0,
+          "noise_sd": 0.3,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.015380914074484506,
+          0.010318004295357551
+        ],
+        "mean_mse": 0.012849459184921029
+      },
+      {
+        "parameters": {
+          "amplitude": 1.0,
+          "length_scale": 0.1,
+          "mean": 1.0,
+          "noise_sd": 0.05,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.08973777712485592,
+          0.06171839739527048
+        ],
+        "mean_mse": 0.07572808726006319
+      },
+      {
+        "parameters": {
+          "amplitude": 1.0,
+          "length_scale": 0.1,
+          "mean": 1.0,
+          "noise_sd": 0.15,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.0908415581601088,
+          0.062104185991961734
+        ],
+        "mean_mse": 0.07647287207603527
+      },
+      {
+        "parameters": {
+          "amplitude": 1.0,
+          "length_scale": 0.1,
+          "mean": 1.0,
+          "noise_sd": 0.3,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.09460330833296696,
+          0.06363141854575705
+        ],
+        "mean_mse": 0.079117363439362
+      },
+      {
+        "parameters": {
+          "amplitude": 1.0,
+          "length_scale": 0.3,
+          "mean": 1.0,
+          "noise_sd": 0.05,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.020039055891785108,
+          0.023480492428354476
+        ],
+        "mean_mse": 0.021759774160069793
+      },
+      {
+        "parameters": {
+          "amplitude": 1.0,
+          "length_scale": 0.3,
+          "mean": 1.0,
+          "noise_sd": 0.15,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.018583516032780693,
+          0.01592219025903576
+        ],
+        "mean_mse": 0.01725285314590823
+      },
+      {
+        "parameters": {
+          "amplitude": 1.0,
+          "length_scale": 0.3,
+          "mean": 1.0,
+          "noise_sd": 0.3,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.01902473945388037,
+          0.013070410710287913
+        ],
+        "mean_mse": 0.01604757508208414
+      },
+      {
+        "parameters": {
+          "amplitude": 1.0,
+          "length_scale": 1.0,
+          "mean": 1.0,
+          "noise_sd": 0.05,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.013361043377686682,
+          0.007042017901501663
+        ],
+        "mean_mse": 0.010201530639594173
+      },
+      {
+        "parameters": {
+          "amplitude": 1.0,
+          "length_scale": 1.0,
+          "mean": 1.0,
+          "noise_sd": 0.15,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.01162463037222666,
+          0.004193922814758969
+        ],
+        "mean_mse": 0.007909276593492814
+      },
+      {
+        "parameters": {
+          "amplitude": 1.0,
+          "length_scale": 1.0,
+          "mean": 1.0,
+          "noise_sd": 0.3,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.01051928776000682,
+          0.006067375281936538
+        ],
+        "mean_mse": 0.00829333152097168
+      }
+    ]
+  },
+  {
+    "context": "OLA-IBET",
+    "test_generation": 4,
+    "training_generations": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "train_rows": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41
+    ],
+    "test_rows": [
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51
+    ],
+    "selection": "minimum_past_generation_macro_mse",
+    "selected": 6,
+    "scores": [
+      {
+        "parameters": {
+          "amplitude": 0.2,
+          "length_scale": 0.1,
+          "mean": 1.0,
+          "noise_sd": 0.05,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.09307909818301738,
+          0.06301135516867054,
+          0.050649234344359674
+        ],
+        "mean_mse": 0.06891322923201586
+      },
+      {
+        "parameters": {
+          "amplitude": 0.2,
+          "length_scale": 0.1,
+          "mean": 1.0,
+          "noise_sd": 0.15,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.11608182307243733,
+          0.07246552001484602,
+          0.057130122309728894
+        ],
+        "mean_mse": 0.08189248846567075
+      },
+      {
+        "parameters": {
+          "amplitude": 0.2,
+          "length_scale": 0.1,
+          "mean": 1.0,
+          "noise_sd": 0.3,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.15077798053912614,
+          0.09018361634665076,
+          0.07770354900755648
+        ],
+        "mean_mse": 0.1062217152977778
+      },
+      {
+        "parameters": {
+          "amplitude": 0.2,
+          "length_scale": 0.3,
+          "mean": 1.0,
+          "noise_sd": 0.05,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.018561816415681547,
+          0.013425362195544138,
+          0.026762701814091867
+        ],
+        "mean_mse": 0.01958329347510585
+      },
+      {
+        "parameters": {
+          "amplitude": 0.2,
+          "length_scale": 0.3,
+          "mean": 1.0,
+          "noise_sd": 0.15,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.03476671374372388,
+          0.018329163612725845,
+          0.022761730103970666
+        ],
+        "mean_mse": 0.025285869153473462
+      },
+      {
+        "parameters": {
+          "amplitude": 0.2,
+          "length_scale": 0.3,
+          "mean": 1.0,
+          "noise_sd": 0.3,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.08132509254404457,
+          0.03146013675553063,
+          0.025733628815105592
+        ],
+        "mean_mse": 0.046172952704893605
+      },
+      {
+        "parameters": {
+          "amplitude": 0.2,
+          "length_scale": 1.0,
+          "mean": 1.0,
+          "noise_sd": 0.05,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.010646513787021954,
+          0.005391817946329773,
+          0.018182048342563317
+        ],
+        "mean_mse": 0.011406793358638348
+      },
+      {
+        "parameters": {
+          "amplitude": 0.2,
+          "length_scale": 1.0,
+          "mean": 1.0,
+          "noise_sd": 0.15,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.020545843784072183,
+          0.012537772219366994,
+          0.015187381434622027
+        ],
+        "mean_mse": 0.016090332479353733
+      },
+      {
+        "parameters": {
+          "amplitude": 0.2,
+          "length_scale": 1.0,
+          "mean": 1.0,
+          "noise_sd": 0.3,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.051664463420864136,
+          0.022828803666206675,
+          0.017494810410954166
+        ],
+        "mean_mse": 0.03066269249934166
+      },
+      {
+        "parameters": {
+          "amplitude": 0.5,
+          "length_scale": 0.1,
+          "mean": 1.0,
+          "noise_sd": 0.05,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.09014831506071046,
+          0.061847436032990366,
+          0.05342843282998079
+        ],
+        "mean_mse": 0.06847472797456054
+      },
+      {
+        "parameters": {
+          "amplitude": 0.5,
+          "length_scale": 0.1,
+          "mean": 1.0,
+          "noise_sd": 0.15,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.0946033083494733,
+          0.06363141855243437,
+          0.0505138621063239
+        ],
+        "mean_mse": 0.06958286300274386
+      },
+      {
+        "parameters": {
+          "amplitude": 0.5,
+          "length_scale": 0.1,
+          "mean": 1.0,
+          "noise_sd": 0.3,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.1079661839612289,
+          0.06901018522278188,
+          0.053976436989840615
+        ],
+        "mean_mse": 0.07698426872461712
+      },
+      {
+        "parameters": {
+          "amplitude": 0.5,
+          "length_scale": 0.3,
+          "mean": 1.0,
+          "noise_sd": 0.05,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.019129922620997317,
+          0.01861118332612898,
+          0.029888705945280054
+        ],
+        "mean_mse": 0.02254327063080212
+      },
+      {
+        "parameters": {
+          "amplitude": 0.5,
+          "length_scale": 0.3,
+          "mean": 1.0,
+          "noise_sd": 0.15,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.019024739459964496,
+          0.013070410708829482,
+          0.026037741481803996
+        ],
+        "mean_mse": 0.019377630550199327
+      },
+      {
+        "parameters": {
+          "amplitude": 0.5,
+          "length_scale": 0.3,
+          "mean": 1.0,
+          "noise_sd": 0.3,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.02747034827924098,
+          0.015896040151790657,
+          0.023326044779385442
+        ],
+        "mean_mse": 0.022230811070139023
+      },
+      {
+        "parameters": {
+          "amplitude": 0.5,
+          "length_scale": 1.0,
+          "mean": 1.0,
+          "noise_sd": 0.05,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.012411259331849032,
+          0.004097603674138402,
+          0.020931671294347448
+        ],
+        "mean_mse": 0.012480178100111627
+      },
+      {
+        "parameters": {
+          "amplitude": 0.5,
+          "length_scale": 1.0,
+          "mean": 1.0,
+          "noise_sd": 0.15,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.010519287760073872,
+          0.006067375288772505,
+          0.0176350770609442
+        ],
+        "mean_mse": 0.011407246703263527
+      },
+      {
+        "parameters": {
+          "amplitude": 0.5,
+          "length_scale": 1.0,
+          "mean": 1.0,
+          "noise_sd": 0.3,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.015380914074484506,
+          0.010318004295357551,
+          0.015579446129557226
+        ],
+        "mean_mse": 0.013759454833133095
+      },
+      {
+        "parameters": {
+          "amplitude": 1.0,
+          "length_scale": 0.1,
+          "mean": 1.0,
+          "noise_sd": 0.05,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.08973777712485592,
+          0.06171839739527048,
+          0.05489462441246816
+        ],
+        "mean_mse": 0.06878359964419818
+      },
+      {
+        "parameters": {
+          "amplitude": 1.0,
+          "length_scale": 0.1,
+          "mean": 1.0,
+          "noise_sd": 0.15,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.0908415581601088,
+          0.062104185991961734,
+          0.05209003742864297
+        ],
+        "mean_mse": 0.0683452605269045
+      },
+      {
+        "parameters": {
+          "amplitude": 1.0,
+          "length_scale": 0.1,
+          "mean": 1.0,
+          "noise_sd": 0.3,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.09460330833296696,
+          0.06363141854575705,
+          0.05051386210611314
+        ],
+        "mean_mse": 0.06958286299494572
+      },
+      {
+        "parameters": {
+          "amplitude": 1.0,
+          "length_scale": 0.3,
+          "mean": 1.0,
+          "noise_sd": 0.05,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.020039055891785108,
+          0.023480492428354476,
+          0.03333768629603654
+        ],
+        "mean_mse": 0.025619078205392044
+      },
+      {
+        "parameters": {
+          "amplitude": 1.0,
+          "length_scale": 0.3,
+          "mean": 1.0,
+          "noise_sd": 0.15,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.018583516032780693,
+          0.01592219025903576,
+          0.028584970361733575
+        ],
+        "mean_mse": 0.021030225551183345
+      },
+      {
+        "parameters": {
+          "amplitude": 1.0,
+          "length_scale": 0.3,
+          "mean": 1.0,
+          "noise_sd": 0.3,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.01902473945388037,
+          0.013070410710287913,
+          0.026037741488563276
+        ],
+        "mean_mse": 0.01937763055091052
+      },
+      {
+        "parameters": {
+          "amplitude": 1.0,
+          "length_scale": 1.0,
+          "mean": 1.0,
+          "noise_sd": 0.05,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.013361043377686682,
+          0.007042017901501663,
+          0.023279145051083295
+        ],
+        "mean_mse": 0.014560735443423881
+      },
+      {
+        "parameters": {
+          "amplitude": 1.0,
+          "length_scale": 1.0,
+          "mean": 1.0,
+          "noise_sd": 0.15,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.01162463037222666,
+          0.004193922814758969,
+          0.019675455928859192
+        ],
+        "mean_mse": 0.011831336371948274
+      },
+      {
+        "parameters": {
+          "amplitude": 1.0,
+          "length_scale": 1.0,
+          "mean": 1.0,
+          "noise_sd": 0.3,
+          "jitter": 1e-10
+        },
+        "inner_generation_mse": [
+          0.01051928776000682,
+          0.006067375281936538,
+          0.01763507706602593
+        ],
+        "mean_mse": 0.011407246702656429
+      }
+    ]
+  }
+]

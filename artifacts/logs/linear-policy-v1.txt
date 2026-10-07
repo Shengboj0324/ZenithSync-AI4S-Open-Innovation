@@ -1,0 +1,25 @@
+ context         policy  budget  mean_rmse  mean_mae  seed_min_rmse  seed_max_rmse
+     FAC         random       0   0.079458  0.071408       0.079458       0.079458
+     FAC         random       5   0.080118  0.070735       0.059546       0.114275
+     FAC         random      10   0.079516  0.069091       0.057060       0.111144
+     FAC         random      15   0.082882  0.071042       0.065079       0.111251
+     FAC ridge_variance       0   0.079458  0.071408       0.079458       0.079458
+     FAC ridge_variance       5   0.079550  0.071520       0.079550       0.079550
+     FAC ridge_variance      10   0.070741  0.063529       0.070741       0.070741
+     FAC ridge_variance      15   0.073190  0.065925       0.073190       0.073190
+     FAC  space_filling       0   0.079458  0.071408       0.079458       0.079458
+     FAC  space_filling       5   0.070245  0.058835       0.070245       0.070245
+     FAC  space_filling      10   0.071207  0.064108       0.071207       0.071207
+     FAC  space_filling      15   0.076951  0.068784       0.076951       0.076951
+OLA-IBET         random       0   0.134829  0.125237       0.134829       0.134829
+OLA-IBET         random       5   0.120727  0.109641       0.092823       0.152148
+OLA-IBET         random      10   0.115030  0.103567       0.086767       0.143228
+OLA-IBET         random      15   0.112771  0.101134       0.092120       0.141024
+OLA-IBET ridge_variance       0   0.134829  0.125237       0.134829       0.134829
+OLA-IBET ridge_variance       5   0.112461  0.101145       0.112461       0.112461
+OLA-IBET ridge_variance      10   0.114936  0.103650       0.114936       0.114936
+OLA-IBET ridge_variance      15   0.113635  0.102293       0.113635       0.113635
+OLA-IBET  space_filling       0   0.134829  0.125237       0.134829       0.134829
+OLA-IBET  space_filling       5   0.118259  0.107683       0.118259       0.118259
+OLA-IBET  space_filling      10   0.121926  0.111340       0.121926       0.121926
+OLA-IBET  space_filling      15   0.123164  0.112727       0.123164       0.123164

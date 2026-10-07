@@ -1,0 +1,13 @@
+{
+  "status": "exploratory; final generations were examined in earlier model-comparison work",
+  "audit_isolation": "audit outcomes are never passed to acquisition or fitting in this replay",
+  "pool": "only actually recorded intermediate-generation experiments",
+  "initial_cost": "7 FAC or 10 OLA-IBET rows, additional to displayed budget",
+  "unit_cost": "one revealed aggregate record; not a validated chip or laboratory cost",
+  "support": "historically measured candidates; no convex-hull restriction in this retrospective experiment",
+  "workflow_difference": "the interactive workflow excludes unsupported candidates; this evaluates acquisition on recorded feasible support",
+  "noise_sd": 0.1,
+  "ridge_penalty": 0.1,
+  "target_grid": "intermediate measured pool",
+  "independent_biological_replications": false
+}

@@ -1,0 +1,457 @@
+[
+  {
+    "compound": "Clozapine",
+    "held_dose": 1.0,
+    "parameters": [
+      45.44151977534902,
+      99.04430534656794,
+      4.424199794625638,
+      0.47887845838571325
+    ],
+    "jacobian_rank": 4,
+    "bound_active": false,
+    "identified_ec50": false
+  },
+  {
+    "compound": "Clozapine",
+    "held_dose": 3.0,
+    "parameters": [
+      55.728354859730665,
+      75.6004259735297,
+      4.515326966342637,
+      1.293813631380683
+    ],
+    "jacobian_rank": 4,
+    "bound_active": false,
+    "identified_ec50": false
+  },
+  {
+    "compound": "Clozapine",
+    "held_dose": 10.0,
+    "parameters": [
+      52.946323844923114,
+      82.5113984964358,
+      4.4696380169851775,
+      0.901598966166541
+    ],
+    "jacobian_rank": 4,
+    "bound_active": false,
+    "identified_ec50": false
+  },
+  {
+    "compound": "Clozapine",
+    "held_dose": 30.0,
+    "parameters": [
+      56.68836108517444,
+      79.68963820750312,
+      4.541431436693885,
+      1.9909465883255097
+    ],
+    "jacobian_rank": 4,
+    "bound_active": false,
+    "identified_ec50": false
+  },
+  {
+    "compound": "Clozapine",
+    "held_dose": 100.0,
+    "parameters": [
+      56.70431735072065,
+      79.67368346261517,
+      3.6043494375364777,
+      2.472785093766999
+    ],
+    "jacobian_rank": 4,
+    "bound_active": false,
+    "identified_ec50": false
+  },
+  {
+    "compound": "Clozapine",
+    "held_dose": 300.0,
+    "parameters": [
+      87.39925149834124,
+      48.97874918641876,
+      3.5571790079173526,
+      2.4806905095715797
+    ],
+    "jacobian_rank": 4,
+    "bound_active": false,
+    "identified_ec50": false
+  },
+  {
+    "compound": "Levofloxacin",
+    "held_dose": 1.0,
+    "parameters": [
+      134.33868791674178,
+      1.8123112360613126e-08,
+      -5.828109241831665,
+      2.9736939213634073
+    ],
+    "jacobian_rank": 1,
+    "bound_active": false,
+    "identified_ec50": false
+  },
+  {
+    "compound": "Levofloxacin",
+    "held_dose": 3.0,
+    "parameters": [
+      129.80296449473965,
+      1.8800676729330864e-10,
+      -6.81355767607182,
+      -2.9979448191612867
+    ],
+    "jacobian_rank": 2,
+    "bound_active": true,
+    "identified_ec50": false
+  },
+  {
+    "compound": "Levofloxacin",
+    "held_dose": 10.0,
+    "parameters": [
+      124.55527882919534,
+      3.38065952801014e-09,
+      10.80606315114708,
+      -2.9999940746198708
+    ],
+    "jacobian_rank": 2,
+    "bound_active": true,
+    "identified_ec50": false
+  },
+  {
+    "compound": "Levofloxacin",
+    "held_dose": 15.0,
+    "parameters": [
+      127.61424453705104,
+      2.742607852150367e-10,
+      -6.999975487838573,
+      -2.999999999991255
+    ],
+    "jacobian_rank": 2,
+    "bound_active": true,
+    "identified_ec50": false
+  },
+  {
+    "compound": "Levofloxacin",
+    "held_dose": 45.0,
+    "parameters": [
+      126.1636516786969,
+      2.175200692710574e-09,
+      9.684216951606968,
+      -2.9999999866857583
+    ],
+    "jacobian_rank": 2,
+    "bound_active": true,
+    "identified_ec50": false
+  },
+  {
+    "compound": "Olanzapine",
+    "held_dose": 1.0,
+    "parameters": [
+      124.12807653474393,
+      8.009630253733747e-11,
+      -5.703913831129331,
+      -2.999939295408168
+    ],
+    "jacobian_rank": 2,
+    "bound_active": true,
+    "identified_ec50": false
+  },
+  {
+    "compound": "Olanzapine",
+    "held_dose": 3.0,
+    "parameters": [
+      123.33345398280008,
+      17.439605542993323,
+      2.329654256058258,
+      2.831750828908948
+    ],
+    "jacobian_rank": 4,
+    "bound_active": false,
+    "identified_ec50": false
+  },
+  {
+    "compound": "Olanzapine",
+    "held_dose": 10.0,
+    "parameters": [
+      121.65454010819474,
+      52.97722303696954,
+      -0.03782834160659215,
+      2.715268511817054
+    ],
+    "jacobian_rank": 3,
+    "bound_active": false,
+    "identified_ec50": false
+  },
+  {
+    "compound": "Olanzapine",
+    "held_dose": 30.0,
+    "parameters": [
+      126.90224421549118,
+      49.21150620447193,
+      -0.06332563408168033,
+      2.6925125348449765
+    ],
+    "jacobian_rank": 3,
+    "bound_active": false,
+    "identified_ec50": false
+  },
+  {
+    "compound": "Olanzapine",
+    "held_dose": 100.0,
+    "parameters": [
+      122.23468854100064,
+      41.59231019026979,
+      -0.01409822781910585,
+      2.7382650412594782
+    ],
+    "jacobian_rank": 3,
+    "bound_active": false,
+    "identified_ec50": false
+  },
+  {
+    "compound": "Olanzapine",
+    "held_dose": 300.0,
+    "parameters": [
+      123.84328101422217,
+      52.02367280206586,
+      -0.04934910354484871,
+      2.6926578997192325
+    ],
+    "jacobian_rank": 3,
+    "bound_active": false,
+    "identified_ec50": false
+  },
+  {
+    "compound": "Pioglitazone",
+    "held_dose": 1.0,
+    "parameters": [
+      49.25959014265979,
+      60.86763773999056,
+      4.612669167950485,
+      2.7360738567148264
+    ],
+    "jacobian_rank": 4,
+    "bound_active": false,
+    "identified_ec50": false
+  },
+  {
+    "compound": "Pioglitazone",
+    "held_dose": 3.0,
+    "parameters": [
+      49.25959192144624,
+      56.662167974125616,
+      4.62191865417568,
+      2.795767148068139
+    ],
+    "jacobian_rank": 4,
+    "bound_active": false,
+    "identified_ec50": false
+  },
+  {
+    "compound": "Pioglitazone",
+    "held_dose": 10.0,
+    "parameters": [
+      46.86434169464434,
+      68.99980819328981,
+      4.606827557060308,
+      1.1089844015140828
+    ],
+    "jacobian_rank": 4,
+    "bound_active": false,
+    "identified_ec50": false
+  },
+  {
+    "compound": "Pioglitazone",
+    "held_dose": 30.0,
+    "parameters": [
+      9.447343181199679e-14,
+      110.34215006848171,
+      5.535190681619154,
+      -0.01488284377804341
+    ],
+    "jacobian_rank": 4,
+    "bound_active": true,
+    "identified_ec50": false
+  },
+  {
+    "compound": "Pioglitazone",
+    "held_dose": 100.0,
+    "parameters": [
+      17.068752021932518,
+      92.26452351435381,
+      5.626313295042512,
+      2.086002942404102
+    ],
+    "jacobian_rank": 3,
+    "bound_active": false,
+    "identified_ec50": false
+  },
+  {
+    "compound": "Pioglitazone",
+    "held_dose": 300.0,
+    "parameters": [
+      51.03193998464785,
+      58.301335202908916,
+      4.610734089173549,
+      2.7511371387695336
+    ],
+    "jacobian_rank": 3,
+    "bound_active": false,
+    "identified_ec50": false
+  },
+  {
+    "compound": "Troglitazone",
+    "held_dose": 0.98,
+    "parameters": [
+      0.0030535688412215993,
+      94.26529284796281,
+      5.286636278562706,
+      2.9993331714411786
+    ],
+    "jacobian_rank": 3,
+    "bound_active": false,
+    "identified_ec50": false
+  },
+  {
+    "compound": "Troglitazone",
+    "held_dose": 2.95,
+    "parameters": [
+      0.002169946215001202,
+      93.0798977808926,
+      5.2917232595530095,
+      2.995503156191927
+    ],
+    "jacobian_rank": 3,
+    "bound_active": false,
+    "identified_ec50": false
+  },
+  {
+    "compound": "Troglitazone",
+    "held_dose": 9.82,
+    "parameters": [
+      0.00030640142737517305,
+      95.8032217748368,
+      5.288732085387663,
+      2.9999621762457753
+    ],
+    "jacobian_rank": 3,
+    "bound_active": false,
+    "identified_ec50": false
+  },
+  {
+    "compound": "Troglitazone",
+    "held_dose": 29.47,
+    "parameters": [
+      0.0031476060548650876,
+      99.33595567571176,
+      5.280631275436405,
+      2.9995767263682276
+    ],
+    "jacobian_rank": 3,
+    "bound_active": false,
+    "identified_ec50": false
+  },
+  {
+    "compound": "Troglitazone",
+    "held_dose": 98.2,
+    "parameters": [
+      3.0366000347530866e-20,
+      96.42998608128983,
+      3.945580661437642,
+      0.7856932784070696
+    ],
+    "jacobian_rank": 4,
+    "bound_active": true,
+    "identified_ec50": false
+  },
+  {
+    "compound": "Troglitazone",
+    "held_dose": 294.72,
+    "parameters": [
+      92.18264609244672,
+      5.970168986784411,
+      1.6871753370585543,
+      2.8651245744832723
+    ],
+    "jacobian_rank": 4,
+    "bound_active": false,
+    "identified_ec50": false
+  },
+  {
+    "compound": "Trovafloxacin",
+    "held_dose": 1.0,
+    "parameters": [
+      28.51502539778348,
+      74.68958470720749,
+      4.521344270352661,
+      2.7060570959878705
+    ],
+    "jacobian_rank": 4,
+    "bound_active": false,
+    "identified_ec50": false
+  },
+  {
+    "compound": "Trovafloxacin",
+    "held_dose": 3.0,
+    "parameters": [
+      28.515021872350353,
+      77.21963040951896,
+      4.511733461692929,
+      2.630921948765204
+    ],
+    "jacobian_rank": 4,
+    "bound_active": false,
+    "identified_ec50": false
+  },
+  {
+    "compound": "Trovafloxacin",
+    "held_dose": 10.0,
+    "parameters": [
+      28.085781853830188,
+      82.90712979255389,
+      4.223872027762859,
+      1.2680057036100223
+    ],
+    "jacobian_rank": 4,
+    "bound_active": false,
+    "identified_ec50": false
+  },
+  {
+    "compound": "Trovafloxacin",
+    "held_dose": 30.0,
+    "parameters": [
+      14.630731417432484,
+      102.58758117024563,
+      3.6868230800101367,
+      -0.07758496347055674
+    ],
+    "jacobian_rank": 4,
+    "bound_active": false,
+    "identified_ec50": false
+  },
+  {
+    "compound": "Trovafloxacin",
+    "held_dose": 100.0,
+    "parameters": [
+      0.020022396485285605,
+      106.07988051120749,
+      5.566173040432363,
+      1.9848805491033055
+    ],
+    "jacobian_rank": 3,
+    "bound_active": false,
+    "identified_ec50": false
+  },
+  {
+    "compound": "Trovafloxacin",
+    "held_dose": 300.0,
+    "parameters": [
+      4.965869815690997,
+      101.1340341887253,
+      4.573395035714763,
+      2.579797611204842
+    ],
+    "jacobian_rank": 3,
+    "bound_active": false,
+    "identified_ec50": false
+  }
+]

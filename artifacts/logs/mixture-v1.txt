@@ -1,0 +1,4 @@
+                        rmse  coverage90     width90     brier
+model                                                         
+finite_gp_mixture  28.599746    0.916667  112.288025  0.082568
+fixed_gp           29.068727    0.944444  110.962501  0.077462

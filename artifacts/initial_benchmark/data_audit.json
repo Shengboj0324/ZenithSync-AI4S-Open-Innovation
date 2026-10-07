@@ -1,0 +1,18 @@
+{
+  "rows": 70,
+  "missing_response": 2,
+  "compounds": [
+    "Clozapine",
+    "Levofloxacin",
+    "Olanzapine",
+    "Pioglitazone",
+    "Troglitazone",
+    "Trovafloxacin"
+  ],
+  "compound_dose_groups": 35,
+  "donor_identity_available": false,
+  "chip_identity_available": false,
+  "admission": "exploratory_within_compound_only",
+  "dose_unit_status": "workbook has no unit; no conversion or physical-dose recommendation",
+  "source_sha256": "87cc22d0c1d4508f7e0830df348c52238bdb18d821c8d29cc0751114081509fc"
+}

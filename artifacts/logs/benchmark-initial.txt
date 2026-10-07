@@ -1,0 +1,5 @@
+              model      rmse       mae
+constant_train_mean 33.485963 27.229239
+    hill_decreasing 29.286701 22.796655
+    matern_gp_fixed 29.068727 23.601767
+Exploratory reconstruction only; no ranking or assay-savings conclusion.
